@@ -1,0 +1,6626 @@
+[
+  {
+    "Hash": "aa",
+    "ID": 0,
+    "Name": "(None)",
+    "KeyWords": [
+      "(\u306A\u3057)",
+      "(None)",
+      "(Aucun)",
+      "(Niente)",
+      "(Kein)",
+      "(Ning\u00FAn)",
+      "(\uC5C6\uC74C)",
+      "(\u65E0)",
+      "((None))"
+    ]
+  },
+  {
+    "Hash": "ab",
+    "ID": 1,
+    "Name": "Master Ball",
+    "KeyWords": [
+      "\u30DE\u30B9\u30BF\u30FC\u30DC\u30FC\u30EB",
+      "Master Ball",
+      "Master Ball",
+      "Master Ball",
+      "Meisterball",
+      "Master Ball",
+      "\uB9C8\uC2A4\uD130\uBCFC",
+      "\u5927\u5E08\u7403",
+      "Master Ball"
+    ]
+  },
+  {
+    "Hash": "ac",
+    "ID": 2,
+    "Name": "Ultra Ball",
+    "KeyWords": [
+      "\u30CF\u30A4\u30D1\u30FC\u30DC\u30FC\u30EB",
+      "Ultra Ball",
+      "Hyper Ball",
+      "Ultra Ball",
+      "Hyperball",
+      "Ultra Ball",
+      "\uD558\uC774\uD37C\uBCFC",
+      "\u9AD8\u7EA7\u7403",
+      "Ultra Ball"
+    ]
+  },
+  {
+    "Hash": "ad",
+    "ID": 3,
+    "Name": "Great Ball",
+    "KeyWords": [
+      "\u30B9\u30FC\u30D1\u30FC\u30DC\u30FC\u30EB",
+      "Great Ball",
+      "Super Ball",
+      "Mega Ball",
+      "Superball",
+      "Super Ball",
+      "\uC218\uD37C\uBCFC",
+      "\u8D85\u7EA7\u7403",
+      "Great Ball"
+    ]
+  },
+  {
+    "Hash": "ae",
+    "ID": 4,
+    "Name": "Pok\u00E9 Ball",
+    "KeyWords": [
+      "\u30E2\u30F3\u30B9\u30BF\u30FC\u30DC\u30FC\u30EB",
+      "Pok\u00E9 Ball",
+      "Pok\u00E9 Ball",
+      "Pok\u00E9 Ball",
+      "Pok\u00E9ball",
+      "Pok\u00E9 Ball",
+      "\uBAAC\uC2A4\uD130\uBCFC",
+      "\u7CBE\u7075\u7403",
+      "Pok\u00E9 Ball"
+    ]
+  },
+  {
+    "Hash": "af",
+    "ID": 6,
+    "Name": "Net Ball",
+    "KeyWords": [
+      "\u30CD\u30C3\u30C8\u30DC\u30FC\u30EB",
+      "Net Ball",
+      "Filet Ball",
+      "Rete Ball",
+      "Netzball",
+      "Malla Ball",
+      "\uB137\uD2B8\uBCFC",
+      "\u6355\u7F51\u7403",
+      "Net Ball"
+    ]
+  },
+  {
+    "Hash": "ag",
+    "ID": 7,
+    "Name": "Dive Ball",
+    "KeyWords": [
+      "\u30C0\u30A4\u30D6\u30DC\u30FC\u30EB",
+      "Dive Ball",
+      "Scuba Ball",
+      "Sub Ball",
+      "Tauchball",
+      "Buceo Ball",
+      "\uB2E4\uC774\uBE0C\uBCFC",
+      "\u6F5C\u6C34\u7403",
+      "Dive Ball"
+    ]
+  },
+  {
+    "Hash": "ah",
+    "ID": 8,
+    "Name": "Nest Ball",
+    "KeyWords": [
+      "\u30CD\u30B9\u30C8\u30DC\u30FC\u30EB",
+      "Nest Ball",
+      "Faiblo Ball",
+      "Minor Ball",
+      "Nestball",
+      "Nido Ball",
+      "\uB124\uC2A4\uD2B8\uBCFC",
+      "\u5DE2\u7A74\u7403",
+      "Nest Ball"
+    ]
+  },
+  {
+    "Hash": "ai",
+    "ID": 9,
+    "Name": "Repeat Ball",
+    "KeyWords": [
+      "\u30EA\u30D4\u30FC\u30C8\u30DC\u30FC\u30EB",
+      "Repeat Ball",
+      "Bis Ball",
+      "Bis Ball",
+      "Wiederball",
+      "Acopio Ball",
+      "\uB9AC\uD53C\uB4DC\uBCFC",
+      "\u91CD\u590D\u7403",
+      "Repeat Ball"
+    ]
+  },
+  {
+    "Hash": "aj",
+    "ID": 10,
+    "Name": "Timer Ball",
+    "KeyWords": [
+      "\u30BF\u30A4\u30DE\u30FC\u30DC\u30FC\u30EB",
+      "Timer Ball",
+      "Chrono Ball",
+      "Timer Ball",
+      "Timerball",
+      "Turno Ball",
+      "\uD0C0\uC774\uB9C8\uBCFC",
+      "\u8BA1\u65F6\u7403",
+      "Timer Ball"
+    ]
+  },
+  {
+    "Hash": "ak",
+    "ID": 11,
+    "Name": "Luxury Ball",
+    "KeyWords": [
+      "\u30B4\u30FC\u30B8\u30E3\u30B9\u30DC\u30FC\u30EB",
+      "Luxury Ball",
+      "Luxe Ball",
+      "Chic Ball",
+      "Luxusball",
+      "Lujo Ball",
+      "\uB7ED\uC154\uB9AC\uBCFC",
+      "\u8C6A\u534E\u7403",
+      "Luxury Ball"
+    ]
+  },
+  {
+    "Hash": "al",
+    "ID": 12,
+    "Name": "Premier Ball",
+    "KeyWords": [
+      "\u30D7\u30EC\u30DF\u30A2\u30DC\u30FC\u30EB",
+      "Premier Ball",
+      "Honor Ball",
+      "Premier Ball",
+      "Premierball",
+      "Honor Ball",
+      "\uD504\uB808\uBBF8\uC5B4\uBCFC",
+      "\u7EAA\u5FF5\u7403",
+      "Premier Ball"
+    ]
+  },
+  {
+    "Hash": "am",
+    "ID": 13,
+    "Name": "Dusk Ball",
+    "KeyWords": [
+      "\u30C0\u30FC\u30AF\u30DC\u30FC\u30EB",
+      "Dusk Ball",
+      "Sombre Ball",
+      "Scuro Ball",
+      "Finsterball",
+      "Ocaso Ball",
+      "\uB2E4\uD06C\uBCFC",
+      "\u9ED1\u6697\u7403",
+      "Dusk Ball"
+    ]
+  },
+  {
+    "Hash": "an",
+    "ID": 14,
+    "Name": "Heal Ball",
+    "KeyWords": [
+      "\u30D2\u30FC\u30EB\u30DC\u30FC\u30EB",
+      "Heal Ball",
+      "Soin Ball",
+      "Cura Ball",
+      "Heilball",
+      "Sana Ball",
+      "\uD790\uBCFC",
+      "\u6CBB\u6108\u7403",
+      "Heal Ball"
+    ]
+  },
+  {
+    "Hash": "ao",
+    "ID": 15,
+    "Name": "Quick Ball",
+    "KeyWords": [
+      "\u30AF\u30A4\u30C3\u30AF\u30DC\u30FC\u30EB",
+      "Quick Ball",
+      "Rapide Ball",
+      "Velox Ball",
+      "Flottball",
+      "Veloz Ball",
+      "\uD035\uBCFC",
+      "\u5148\u673A\u7403",
+      "Quick Ball"
+    ]
+  },
+  {
+    "Hash": "ap",
+    "ID": 17,
+    "Name": "Potion",
+    "KeyWords": [
+      "\u30AD\u30BA\u3050\u3059\u308A",
+      "Potion",
+      "Potion",
+      "Pozione",
+      "Trank",
+      "Poci\u00F3n",
+      "\uC0C1\uCC98\uC57D",
+      "\u4F24\u836F",
+      "Potion"
+    ]
+  },
+  {
+    "Hash": "aq",
+    "ID": 18,
+    "Name": "Antidote",
+    "KeyWords": [
+      "\u3069\u304F\u3051\u3057",
+      "Antidote",
+      "Antidote",
+      "Antidoto",
+      "Gegengift",
+      "Ant\u00EDdoto",
+      "\uD574\uB3C5\uC81C",
+      "\u89E3\u6BD2\u836F",
+      "Antidote"
+    ]
+  },
+  {
+    "Hash": "ar",
+    "ID": 19,
+    "Name": "Burn Heal",
+    "KeyWords": [
+      "\u3084\u3051\u3069\u306A\u304A\u3057",
+      "Burn Heal",
+      "Anti-Br\u00FBle",
+      "Antiscottatura",
+      "Feuerheiler",
+      "Antiquemar",
+      "\uD654\uC0C1\uCE58\uB8CC\uC81C",
+      "\u707C\u4F24\u836F",
+      "Burn Heal"
+    ]
+  },
+  {
+    "Hash": "as",
+    "ID": 20,
+    "Name": "Ice Heal",
+    "KeyWords": [
+      "\u3053\u304A\u308A\u306A\u304A\u3057",
+      "Ice Heal",
+      "Antigel",
+      "Antigelo",
+      "Eisheiler",
+      "Antihielo",
+      "\uC5BC\uC74C\uC0C1\uD0DC\uCE58\uB8CC\uC81C",
+      "\u89E3\u51BB\u836F",
+      "Ice Heal"
+    ]
+  },
+  {
+    "Hash": "at",
+    "ID": 21,
+    "Name": "Awakening",
+    "KeyWords": [
+      "\u306D\u3080\u3051\u3056\u307E\u3057",
+      "Awakening",
+      "R\u00E9veil",
+      "Sveglia",
+      "Aufwecker",
+      "Despertar",
+      "\uC7A0\uAE68\uB294\uC57D",
+      "\u89E3\u7720\u836F",
+      "Awakening"
+    ]
+  },
+  {
+    "Hash": "au",
+    "ID": 22,
+    "Name": "Paralyze Heal",
+    "KeyWords": [
+      "\u307E\u3072\u306A\u304A\u3057",
+      "Paralyze Heal",
+      "Anti-Para",
+      "Antiparalisi",
+      "Para-Heiler",
+      "Antiparalizador",
+      "\uB9C8\uBE44\uCE58\uB8CC\uC81C",
+      "\u89E3\u9EBB\u836F",
+      "Paralyze Heal"
+    ]
+  },
+  {
+    "Hash": "av",
+    "ID": 23,
+    "Name": "Full Restore",
+    "KeyWords": [
+      "\u304B\u3044\u3075\u304F\u306E\u304F\u3059\u308A",
+      "Full Restore",
+      "Gu\u00E9rison",
+      "Ricarica totale",
+      "Top-Genesung",
+      "Restaurar Todo",
+      "\uD68C\uBCF5\uC57D",
+      "\u5168\u590D\u836F",
+      "Full Restore"
+    ]
+  },
+  {
+    "Hash": "aw",
+    "ID": 24,
+    "Name": "Max Potion",
+    "KeyWords": [
+      "\u307E\u3093\u305F\u3093\u306E\u304F\u3059\u308A",
+      "Max Potion",
+      "Potion Max",
+      "Pozione Max",
+      "Top-Trank",
+      "Poci\u00F3n M\u00E1xima",
+      "\uD480\uD68C\uBCF5\uC57D",
+      "\u5168\u6EE1\u836F",
+      "Max Potion"
+    ]
+  },
+  {
+    "Hash": "ax",
+    "ID": 25,
+    "Name": "Hyper Potion",
+    "KeyWords": [
+      "\u3059\u3054\u3044\u30AD\u30BA\u3050\u3059\u308A",
+      "Hyper Potion",
+      "Hyper Potion",
+      "Iperpozione",
+      "Hypertrank",
+      "Hiperpoci\u00F3n",
+      "\uACE0\uAE09\uC0C1\uCC98\uC57D",
+      "\u5389\u5BB3\u4F24\u836F",
+      "Hyper Potion"
+    ]
+  },
+  {
+    "Hash": "ay",
+    "ID": 26,
+    "Name": "Super Potion",
+    "KeyWords": [
+      "\u3044\u3044\u30AD\u30BA\u3050\u3059\u308A",
+      "Super Potion",
+      "Super Potion",
+      "Superpozione",
+      "Supertrank",
+      "Superpoci\u00F3n",
+      "\uC88B\uC740\uC0C1\uCC98\uC57D",
+      "\u597D\u4F24\u836F",
+      "Super Potion"
+    ]
+  },
+  {
+    "Hash": "az",
+    "ID": 27,
+    "Name": "Full Heal",
+    "KeyWords": [
+      "\u306A\u3093\u3067\u3082\u306A\u304A\u3057",
+      "Full Heal",
+      "Total Soin",
+      "Cura totale",
+      "Hyperheiler",
+      "Cura Total",
+      "\uB9CC\uBCD1\uD1B5\uCE58\uC81C",
+      "\u4E07\u7075\u836F",
+      "Full Heal"
+    ]
+  },
+  {
+    "Hash": "ba",
+    "ID": 28,
+    "Name": "Revive",
+    "KeyWords": [
+      "\u3052\u3093\u304D\u306E\u304B\u3051\u3089",
+      "Revive",
+      "Rappel",
+      "Revitalizzante",
+      "Beleber",
+      "Revivir",
+      "\uAE30\uB825\uC758\uC870\uAC01",
+      "\u6D3B\u529B\u788E\u7247",
+      "Revive"
+    ]
+  },
+  {
+    "Hash": "bb",
+    "ID": 29,
+    "Name": "Max Revive",
+    "KeyWords": [
+      "\u3052\u3093\u304D\u306E\u304B\u305F\u307E\u308A",
+      "Max Revive",
+      "Rappel Max",
+      "Revitalizz. Max",
+      "Top-Beleber",
+      "Revivir M\u00E1ximo",
+      "\uAE30\uB825\uC758\uB369\uC5B4\uB9AC",
+      "\u6D3B\u529B\u5757",
+      "Max Revive"
+    ]
+  },
+  {
+    "Hash": "bc",
+    "ID": 30,
+    "Name": "Fresh Water",
+    "KeyWords": [
+      "\u304A\u3044\u3057\u3044\u307F\u305A",
+      "Fresh Water",
+      "Eau Fra\u00EEche",
+      "Acqua fresca",
+      "Tafelwasser",
+      "Agua Fresca",
+      "\uB9DB\uC788\uB294\uBB3C",
+      "\u7F8E\u5473\u4E4B\u6C34",
+      "Fresh Water"
+    ]
+  },
+  {
+    "Hash": "bd",
+    "ID": 31,
+    "Name": "Soda Pop",
+    "KeyWords": [
+      "\u30B5\u30A4\u30B3\u30BD\u30FC\u30C0",
+      "Soda Pop",
+      "Soda Cool",
+      "Gassosa",
+      "Sprudel",
+      "Refresco",
+      "\uBBF8\uB124\uB784\uC0AC\uC774\uB2E4",
+      "\u52B2\u723D\u6C7D\u6C34",
+      "Soda Pop"
+    ]
+  },
+  {
+    "Hash": "be",
+    "ID": 32,
+    "Name": "Lemonade",
+    "KeyWords": [
+      "\u30DF\u30C3\u30AF\u30B9\u30AA\u30EC",
+      "Lemonade",
+      "Limonade",
+      "Lemonsucco",
+      "Limonade",
+      "Limonada",
+      "\uD6C4\uB974\uCE20\uBC00\uD06C",
+      "\u679C\u6C41\u725B\u5976",
+      "Lemonade"
+    ]
+  },
+  {
+    "Hash": "bf",
+    "ID": 33,
+    "Name": "Moomoo Milk",
+    "KeyWords": [
+      "\u30E2\u30FC\u30E2\u30FC\u30DF\u30EB\u30AF",
+      "Moomoo Milk",
+      "Lait Meumeu",
+      "Latte Mumu",
+      "Kuhmuh-Milch",
+      "Leche Mu-mu",
+      "\uD2BC\uD2BC\uBC00\uD06C",
+      "\u54DE\u54DE\u9C9C\u5976",
+      "Moomoo Milk"
+    ]
+  },
+  {
+    "Hash": "bg",
+    "ID": 34,
+    "Name": "Energy Powder",
+    "KeyWords": [
+      "\u3061\u304B\u3089\u306E\u3053\u306A",
+      "Energy Powder",
+      "Poudr\u00E9nergie",
+      "Polvenergia",
+      "Energiestaub",
+      "Polvo Energ\u00EDa",
+      "\uD798\uC758\uAC00\uB8E8",
+      "\u5143\u6C14\u7C89",
+      "Energy Powder"
+    ]
+  },
+  {
+    "Hash": "bh",
+    "ID": 35,
+    "Name": "Energy Root",
+    "KeyWords": [
+      "\u3061\u304B\u3089\u306E\u306D\u3063\u3053",
+      "Energy Root",
+      "Racin\u00E9nergie",
+      "Radicenergia",
+      "Kraftwurzel",
+      "Ra\u00EDz Energ\u00EDa",
+      "\uD798\uC758\uBFCC\uB9AC",
+      "\u5143\u6C14\u6839",
+      "Energy Root"
+    ]
+  },
+  {
+    "Hash": "bi",
+    "ID": 36,
+    "Name": "Heal Powder",
+    "KeyWords": [
+      "\u3070\u3093\u306E\u3046\u3054\u306A",
+      "Heal Powder",
+      "Poudre Soin",
+      "Polvocura",
+      "Heilpuder",
+      "Polvo Curaci\u00F3n",
+      "\uB9CC\uB2A5\uAC00\uB8E8",
+      "\u4E07\u80FD\u7C89",
+      "Heal Powder"
+    ]
+  },
+  {
+    "Hash": "bj",
+    "ID": 37,
+    "Name": "Revival Herb",
+    "KeyWords": [
+      "\u3075\u3063\u304B\u3064\u305D\u3046",
+      "Revival Herb",
+      "Herbe Rappel",
+      "Vitalerba",
+      "Vitalkraut",
+      "Hierba Revivir",
+      "\uBD80\uD65C\uCD08",
+      "\u590D\u6D3B\u8349",
+      "Revival Herb"
+    ]
+  },
+  {
+    "Hash": "bk",
+    "ID": 38,
+    "Name": "Ether",
+    "KeyWords": [
+      "\u30D4\u30FC\u30D4\u30FC\u30A8\u30A4\u30C9",
+      "Ether",
+      "Huile",
+      "Etere",
+      "\u00C4ther",
+      "\u00C9ter",
+      "PP\uC5D0\uC774\uB4DC",
+      "\uFF30\uFF30\u5355\u9879\u5C0F\u8865\u5242",
+      "Ether"
+    ]
+  },
+  {
+    "Hash": "bl",
+    "ID": 39,
+    "Name": "Max Ether",
+    "KeyWords": [
+      "\u30D4\u30FC\u30D4\u30FC\u30EA\u30AB\u30D0\u30FC",
+      "Max Ether",
+      "Huile Max",
+      "Etere Max",
+      "Top-\u00C4ther",
+      "\u00C9ter M\u00E1ximo",
+      "PP\uD68C\uBCF5",
+      "\uFF30\uFF30\u5355\u9879\u5168\u8865\u5242",
+      "Max Ether"
+    ]
+  },
+  {
+    "Hash": "bm",
+    "ID": 40,
+    "Name": "Elixir",
+    "KeyWords": [
+      "\u30D4\u30FC\u30D4\u30FC\u30A8\u30A4\u30C0\u30FC",
+      "Elixir",
+      "\u00C9lixir",
+      "Elisir",
+      "Elixier",
+      "Elixir",
+      "PP\uC5D0\uC774\uB354",
+      "\uFF30\uFF30\u591A\u9879\u5C0F\u8865\u5242",
+      "Elixir"
+    ]
+  },
+  {
+    "Hash": "bn",
+    "ID": 41,
+    "Name": "Max Elixir",
+    "KeyWords": [
+      "\u30D4\u30FC\u30D4\u30FC\u30DE\u30C3\u30AF\u30B9",
+      "Max Elixir",
+      "\u00C9lixir Max",
+      "Elisir Max",
+      "Top-Elixier",
+      "Elixir M\u00E1ximo",
+      "PP\uB9E5\uC2A4",
+      "\uFF30\uFF30\u591A\u9879\u5168\u8865\u5242",
+      "Max Elixir"
+    ]
+  },
+  {
+    "Hash": "bo",
+    "ID": 42,
+    "Name": "Lava Cookie",
+    "KeyWords": [
+      "\u30D5\u30A8\u30F3\u305B\u3093\u3079\u3044",
+      "Lava Cookie",
+      "Lava Cookie",
+      "Lavottino",
+      "Lavakeks",
+      "Galleta Lava",
+      "\uC6A9\uC554\uC804\uBCD1",
+      "\u91DC\u708E\u4ED9\u8D1D",
+      "Lava Cookie"
+    ]
+  },
+  {
+    "Hash": "bp",
+    "ID": 43,
+    "Name": "Berry Juice",
+    "KeyWords": [
+      "\u304D\u306E\u307F\u30B8\u30E5\u30FC\u30B9",
+      "Berry Juice",
+      "Jus de Baie",
+      "Succodibacca",
+      "Beerensaft",
+      "Zumo de Baya",
+      "\uB098\uBB34\uC5F4\uB9E4\uC96C\uC2A4",
+      "\u6811\u679C\u6C41",
+      "Berry Juice"
+    ]
+  },
+  {
+    "Hash": "bq",
+    "ID": 44,
+    "Name": "Sacred Ash",
+    "KeyWords": [
+      "\u305B\u3044\u306A\u308B\u306F\u3044",
+      "Sacred Ash",
+      "Cendre Sacr\u00E9e",
+      "Ceneremagica",
+      "Zauberasche",
+      "Ceniza Sagrada",
+      "\uC131\uC2A4\uB7EC\uC6B4\uBD84\uB9D0",
+      "\u5723\u7070",
+      "Sacred Ash"
+    ]
+  },
+  {
+    "Hash": "br",
+    "ID": 45,
+    "Name": "HP Up",
+    "KeyWords": [
+      "\u30DE\u30C3\u30AF\u30B9\u30A2\u30C3\u30D7",
+      "HP Up",
+      "PV Plus",
+      "PS-Su",
+      "KP-Plus",
+      "M\u00E1s PS",
+      "\uB9E5\uC2A4\uC5C5",
+      "\uFF28\uFF30\u589E\u5F3A\u5242",
+      "HP Up"
+    ]
+  },
+  {
+    "Hash": "bs",
+    "ID": 46,
+    "Name": "Protein",
+    "KeyWords": [
+      "\u30BF\u30A6\u30EA\u30F3",
+      "Protein",
+      "Prot\u00E9ine",
+      "Proteina",
+      "Protein",
+      "Prote\u00EDna",
+      "\uD0C0\uC6B0\uB9B0",
+      "\u653B\u51FB\u589E\u5F3A\u5242",
+      "Protein"
+    ]
+  },
+  {
+    "Hash": "bt",
+    "ID": 47,
+    "Name": "Iron",
+    "KeyWords": [
+      "\u30D6\u30ED\u30E0\u30D8\u30AD\u30B7\u30F3",
+      "Iron",
+      "Fer",
+      "Ferro",
+      "Eisen",
+      "Hierro",
+      "\uC0AC\uD3EC\uB2CC",
+      "\u9632\u5FA1\u589E\u5F3A\u5242",
+      "Iron"
+    ]
+  },
+  {
+    "Hash": "bu",
+    "ID": 48,
+    "Name": "Carbos",
+    "KeyWords": [
+      "\u30A4\u30F3\u30C9\u30E1\u30BF\u30B7\u30F3",
+      "Carbos",
+      "Carbone",
+      "Carburante",
+      "Carbon",
+      "Carburante",
+      "\uC54C\uCE7C\uB85C\uC774\uB4DC",
+      "\u901F\u5EA6\u589E\u5F3A\u5242",
+      "Carbos"
+    ]
+  },
+  {
+    "Hash": "bv",
+    "ID": 49,
+    "Name": "Calcium",
+    "KeyWords": [
+      "\u30EA\u30BE\u30C1\u30A6\u30E0",
+      "Calcium",
+      "Calcium",
+      "Calcio",
+      "Kalzium",
+      "Calcio",
+      "\uB9AC\uBCF4\uD50C\uB77C\uBE48",
+      "\u7279\u653B\u589E\u5F3A\u5242",
+      "Calcium"
+    ]
+  },
+  {
+    "Hash": "bw",
+    "ID": 50,
+    "Name": "Rare Candy",
+    "KeyWords": [
+      "\u3075\u3057\u304E\u306A\u30A2\u30E1",
+      "Rare Candy",
+      "Super Bonbon",
+      "Caramella rara",
+      "Sonderbonbon",
+      "Caramelo Raro",
+      "\uC774\uC0C1\uD55C\uC0AC\uD0D5",
+      "\u795E\u5947\u7CD6\u679C",
+      "Rare Candy"
+    ]
+  },
+  {
+    "Hash": "bx",
+    "ID": 51,
+    "Name": "PP Up",
+    "KeyWords": [
+      "\u30DD\u30A4\u30F3\u30C8\u30A2\u30C3\u30D7",
+      "PP Up",
+      "PP Plus",
+      "PP-Su",
+      "AP-Plus",
+      "M\u00E1s PP",
+      "\uD3EC\uC778\uD2B8\uC5C5",
+      "\uFF30\uFF30\u63D0\u5347\u5242",
+      "PP Up"
+    ]
+  },
+  {
+    "Hash": "by",
+    "ID": 52,
+    "Name": "Zinc",
+    "KeyWords": [
+      "\u30AD\u30C8\u30B5\u30F3",
+      "Zinc",
+      "Zinc",
+      "Zinco",
+      "Zink",
+      "Zinc",
+      "\uD0A4\uD1A0\uC0B0",
+      "\u7279\u9632\u589E\u5F3A\u5242",
+      "Zinc"
+    ]
+  },
+  {
+    "Hash": "bz",
+    "ID": 53,
+    "Name": "PP Max",
+    "KeyWords": [
+      "\u30DD\u30A4\u30F3\u30C8\u30DE\u30C3\u30AF\u30B9",
+      "PP Max",
+      "PP Max",
+      "PP-Max",
+      "AP-Top",
+      "PP M\u00E1ximos",
+      "\uD3EC\uC778\uD2B8\uB9E5\uC2A4",
+      "\uFF30\uFF30\u6781\u9650\u63D0\u5347\u5242",
+      "PP Max"
+    ]
+  },
+  {
+    "Hash": "ca",
+    "ID": 54,
+    "Name": "Old Gateau",
+    "KeyWords": [
+      "\u3082\u308A\u306E\u30E8\u30A6\u30AB\u30F3",
+      "Old Gateau",
+      "Vieux G\u00E2teau",
+      "Dolce Gateau",
+      "Spezialit\u00E4t",
+      "Barrita Plus",
+      "\uC232\uC758\uC591\uAC31",
+      "\u68EE\u4E4B\u7F8A\u7FB9",
+      "Old Gateau"
+    ]
+  },
+  {
+    "Hash": "cb",
+    "ID": 55,
+    "Name": "Guard Spec.",
+    "KeyWords": [
+      "\u30A8\u30D5\u30A7\u30AF\u30C8\u30AC\u30FC\u30C9",
+      "Guard Spec.",
+      "Garde-Stats",
+      "Superguardia",
+      "Megablock",
+      "Protecci\u00F3n X",
+      "\uC774\uD399\uD2B8\uAC00\uB4DC",
+      "\u80FD\u529B\u9632\u5B88",
+      "Guard Spec."
+    ]
+  },
+  {
+    "Hash": "cc",
+    "ID": 56,
+    "Name": "Dire Hit",
+    "KeyWords": [
+      "\u30AF\u30EA\u30C6\u30A3\u30AB\u30C3\u30C8",
+      "Dire Hit",
+      "Muscle \u002B",
+      "Supercolpo",
+      "Angriffplus",
+      "Cr\u00EDtico X",
+      "\uD06C\uB9AC\uD2F0\uCEEC\uCEE4\uD130",
+      "\u8981\u5BB3\u653B\u51FB",
+      "Dire Hit"
+    ]
+  },
+  {
+    "Hash": "cd",
+    "ID": 57,
+    "Name": "X Attack",
+    "KeyWords": [
+      "\u30D7\u30E9\u30B9\u30D1\u30EF\u30FC",
+      "X Attack",
+      "Attaque \u002B",
+      "Attacco X",
+      "X-Angriff",
+      "Ataque X",
+      "\uD50C\uB7EC\uC2A4\uD30C\uC6CC",
+      "\u529B\u91CF\u5F3A\u5316",
+      "X Attack"
+    ]
+  },
+  {
+    "Hash": "ce",
+    "ID": 58,
+    "Name": "X Defense",
+    "KeyWords": [
+      "\u30C7\u30A3\u30D5\u30A7\u30F3\u30C0\u30FC",
+      "X Defense",
+      "D\u00E9fense \u002B",
+      "Difesa X",
+      "X-Verteidigung",
+      "Defensa X",
+      "\uB514\uD39C\uB4DC\uC5C5",
+      "\u9632\u5FA1\u5F3A\u5316",
+      "X Defense"
+    ]
+  },
+  {
+    "Hash": "cf",
+    "ID": 59,
+    "Name": "X Speed",
+    "KeyWords": [
+      "\u30B9\u30D4\u30FC\u30C0\u30FC",
+      "X Speed",
+      "Vitesse \u002B",
+      "Velocit\u00E0 X",
+      "X-Initiative",
+      "Velocidad X",
+      "\uC2A4\uD53C\uB4DC\uC5C5",
+      "\u901F\u5EA6\u5F3A\u5316",
+      "X Speed"
+    ]
+  },
+  {
+    "Hash": "cg",
+    "ID": 60,
+    "Name": "X Accuracy",
+    "KeyWords": [
+      "\u30E8\u30AF\u30A2\u30BF\u30FC\u30EB",
+      "X Accuracy",
+      "Pr\u00E9cision \u002B",
+      "Precisione X",
+      "X-Genauigkeit",
+      "Precisi\u00F3n X",
+      "\uC798-\uB9DE\uD788\uAE30",
+      "\u547D\u4E2D\u5F3A\u5316",
+      "X Accuracy"
+    ]
+  },
+  {
+    "Hash": "ch",
+    "ID": 61,
+    "Name": "X Sp. Atk",
+    "KeyWords": [
+      "\u30B9\u30DA\u30B7\u30E3\u30EB\u30A2\u30C3\u30D7",
+      "X Sp. Atk",
+      "Atq. Sp\u00E9. \u002B",
+      "Att. Speciale X",
+      "X-Sp.-Ang.",
+      "At. Especial X",
+      "\uC2A4\uD398\uC15C\uC5C5",
+      "\u7279\u653B\u5F3A\u5316",
+      "X Sp. Atk"
+    ]
+  },
+  {
+    "Hash": "ci",
+    "ID": 62,
+    "Name": "X Sp. Def",
+    "KeyWords": [
+      "\u30B9\u30DA\u30B7\u30E3\u30EB\u30AC\u30FC\u30C9",
+      "X Sp. Def",
+      "D\u00E9f. Sp\u00E9. \u002B",
+      "Dif. Speciale X",
+      "X-Sp.-Vert.",
+      "Def. Especial X",
+      "\uC2A4\uD398\uC15C\uAC00\uB4DC",
+      "\u7279\u9632\u5F3A\u5316",
+      "X Sp. Def"
+    ]
+  },
+  {
+    "Hash": "cj",
+    "ID": 63,
+    "Name": "Pok\u00E9 Doll",
+    "KeyWords": [
+      "\u30D4\u30C3\u30D4\u306B\u3093\u304E\u3087\u3046",
+      "Pok\u00E9 Doll",
+      "Pok\u00E9 Poup\u00E9e",
+      "Pok\u00E9 Bambola",
+      "Pok\u00E9puppe",
+      "Pok\u00E9 Mu\u00F1eco",
+      "\uC090\uC090\uC778\uD615",
+      "\u76AE\u76AE\u73A9\u5076",
+      "Pok\u00E9 Doll"
+    ]
+  },
+  {
+    "Hash": "ck",
+    "ID": 72,
+    "Name": "Red Shard",
+    "KeyWords": [
+      "\u3042\u304B\u3044\u304B\u3051\u3089",
+      "Red Shard",
+      "Tesson Rouge",
+      "Coccio Rosso",
+      "Purpurst\u00FCck",
+      "Parte Roja",
+      "\uBE68\uAC15\uC870\uAC01",
+      "\u7EA2\u8272\u788E\u7247",
+      "Red Shard"
+    ]
+  },
+  {
+    "Hash": "cl",
+    "ID": 73,
+    "Name": "Blue Shard",
+    "KeyWords": [
+      "\u3042\u304A\u3044\u304B\u3051\u3089",
+      "Blue Shard",
+      "Tesson Bleu",
+      "Coccio Blu",
+      "Indigost\u00FCck",
+      "Parte Azul",
+      "\uD30C\uB791\uC870\uAC01",
+      "\u84DD\u8272\u788E\u7247",
+      "Blue Shard"
+    ]
+  },
+  {
+    "Hash": "cm",
+    "ID": 74,
+    "Name": "Yellow Shard",
+    "KeyWords": [
+      "\u304D\u3044\u308D\u3044\u304B\u3051\u3089",
+      "Yellow Shard",
+      "Tesson Jaune",
+      "Coccio Giallo",
+      "Gelbst\u00FCck",
+      "Parte Amarilla",
+      "\uB178\uB791\uC870\uAC01",
+      "\u9EC4\u8272\u788E\u7247",
+      "Yellow Shard"
+    ]
+  },
+  {
+    "Hash": "cn",
+    "ID": 75,
+    "Name": "Green Shard",
+    "KeyWords": [
+      "\u307F\u3069\u308A\u306E\u304B\u3051\u3089",
+      "Green Shard",
+      "Tesson Vert",
+      "Coccio Verde",
+      "Gr\u00FCnst\u00FCck",
+      "Parte Verde",
+      "\uCD08\uB85D\uC870\uAC01",
+      "\u7EFF\u8272\u788E\u7247",
+      "Green Shard"
+    ]
+  },
+  {
+    "Hash": "co",
+    "ID": 76,
+    "Name": "Super Repel",
+    "KeyWords": [
+      "\u30B7\u30EB\u30D0\u30FC\u30B9\u30D7\u30EC\u30FC",
+      "Super Repel",
+      "Super Repousse",
+      "Superrepellente",
+      "Superschutz",
+      "Superrepelente",
+      "\uC2E4\uBC84\uC2A4\uD504\uB808\uC774",
+      "\u767D\u94F6\u55B7\u96FE",
+      "Super Repel"
+    ]
+  },
+  {
+    "Hash": "cp",
+    "ID": 77,
+    "Name": "Max Repel",
+    "KeyWords": [
+      "\u30B4\u30FC\u30EB\u30C9\u30B9\u30D7\u30EC\u30FC",
+      "Max Repel",
+      "Repousse Max",
+      "Repellente Max",
+      "Top-Schutz",
+      "Repelente M\u00E1ximo",
+      "\uACE8\uB4DC\uC2A4\uD504\uB808\uC774",
+      "\u9EC4\u91D1\u55B7\u96FE",
+      "Max Repel"
+    ]
+  },
+  {
+    "Hash": "cq",
+    "ID": 78,
+    "Name": "Escape Rope",
+    "KeyWords": [
+      "\u3042\u306A\u306C\u3051\u306E\u30D2\u30E2",
+      "Escape Rope",
+      "Corde Sortie",
+      "Fune di fuga",
+      "Fluchtseil",
+      "Cuerda Huida",
+      "\uB3D9\uAD74\uD0C8\uCD9C\uB85C\uD504",
+      "\u79BB\u6D1E\u7EF3",
+      "Escape Rope"
+    ]
+  },
+  {
+    "Hash": "cr",
+    "ID": 79,
+    "Name": "Repel",
+    "KeyWords": [
+      "\u3080\u3057\u3088\u3051\u30B9\u30D7\u30EC\u30FC",
+      "Repel",
+      "Repousse",
+      "Repellente",
+      "Schutz",
+      "Repelente",
+      "\uBC8C\uB808\uD68C\uD53C\uC2A4\uD504\uB808\uC774",
+      "\u9664\u866B\u55B7\u96FE",
+      "Repel"
+    ]
+  },
+  {
+    "Hash": "cs",
+    "ID": 80,
+    "Name": "Sun Stone",
+    "KeyWords": [
+      "\u305F\u3044\u3088\u3046\u306E\u3044\u3057",
+      "Sun Stone",
+      "Pierre Soleil",
+      "Pietrasolare",
+      "Sonnenstein",
+      "Piedra Solar",
+      "\uD0DC\uC591\uC758\uB3CC",
+      "\u65E5\u4E4B\u77F3",
+      "Sun Stone"
+    ]
+  },
+  {
+    "Hash": "ct",
+    "ID": 81,
+    "Name": "Moon Stone",
+    "KeyWords": [
+      "\u3064\u304D\u306E\u3044\u3057",
+      "Moon Stone",
+      "Pierre Lune",
+      "Pietralunare",
+      "Mondstein",
+      "Piedra Lunar",
+      "\uB2EC\uC758\uB3CC",
+      "\u6708\u4E4B\u77F3",
+      "Moon Stone"
+    ]
+  },
+  {
+    "Hash": "cu",
+    "ID": 82,
+    "Name": "Fire Stone",
+    "KeyWords": [
+      "\u307B\u306E\u304A\u306E\u3044\u3057",
+      "Fire Stone",
+      "Pierre Feu",
+      "Pietrafocaia",
+      "Feuerstein",
+      "Piedra Fuego",
+      "\uBD88\uAF43\uC758\uB3CC",
+      "\u706B\u4E4B\u77F3",
+      "Fire Stone"
+    ]
+  },
+  {
+    "Hash": "cv",
+    "ID": 83,
+    "Name": "Thunder Stone",
+    "KeyWords": [
+      "\u304B\u307F\u306A\u308A\u306E\u3044\u3057",
+      "Thunder Stone",
+      "Pierre Foudre",
+      "Pietratuono",
+      "Donnerstein",
+      "Piedra Trueno",
+      "\uCC9C\uB465\uC758\uB3CC",
+      "\u96F7\u4E4B\u77F3",
+      "Thunder Stone"
+    ]
+  },
+  {
+    "Hash": "cw",
+    "ID": 84,
+    "Name": "Water Stone",
+    "KeyWords": [
+      "\u307F\u305A\u306E\u3044\u3057",
+      "Water Stone",
+      "Pierre Eau",
+      "Pietraidrica",
+      "Wasserstein",
+      "Piedra Agua",
+      "\uBB3C\uC758\uB3CC",
+      "\u6C34\u4E4B\u77F3",
+      "Water Stone"
+    ]
+  },
+  {
+    "Hash": "cx",
+    "ID": 85,
+    "Name": "Leaf Stone",
+    "KeyWords": [
+      "\u30EA\u30FC\u30D5\u306E\u3044\u3057",
+      "Leaf Stone",
+      "Pierre Plante",
+      "Pietrafoglia",
+      "Blattstein",
+      "Piedra Hoja",
+      "\uB9AC\uD504\uC758\uB3CC",
+      "\u53F6\u4E4B\u77F3",
+      "Leaf Stone"
+    ]
+  },
+  {
+    "Hash": "cy",
+    "ID": 86,
+    "Name": "Tiny Mushroom",
+    "KeyWords": [
+      "\u3061\u3044\u3055\u306A\u30AD\u30CE\u30B3",
+      "Tiny Mushroom",
+      "Petit Champi",
+      "Minifungo",
+      "Minipilz",
+      "Miniseta",
+      "\uC791\uC740\uBC84\uC12F",
+      "\u5C0F\u8611\u83C7",
+      "Tiny Mushroom"
+    ]
+  },
+  {
+    "Hash": "cz",
+    "ID": 87,
+    "Name": "Big Mushroom",
+    "KeyWords": [
+      "\u304A\u304A\u304D\u306A\u30AD\u30CE\u30B3",
+      "Big Mushroom",
+      "Gros Champi",
+      "Grande Fungo",
+      "Riesenpilz",
+      "Seta Grande",
+      "\uD070\uBC84\uC12F",
+      "\u5927\u8611\u83C7",
+      "Big Mushroom"
+    ]
+  },
+  {
+    "Hash": "da",
+    "ID": 88,
+    "Name": "Pearl",
+    "KeyWords": [
+      "\u3057\u3093\u3058\u3085",
+      "Pearl",
+      "Perle",
+      "Perla",
+      "Perle",
+      "Perla",
+      "\uC9C4\uC8FC",
+      "\u73CD\u73E0",
+      "Pearl"
+    ]
+  },
+  {
+    "Hash": "db",
+    "ID": 89,
+    "Name": "Big Pearl",
+    "KeyWords": [
+      "\u304A\u304A\u304D\u306A\u3057\u3093\u3058\u3085",
+      "Big Pearl",
+      "Grande Perle",
+      "Grande Perla",
+      "Riesenperle",
+      "Perla Grande",
+      "\uD070\uC9C4\uC8FC",
+      "\u5927\u73CD\u73E0",
+      "Big Pearl"
+    ]
+  },
+  {
+    "Hash": "dc",
+    "ID": 90,
+    "Name": "Stardust",
+    "KeyWords": [
+      "\u307B\u3057\u306E\u3059\u306A",
+      "Stardust",
+      "Poussi\u00E8re \u00C9toile",
+      "Polvostella",
+      "Sternenstaub",
+      "Polvo Estelar",
+      "\uBCC4\uC758\uBAA8\uB798",
+      "\u661F\u661F\u6C99\u5B50",
+      "Stardust"
+    ]
+  },
+  {
+    "Hash": "dd",
+    "ID": 91,
+    "Name": "Star Piece",
+    "KeyWords": [
+      "\u307B\u3057\u306E\u304B\u3051\u3089",
+      "Star Piece",
+      "Morceau d\u2019\u00C9toile",
+      "Pezzo Stella",
+      "Sternenst\u00FCck",
+      "Trozo Estrella",
+      "\uBCC4\uC758\uC870\uAC01",
+      "\u661F\u661F\u788E\u7247",
+      "Star Piece"
+    ]
+  },
+  {
+    "Hash": "de",
+    "ID": 92,
+    "Name": "Nugget",
+    "KeyWords": [
+      "\u304D\u3093\u306E\u305F\u307E",
+      "Nugget",
+      "P\u00E9pite",
+      "Pepita",
+      "Nugget",
+      "Pepita",
+      "\uAE08\uAD6C\uC2AC",
+      "\u91D1\u73E0",
+      "Nugget"
+    ]
+  },
+  {
+    "Hash": "df",
+    "ID": 93,
+    "Name": "Heart Scale",
+    "KeyWords": [
+      "\u30CF\u30FC\u30C8\u306E\u30A6\u30ED\u30B3",
+      "Heart Scale",
+      "\u00C9caille C\u0153ur",
+      "Squama Cuore",
+      "Herzschuppe",
+      "Escama Coraz\u00F3n",
+      "\uD558\uD2B8\uBE44\uB298",
+      "\u5FC3\u4E4B\u9CDE\u7247",
+      "Heart Scale"
+    ]
+  },
+  {
+    "Hash": "dg",
+    "ID": 94,
+    "Name": "Honey",
+    "KeyWords": [
+      "\u3042\u307E\u3044\u30DF\u30C4",
+      "Honey",
+      "Miel",
+      "Miele",
+      "Honig",
+      "Miel",
+      "\uB2EC\uCF64\uD55C\uAFC0",
+      "\u751C\u751C\u871C",
+      "Honey"
+    ]
+  },
+  {
+    "Hash": "dh",
+    "ID": 99,
+    "Name": "Root Fossil",
+    "KeyWords": [
+      "\u306D\u3063\u3053\u306E\u30AB\u30BB\u30AD",
+      "Root Fossil",
+      "Fossile Racine",
+      "Radifossile",
+      "Wurzelfossil",
+      "F\u00F3sil Ra\u00EDz",
+      "\uBFCC\uB9AC\uD654\uC11D",
+      "\u6839\u72B6\u5316\u77F3",
+      "Root Fossil"
+    ]
+  },
+  {
+    "Hash": "di",
+    "ID": 100,
+    "Name": "Claw Fossil",
+    "KeyWords": [
+      "\u30C4\u30E1\u306E\u30AB\u30BB\u30AD",
+      "Claw Fossil",
+      "Fossile Griffe",
+      "Fossilunghia",
+      "Klauenfossil",
+      "F\u00F3sil Garra",
+      "\uBC1C\uD1B1\uD654\uC11D",
+      "\u722A\u5B50\u5316\u77F3",
+      "Claw Fossil"
+    ]
+  },
+  {
+    "Hash": "dj",
+    "ID": 101,
+    "Name": "Helix Fossil",
+    "KeyWords": [
+      "\u304B\u3044\u306E\u30AB\u30BB\u30AD",
+      "Helix Fossil",
+      "Nautile",
+      "Helixfossile",
+      "Helixfossil",
+      "F\u00F3sil H\u00E9lix",
+      "\uC870\uAC1C\uD654\uC11D",
+      "\u8D1D\u58F3\u5316\u77F3",
+      "Helix Fossil"
+    ]
+  },
+  {
+    "Hash": "dk",
+    "ID": 102,
+    "Name": "Dome Fossil",
+    "KeyWords": [
+      "\u3053\u3046\u3089\u306E\u30AB\u30BB\u30AD",
+      "Dome Fossil",
+      "Fossile D\u00F4me",
+      "Domofossile",
+      "Domfossil",
+      "F\u00F3sil Domo",
+      "\uAECD\uC9C8\uD654\uC11D",
+      "\u7532\u58F3\u5316\u77F3",
+      "Dome Fossil"
+    ]
+  },
+  {
+    "Hash": "dl",
+    "ID": 103,
+    "Name": "Old Amber",
+    "KeyWords": [
+      "\u3072\u307F\u3064\u306E\u30B3\u30CF\u30AF",
+      "Old Amber",
+      "Vieil Ambre",
+      "Ambra antica",
+      "Altbernstein",
+      "\u00C1mbar Viejo",
+      "\uBE44\uBC00\uC758\uD638\uBC15",
+      "\u79D8\u5BC6\u7425\u73C0",
+      "Old Amber"
+    ]
+  },
+  {
+    "Hash": "dm",
+    "ID": 104,
+    "Name": "Armor Fossil",
+    "KeyWords": [
+      "\u305F\u3066\u306E\u30AB\u30BB\u30AD",
+      "Armor Fossil",
+      "Fossile Armure",
+      "Fossilscudo",
+      "Panzerfossil",
+      "F\u00F3sil Coraza",
+      "\uBC29\uD328\uC758\uD654\uC11D",
+      "\u76FE\u7532\u5316\u77F3",
+      "Armor Fossil"
+    ]
+  },
+  {
+    "Hash": "dn",
+    "ID": 105,
+    "Name": "Skull Fossil",
+    "KeyWords": [
+      "\u305A\u304C\u3044\u306E\u30AB\u30BB\u30AD",
+      "Skull Fossil",
+      "Fossile Cr\u00E2ne",
+      "Fossilcranio",
+      "Kopffossil",
+      "F\u00F3sil Cr\u00E1neo",
+      "\uB450\uAC1C\uC758\uD654\uC11D",
+      "\u5934\u76D6\u5316\u77F3",
+      "Skull Fossil"
+    ]
+  },
+  {
+    "Hash": "do",
+    "ID": 106,
+    "Name": "Rare Bone",
+    "KeyWords": [
+      "\u304D\u3061\u3087\u3046\u306A\u30DB\u30CD",
+      "Rare Bone",
+      "Os Rare",
+      "Osso Raro",
+      "Steinknochen",
+      "Hueso Raro",
+      "\uADC0\uC911\uD55C\uBF08",
+      "\u8D35\u91CD\u9AA8\u5934",
+      "Rare Bone"
+    ]
+  },
+  {
+    "Hash": "dp",
+    "ID": 107,
+    "Name": "Shiny Stone",
+    "KeyWords": [
+      "\u3072\u304B\u308A\u306E\u3044\u3057",
+      "Shiny Stone",
+      "Pierre \u00C9clat",
+      "Pietrabrillo",
+      "Leuchtstein",
+      "Piedra D\u00EDa",
+      "\uBE5B\uC758\uB3CC",
+      "\u5149\u4E4B\u77F3",
+      "Shiny Stone"
+    ]
+  },
+  {
+    "Hash": "dq",
+    "ID": 108,
+    "Name": "Dusk Stone",
+    "KeyWords": [
+      "\u3084\u307F\u306E\u3044\u3057",
+      "Dusk Stone",
+      "Pierre Nuit",
+      "Neropietra",
+      "Finsterstein",
+      "Piedra Noche",
+      "\uC5B4\uB460\uC758\uB3CC",
+      "\u6697\u4E4B\u77F3",
+      "Dusk Stone"
+    ]
+  },
+  {
+    "Hash": "dr",
+    "ID": 109,
+    "Name": "Dawn Stone",
+    "KeyWords": [
+      "\u3081\u3056\u3081\u3044\u3057",
+      "Dawn Stone",
+      "Pierre Aube",
+      "Pietralbore",
+      "Funkelstein",
+      "Piedra Alba",
+      "\uAC01\uC131\uC758\uB3CC",
+      "\u89C9\u9192\u4E4B\u77F3",
+      "Dawn Stone"
+    ]
+  },
+  {
+    "Hash": "ds",
+    "ID": 110,
+    "Name": "Oval Stone",
+    "KeyWords": [
+      "\u307E\u3093\u307E\u308B\u3044\u3057",
+      "Oval Stone",
+      "Pierre Ovale",
+      "Pietraovale",
+      "Ovaler Stein",
+      "Piedra Oval",
+      "\uB3D9\uAE00\uB3D9\uAE00\uB3CC",
+      "\u6D51\u5706\u4E4B\u77F3",
+      "Oval Stone"
+    ]
+  },
+  {
+    "Hash": "dt",
+    "ID": 111,
+    "Name": "Odd Keystone",
+    "KeyWords": [
+      "\u304B\u306A\u3081\u3044\u3057",
+      "Odd Keystone",
+      "Cl\u00E9 de Vo\u00FBte",
+      "Roccianima",
+      "Spiritkern",
+      "Piedra Esp\u00EDritu",
+      "\uC410\uAE30\uB3CC",
+      "\u6954\u77F3",
+      "Odd Keystone"
+    ]
+  },
+  {
+    "Hash": "du",
+    "ID": 112,
+    "Name": "Griseous Orb",
+    "KeyWords": [
+      "\u306F\u3063\u304D\u3093\u3060\u307E",
+      "Griseous Orb",
+      "Orbe Platin\u00E9",
+      "Grigiosfera",
+      "Platinum-Orb",
+      "Griseosfera",
+      "\uBC31\uAE08\uC625",
+      "\u767D\u91D1\u5B9D\u73E0",
+      "Griseous Orb"
+    ]
+  },
+  {
+    "Hash": "dv",
+    "ID": 135,
+    "Name": "Adamant Orb",
+    "KeyWords": [
+      "\u3053\u3093\u3054\u3046\u3060\u307E",
+      "Adamant Orb",
+      "Orbe Adamant",
+      "Adamasfera",
+      "Adamant-Orb",
+      "Diamansfera",
+      "\uAE08\uAC15\uC625",
+      "\u91D1\u521A\u5B9D\u73E0",
+      "Adamant Orb"
+    ]
+  },
+  {
+    "Hash": "dw",
+    "ID": 136,
+    "Name": "Lustrous Orb",
+    "KeyWords": [
+      "\u3057\u3089\u305F\u307E",
+      "Lustrous Orb",
+      "Orbe Perl\u00E9",
+      "Splendisfera",
+      "Wei\u00DF-Orb",
+      "Lustresfera",
+      "\uBC31\uC625",
+      "\u767D\u7389\u5B9D\u73E0",
+      "Lustrous Orb"
+    ]
+  },
+  {
+    "Hash": "dx",
+    "ID": 149,
+    "Name": "Cheri Berry",
+    "KeyWords": [
+      "\u30AF\u30E9\u30DC\u306E\u307F",
+      "Cheri Berry",
+      "Baie Ceriz",
+      "Baccaliegia",
+      "Amrenabeere",
+      "Baya Zreza",
+      "\uBC84\uCE58\uC5F4\uB9E4",
+      "\u6A31\u5B50\u679C",
+      "Cheri Berry"
+    ]
+  },
+  {
+    "Hash": "dy",
+    "ID": 150,
+    "Name": "Chesto Berry",
+    "KeyWords": [
+      "\u30AB\u30B4\u306E\u307F",
+      "Chesto Berry",
+      "Baie Maron",
+      "Baccastagna",
+      "Maronbeere",
+      "Baya Atania",
+      "\uC720\uB8E8\uC5F4\uB9E4",
+      "\u96F6\u4F59\u679C",
+      "Chesto Berry"
+    ]
+  },
+  {
+    "Hash": "dz",
+    "ID": 151,
+    "Name": "Pecha Berry",
+    "KeyWords": [
+      "\u30E2\u30E2\u30F3\u306E\u307F",
+      "Pecha Berry",
+      "Baie P\u00EAcha",
+      "Baccapesca",
+      "Pirsifbeere",
+      "Baya Meloc",
+      "\uBCF5\uC29D\uC5F4\uB9E4",
+      "\u6843\u6843\u679C",
+      "Pecha Berry"
+    ]
+  },
+  {
+    "Hash": "ea",
+    "ID": 152,
+    "Name": "Rawst Berry",
+    "KeyWords": [
+      "\u30C1\u30FC\u30B4\u306E\u307F",
+      "Rawst Berry",
+      "Baie Fraive",
+      "Baccafrago",
+      "Fragiabeere",
+      "Baya Safre",
+      "\uBCF5\uBD84\uC5F4\uB9E4",
+      "\u8393\u8393\u679C",
+      "Rawst Berry"
+    ]
+  },
+  {
+    "Hash": "eb",
+    "ID": 153,
+    "Name": "Aspear Berry",
+    "KeyWords": [
+      "\u30CA\u30CA\u30B7\u306E\u307F",
+      "Aspear Berry",
+      "Baie Willia",
+      "Baccaperina",
+      "Wilbirbeere",
+      "Baya Perasi",
+      "\uBC30\uB9AC\uC5F4\uB9E4",
+      "\u5229\u6728\u679C",
+      "Aspear Berry"
+    ]
+  },
+  {
+    "Hash": "ec",
+    "ID": 154,
+    "Name": "Leppa Berry",
+    "KeyWords": [
+      "\u30D2\u30E1\u30EA\u306E\u307F",
+      "Leppa Berry",
+      "Baie Mepo",
+      "Baccamela",
+      "Jonagobeere",
+      "Baya Zanama",
+      "\uACFC\uC0AC\uC5F4\uB9E4",
+      "\u82F9\u91CE\u679C",
+      "Leppa Berry"
+    ]
+  },
+  {
+    "Hash": "ed",
+    "ID": 155,
+    "Name": "Oran Berry",
+    "KeyWords": [
+      "\u30AA\u30EC\u30F3\u306E\u307F",
+      "Oran Berry",
+      "Baie Oran",
+      "Baccarancia",
+      "Sinelbeere",
+      "Baya Aranja",
+      "\uC624\uB7AD\uC5F4\uB9E4",
+      "\u6A59\u6A59\u679C",
+      "Oran Berry"
+    ]
+  },
+  {
+    "Hash": "ee",
+    "ID": 156,
+    "Name": "Persim Berry",
+    "KeyWords": [
+      "\u30AD\u30FC\u306E\u307F",
+      "Persim Berry",
+      "Baie Kika",
+      "Baccaki",
+      "Persimbeere",
+      "Baya Caquic",
+      "\uC2DC\uBAAC\uC5F4\uB9E4",
+      "\u67FF\u4ED4\u679C",
+      "Persim Berry"
+    ]
+  },
+  {
+    "Hash": "ef",
+    "ID": 157,
+    "Name": "Lum Berry",
+    "KeyWords": [
+      "\u30E9\u30E0\u306E\u307F",
+      "Lum Berry",
+      "Baie Prine",
+      "Baccaprugna",
+      "Prunusbeere",
+      "Baya Ziuela",
+      "\uB9AC\uC0D8\uC5F4\uB9E4",
+      "\u6728\u5B50\u679C",
+      "Lum Berry"
+    ]
+  },
+  {
+    "Hash": "eg",
+    "ID": 158,
+    "Name": "Sitrus Berry",
+    "KeyWords": [
+      "\u30AA\u30DC\u30F3\u306E\u307F",
+      "Sitrus Berry",
+      "Baie Sitrus",
+      "Baccacedro",
+      "Tsitrubeere",
+      "Baya Zidra",
+      "\uC790\uBB49\uC5F4\uB9E4",
+      "\u6587\u67DA\u679C",
+      "Sitrus Berry"
+    ]
+  },
+  {
+    "Hash": "eh",
+    "ID": 159,
+    "Name": "Figy Berry",
+    "KeyWords": [
+      "\u30D5\u30A3\u30E9\u306E\u307F",
+      "Figy Berry",
+      "Baie Figuy",
+      "Baccafico",
+      "Giefebeere",
+      "Baya Higog",
+      "\uBB34\uD654\uC5F4\uB9E4",
+      "\u52FF\u82B1\u679C",
+      "Figy Berry"
+    ]
+  },
+  {
+    "Hash": "ei",
+    "ID": 160,
+    "Name": "Wiki Berry",
+    "KeyWords": [
+      "\u30A6\u30A4\u306E\u307F",
+      "Wiki Berry",
+      "Baie Wiki",
+      "Baccakiwi",
+      "Wikibeere",
+      "Baya Wiki",
+      "\uC704\uD0A4\uC5F4\uB9E4",
+      "\u5F02\u5947\u679C",
+      "Wiki Berry"
+    ]
+  },
+  {
+    "Hash": "ej",
+    "ID": 161,
+    "Name": "Mago Berry",
+    "KeyWords": [
+      "\u30DE\u30B4\u306E\u307F",
+      "Mago Berry",
+      "Baie Mago",
+      "Baccamango",
+      "Magobeere",
+      "Baya Ango",
+      "\uB9C8\uACE0\uC5F4\uB9E4",
+      "\u8292\u8292\u679C",
+      "Mago Berry"
+    ]
+  },
+  {
+    "Hash": "ek",
+    "ID": 162,
+    "Name": "Aguav Berry",
+    "KeyWords": [
+      "\u30D0\u30F3\u30B8\u306E\u307F",
+      "Aguav Berry",
+      "Baie Gowav",
+      "Baccaguava",
+      "Gauvebeere",
+      "Baya Guaya",
+      "\uC544\uBC14\uC5F4\uB9E4",
+      "\u4E50\u82AD\u679C",
+      "Aguav Berry"
+    ]
+  },
+  {
+    "Hash": "el",
+    "ID": 163,
+    "Name": "Iapapa Berry",
+    "KeyWords": [
+      "\u30A4\u30A2\u306E\u307F",
+      "Iapapa Berry",
+      "Baie Papaya",
+      "Baccapaia",
+      "Yapabeere",
+      "Baya Pabaya",
+      "\uD30C\uC57C\uC5F4\uB9E4",
+      "\u82AD\u4E9A\u679C",
+      "Iapapa Berry"
+    ]
+  },
+  {
+    "Hash": "em",
+    "ID": 164,
+    "Name": "Razz Berry",
+    "KeyWords": [
+      "\u30BA\u30EA\u306E\u307F",
+      "Razz Berry",
+      "Baie Framby",
+      "Baccalampon",
+      "Himmihbeere",
+      "Baya Frambu",
+      "\uB77C\uC988\uC5F4\uB9E4",
+      "\u8513\u8393\u679C",
+      "Razz Berry"
+    ]
+  },
+  {
+    "Hash": "en",
+    "ID": 165,
+    "Name": "Bluk Berry",
+    "KeyWords": [
+      "\u30D6\u30EA\u30FC\u306E\u307F",
+      "Bluk Berry",
+      "Baie Remu",
+      "Baccamora",
+      "Morbbeere",
+      "Baya Oram",
+      "\uBE14\uB9AC\uC5F4\uB9E4",
+      "\u58A8\u8393\u679C",
+      "Bluk Berry"
+    ]
+  },
+  {
+    "Hash": "eo",
+    "ID": 166,
+    "Name": "Nanab Berry",
+    "KeyWords": [
+      "\u30CA\u30CA\u306E\u307F",
+      "Nanab Berry",
+      "Baie Nanab",
+      "Baccabana",
+      "Nanabbeere",
+      "Baya Latano",
+      "\uB098\uB098\uC5F4\uB9E4",
+      "\u8549\u9999\u679C",
+      "Nanab Berry"
+    ]
+  },
+  {
+    "Hash": "ep",
+    "ID": 167,
+    "Name": "Wepear Berry",
+    "KeyWords": [
+      "\u30BB\u30B7\u30CA\u306E\u307F",
+      "Wepear Berry",
+      "Baie Repoi",
+      "Baccapera",
+      "Nirbebeere",
+      "Baya Peragu",
+      "\uC11C\uBC30\uC5F4\uB9E4",
+      "\u897F\u68A8\u679C",
+      "Wepear Berry"
+    ]
+  },
+  {
+    "Hash": "eq",
+    "ID": 168,
+    "Name": "Pinap Berry",
+    "KeyWords": [
+      "\u30D1\u30A4\u30EB\u306E\u307F",
+      "Pinap Berry",
+      "Baie Nanana",
+      "Baccananas",
+      "Sananabeere",
+      "Baya Pinia",
+      "\uD30C\uC778\uC5F4\uB9E4",
+      "\u51F0\u68A8\u679C",
+      "Pinap Berry"
+    ]
+  },
+  {
+    "Hash": "er",
+    "ID": 169,
+    "Name": "Pomeg Berry",
+    "KeyWords": [
+      "\u30B6\u30ED\u30AF\u306E\u307F",
+      "Pomeg Berry",
+      "Baie Grena",
+      "Baccagrana",
+      "Granabeere",
+      "Baya Grana",
+      "\uC720\uC11D\uC5F4\uB9E4",
+      "\u69B4\u77F3\u679C",
+      "Pomeg Berry"
+    ]
+  },
+  {
+    "Hash": "es",
+    "ID": 170,
+    "Name": "Kelpsy Berry",
+    "KeyWords": [
+      "\u30CD\u30B3\u30D6\u306E\u307F",
+      "Kelpsy Berry",
+      "Baie Alga",
+      "Baccalga",
+      "Setangbeere",
+      "Baya Algama",
+      "\uC2DC\uB9C8\uC5F4\uB9E4",
+      "\u85FB\u6839\u679C",
+      "Kelpsy Berry"
+    ]
+  },
+  {
+    "Hash": "et",
+    "ID": 171,
+    "Name": "Qualot Berry",
+    "KeyWords": [
+      "\u30BF\u30DD\u30EB\u306E\u307F",
+      "Qualot Berry",
+      "Baie Qualot",
+      "Baccaloquat",
+      "Qualotbeere",
+      "Baya Ispero",
+      "\uD30C\uBE44\uC5F4\uB9E4",
+      "\u6BD4\u5DF4\u679C",
+      "Qualot Berry"
+    ]
+  },
+  {
+    "Hash": "eu",
+    "ID": 172,
+    "Name": "Hondew Berry",
+    "KeyWords": [
+      "\u30ED\u30E1\u306E\u307F",
+      "Hondew Berry",
+      "Baie Lonme",
+      "Baccamelon",
+      "Honmelbeere",
+      "Baya Meluce",
+      "\uB85C\uB9E4\uC5F4\uB9E4",
+      "\u54C8\u5BC6\u679C",
+      "Hondew Berry"
+    ]
+  },
+  {
+    "Hash": "ev",
+    "ID": 173,
+    "Name": "Grepa Berry",
+    "KeyWords": [
+      "\u30A6\u30D6\u306E\u307F",
+      "Grepa Berry",
+      "Baie R\u00E9sin",
+      "Baccauva",
+      "Labrusbeere",
+      "Baya Uvav",
+      "\uB610\uBF40\uC5F4\uB9E4",
+      "\u8404\u8461\u679C",
+      "Grepa Berry"
+    ]
+  },
+  {
+    "Hash": "ew",
+    "ID": 174,
+    "Name": "Tamato Berry",
+    "KeyWords": [
+      "\u30DE\u30C8\u30DE\u306E\u307F",
+      "Tamato Berry",
+      "Baie Tamato",
+      "Baccamodoro",
+      "Tamotbeere",
+      "Baya Tamate",
+      "\uD1A0\uB9DD\uC5F4\uB9E4",
+      "\u8304\u756A\u679C",
+      "Tamato Berry"
+    ]
+  },
+  {
+    "Hash": "ex",
+    "ID": 175,
+    "Name": "Cornn Berry",
+    "KeyWords": [
+      "\u30E2\u30B3\u30B7\u306E\u307F",
+      "Cornn Berry",
+      "Baie Siam",
+      "Baccavena",
+      "Saimbeere",
+      "Baya Mais",
+      "\uC218\uC219\uC5F4\uB9E4",
+      "\u7389\u9ECD\u679C",
+      "Cornn Berry"
+    ]
+  },
+  {
+    "Hash": "ey",
+    "ID": 176,
+    "Name": "Magost Berry",
+    "KeyWords": [
+      "\u30B4\u30B9\u306E\u307F",
+      "Magost Berry",
+      "Baie Mangou",
+      "Baccagostan",
+      "Magostbeere",
+      "Baya Aostan",
+      "\uACE0\uC2A4\uD2F0\uC5F4\uB9E4",
+      "\u5CB3\u7AF9\u679C",
+      "Magost Berry"
+    ]
+  },
+  {
+    "Hash": "ez",
+    "ID": 177,
+    "Name": "Rabuta Berry",
+    "KeyWords": [
+      "\u30E9\u30D6\u30BF\u306E\u307F",
+      "Rabuta Berry",
+      "Baie Rabuta",
+      "Baccambutan",
+      "Rabutabeere",
+      "Baya Rautan",
+      "\uB77C\uBD80\uD0D0\uC5F4\uB9E4",
+      "\u8338\u4E39\u679C",
+      "Rabuta Berry"
+    ]
+  },
+  {
+    "Hash": "fa",
+    "ID": 178,
+    "Name": "Nomel Berry",
+    "KeyWords": [
+      "\u30CE\u30E1\u30EB\u306E\u307F",
+      "Nomel Berry",
+      "Baie Tronci",
+      "Baccalemon",
+      "Tronzibeere",
+      "Baya Monli",
+      "\uB178\uBA5C\uC5F4\uB9E4",
+      "\u6AAC\u67E0\u679C",
+      "Nomel Berry"
+    ]
+  },
+  {
+    "Hash": "fb",
+    "ID": 179,
+    "Name": "Spelon Berry",
+    "KeyWords": [
+      "\u30CE\u30EF\u30AD\u306E\u307F",
+      "Spelon Berry",
+      "Baie Kiwan",
+      "Baccamelos",
+      "Kiwanbeere",
+      "Baya Wikano",
+      "\uBA54\uD638\uD0A4\uC5F4\uB9E4",
+      "\u523A\u89D2\u679C",
+      "Spelon Berry"
+    ]
+  },
+  {
+    "Hash": "fc",
+    "ID": 180,
+    "Name": "Pamtre Berry",
+    "KeyWords": [
+      "\u30B7\u30FC\u30E4\u306E\u307F",
+      "Pamtre Berry",
+      "Baie Palma",
+      "Baccapalma",
+      "Pallmbeere",
+      "Baya Plama",
+      "\uC790\uC57C\uC5F4\uB9E4",
+      "\u6930\u6728\u679C",
+      "Pamtre Berry"
+    ]
+  },
+  {
+    "Hash": "fd",
+    "ID": 181,
+    "Name": "Watmel Berry",
+    "KeyWords": [
+      "\u30AB\u30A4\u30B9\u306E\u307F",
+      "Watmel Berry",
+      "Baie Stekpa",
+      "Baccacomero",
+      "Wasmelbeere",
+      "Baya Sambia",
+      "\uC288\uBC15\uC5F4\uB9E4",
+      "\u74DC\u897F\u679C",
+      "Watmel Berry"
+    ]
+  },
+  {
+    "Hash": "fe",
+    "ID": 182,
+    "Name": "Durin Berry",
+    "KeyWords": [
+      "\u30C9\u30EA\u306E\u307F",
+      "Durin Berry",
+      "Baie Durin",
+      "Baccadurian",
+      "Durinbeere",
+      "Baya Rudion",
+      "\uB450\uB9AC\uC5F4\uB9E4",
+      "\u91D1\u6795\u679C",
+      "Durin Berry"
+    ]
+  },
+  {
+    "Hash": "ff",
+    "ID": 183,
+    "Name": "Belue Berry",
+    "KeyWords": [
+      "\u30D9\u30EA\u30D6\u306E\u307F",
+      "Belue Berry",
+      "Baie Myrte",
+      "Baccartillo",
+      "Myrtilbeere",
+      "Baya Andano",
+      "\uB8E8\uBCA0\uC5F4\uB9E4",
+      "\u975B\u8393\u679C",
+      "Belue Berry"
+    ]
+  },
+  {
+    "Hash": "fg",
+    "ID": 184,
+    "Name": "Occa Berry",
+    "KeyWords": [
+      "\u30AA\u30C3\u30AB\u306E\u307F",
+      "Occa Berry",
+      "Baie Chocco",
+      "Baccacao",
+      "Koakobeere",
+      "Baya Caoca",
+      "\uC624\uCE74\uC5F4\uB9E4",
+      "\u5DE7\u53EF\u679C",
+      "Occa Berry"
+    ]
+  },
+  {
+    "Hash": "fh",
+    "ID": 185,
+    "Name": "Passho Berry",
+    "KeyWords": [
+      "\u30A4\u30C8\u30B1\u306E\u307F",
+      "Passho Berry",
+      "Baie Pocpoc",
+      "Baccapasflo",
+      "Foepasbeere",
+      "Baya Pasio",
+      "\uAF2C\uC2DC\uAC1C\uC5F4\uB9E4",
+      "\u5343\u9999\u679C",
+      "Passho Berry"
+    ]
+  },
+  {
+    "Hash": "fi",
+    "ID": 186,
+    "Name": "Wacan Berry",
+    "KeyWords": [
+      "\u30BD\u30AF\u30CE\u306E\u307F",
+      "Wacan Berry",
+      "Baie Parma",
+      "Baccaparmen",
+      "Kerzalbeere",
+      "Baya Gualot",
+      "\uCD08\uB098\uC5F4\uB9E4",
+      "\u70DB\u6728\u679C",
+      "Wacan Berry"
+    ]
+  },
+  {
+    "Hash": "fj",
+    "ID": 187,
+    "Name": "Rindo Berry",
+    "KeyWords": [
+      "\u30EA\u30F3\u30C9\u306E\u307F",
+      "Rindo Berry",
+      "Baie Ratam",
+      "Baccarindo",
+      "Grindobeere",
+      "Baya Tamar",
+      "\uB9B0\uB4DC\uC5F4\uB9E4",
+      "\u7F57\u5B50\u679C",
+      "Rindo Berry"
+    ]
+  },
+  {
+    "Hash": "fk",
+    "ID": 188,
+    "Name": "Yache Berry",
+    "KeyWords": [
+      "\u30E4\u30C1\u30A7\u306E\u307F",
+      "Yache Berry",
+      "Baie Nanone",
+      "Baccamoya",
+      "Kiroyabeere",
+      "Baya Rimoya",
+      "\uD50C\uCE74\uC5F4\uB9E4",
+      "\u756A\u8354\u679C",
+      "Yache Berry"
+    ]
+  },
+  {
+    "Hash": "fl",
+    "ID": 189,
+    "Name": "Chople Berry",
+    "KeyWords": [
+      "\u30E8\u30D7\u306E\u307F",
+      "Chople Berry",
+      "Baie Pomroz",
+      "Baccarosmel",
+      "Rospelbeere",
+      "Baya Pomaro",
+      "\uB85C\uD50C\uC5F4\uB9E4",
+      "\u83B2\u84B2\u679C",
+      "Chople Berry"
+    ]
+  },
+  {
+    "Hash": "fm",
+    "ID": 190,
+    "Name": "Kebia Berry",
+    "KeyWords": [
+      "\u30D3\u30A2\u30FC\u306E\u307F",
+      "Kebia Berry",
+      "Baie K\u00E9bia",
+      "Baccakebia",
+      "Grarzbeere",
+      "Baya Kebia",
+      "\uC73C\uB984\uC5F4\uB9E4",
+      "\u901A\u901A\u679C",
+      "Kebia Berry"
+    ]
+  },
+  {
+    "Hash": "fn",
+    "ID": 191,
+    "Name": "Shuca Berry",
+    "KeyWords": [
+      "\u30B7\u30E5\u30AB\u306E\u307F",
+      "Shuca Berry",
+      "Baie Jouca",
+      "Baccanaca",
+      "Schukebeere",
+      "Baya Acardo",
+      "\uC288\uCE90\uC5F4\uB9E4",
+      "\u8170\u6728\u679C",
+      "Shuca Berry"
+    ]
+  },
+  {
+    "Hash": "fo",
+    "ID": 192,
+    "Name": "Coba Berry",
+    "KeyWords": [
+      "\u30D0\u30B3\u30A6\u306E\u307F",
+      "Coba Berry",
+      "Baie Cobaba",
+      "Baccababa",
+      "Kobabeere",
+      "Baya Kouba",
+      "\uBC14\uCF54\uC5F4\uB9E4",
+      "\u68F1\u74DC\u679C",
+      "Coba Berry"
+    ]
+  },
+  {
+    "Hash": "fp",
+    "ID": 193,
+    "Name": "Payapa Berry",
+    "KeyWords": [
+      "\u30A6\u30BF\u30F3\u306E\u307F",
+      "Payapa Berry",
+      "Baie Yapap",
+      "Baccapayapa",
+      "Pyapabeere",
+      "Baya Payapa",
+      "\uC57C\uD30C\uC5F4\uB9E4",
+      "\u798F\u7984\u679C",
+      "Payapa Berry"
+    ]
+  },
+  {
+    "Hash": "fq",
+    "ID": 194,
+    "Name": "Tanga Berry",
+    "KeyWords": [
+      "\u30BF\u30F3\u30AC\u306E\u307F",
+      "Tanga Berry",
+      "Baie Panga",
+      "Baccaitan",
+      "Tanigabeere",
+      "Baya Yecana",
+      "\uB9AC\uCCB4\uC5F4\uB9E4",
+      "\u6241\u6A31\u679C",
+      "Tanga Berry"
+    ]
+  },
+  {
+    "Hash": "fr",
+    "ID": 195,
+    "Name": "Charti Berry",
+    "KeyWords": [
+      "\u30E8\u30ED\u30AE\u306E\u307F",
+      "Charti Berry",
+      "Baie Charti",
+      "Baccaciofo",
+      "Chiaribeere",
+      "Baya Alcho",
+      "\uB8E8\uBBF8\uC5F4\uB9E4",
+      "\u8349\u8695\u679C",
+      "Charti Berry"
+    ]
+  },
+  {
+    "Hash": "fs",
+    "ID": 196,
+    "Name": "Kasib Berry",
+    "KeyWords": [
+      "\u30AB\u30B7\u30D6\u306E\u307F",
+      "Kasib Berry",
+      "Baie S\u00E9dra",
+      "Baccacitrus",
+      "Zitarzbeere",
+      "Baya Drasi",
+      "\uC218\uBD88\uC5F4\uB9E4",
+      "\u4F5B\u67D1\u679C",
+      "Kasib Berry"
+    ]
+  },
+  {
+    "Hash": "ft",
+    "ID": 197,
+    "Name": "Haban Berry",
+    "KeyWords": [
+      "\u30CF\u30D0\u30F3\u306E\u307F",
+      "Haban Berry",
+      "Baie Fraigo",
+      "Baccahaban",
+      "Terirobeere",
+      "Baya Anjiro",
+      "\uD558\uBC18\uC5F4\uB9E4",
+      "\u8393\u69B4\u679C",
+      "Haban Berry"
+    ]
+  },
+  {
+    "Hash": "fu",
+    "ID": 198,
+    "Name": "Colbur Berry",
+    "KeyWords": [
+      "\u30CA\u30E2\u306E\u307F",
+      "Colbur Berry",
+      "Baie Lampou",
+      "Baccaxan",
+      "Burleobeere",
+      "Baya Dillo",
+      "\uB9C8\uCF54\uC5F4\uB9E4",
+      "\u523A\u8033\u679C",
+      "Colbur Berry"
+    ]
+  },
+  {
+    "Hash": "fv",
+    "ID": 199,
+    "Name": "Babiri Berry",
+    "KeyWords": [
+      "\u30EA\u30EA\u30D0\u306E\u307F",
+      "Babiri Berry",
+      "Baie Babiri",
+      "Baccababiri",
+      "Babiribeere",
+      "Baya Barib\u00E1",
+      "\uBC14\uB9AC\uBE44\uC5F4\uB9E4",
+      "\u9739\u9739\u679C",
+      "Babiri Berry"
+    ]
+  },
+  {
+    "Hash": "fw",
+    "ID": 200,
+    "Name": "Chilan Berry",
+    "KeyWords": [
+      "\u30DB\u30BA\u306E\u307F",
+      "Chilan Berry",
+      "Baie Zalis",
+      "Baccacinlan",
+      "Latchibeere",
+      "Baya Chilan",
+      "\uCE74\uB9AC\uC5F4\uB9E4",
+      "\u706F\u6D46\u679C",
+      "Chilan Berry"
+    ]
+  },
+  {
+    "Hash": "fx",
+    "ID": 201,
+    "Name": "Liechi Berry",
+    "KeyWords": [
+      "\u30C1\u30A4\u30E9\u306E\u307F",
+      "Liechi Berry",
+      "Baie Lichii",
+      "Baccalici",
+      "Lydzibeere",
+      "Baya Lichi",
+      "\uCE58\uB9AC\uC5F4\uB9E4",
+      "\u679D\u8354\u679C",
+      "Liechi Berry"
+    ]
+  },
+  {
+    "Hash": "fy",
+    "ID": 202,
+    "Name": "Ganlon Berry",
+    "KeyWords": [
+      "\u30EA\u30E5\u30AC\u306E\u307F",
+      "Ganlon Berry",
+      "Baie Lingan",
+      "Baccalongan",
+      "Linganbeere",
+      "Baya Gonlan",
+      "\uC6A9\uC544\uC5F4\uB9E4",
+      "\u9F99\u775B\u679C",
+      "Ganlon Berry"
+    ]
+  },
+  {
+    "Hash": "fz",
+    "ID": 203,
+    "Name": "Salac Berry",
+    "KeyWords": [
+      "\u30AB\u30E0\u30E9\u306E\u307F",
+      "Salac Berry",
+      "Baie Sailak",
+      "Baccasalak",
+      "Salkabeere",
+      "Baya Aslac",
+      "\uCE84\uB77C\uC5F4\uB9E4",
+      "\u6C99\u9CDE\u679C",
+      "Salac Berry"
+    ]
+  },
+  {
+    "Hash": "ga",
+    "ID": 204,
+    "Name": "Petaya Berry",
+    "KeyWords": [
+      "\u30E4\u30BF\u30D4\u306E\u307F",
+      "Petaya Berry",
+      "Baie Pitaye",
+      "Baccapitaya",
+      "Tahaybeere",
+      "Baya Yapati",
+      "\uC57C\uD0C0\uBE44\uC5F4\uB9E4",
+      "\u9F99\u706B\u679C",
+      "Petaya Berry"
+    ]
+  },
+  {
+    "Hash": "gb",
+    "ID": 205,
+    "Name": "Apicot Berry",
+    "KeyWords": [
+      "\u30BA\u30A2\u306E\u307F",
+      "Apicot Berry",
+      "Baie Abriko",
+      "Baccacocca",
+      "Apikobeere",
+      "Baya Aricoc",
+      "\uADDC\uC0B4\uC5F4\uB9E4",
+      "\u674F\u4ED4\u679C",
+      "Apicot Berry"
+    ]
+  },
+  {
+    "Hash": "gc",
+    "ID": 206,
+    "Name": "Lansat Berry",
+    "KeyWords": [
+      "\u30B5\u30F3\u306E\u307F",
+      "Lansat Berry",
+      "Baie Lansat",
+      "Baccalangsa",
+      "Lansatbeere",
+      "Baya Zonlan",
+      "\uB791\uC0AC\uC5F4\uB9E4",
+      "\u5170\u8428\u679C",
+      "Lansat Berry"
+    ]
+  },
+  {
+    "Hash": "gd",
+    "ID": 207,
+    "Name": "Starf Berry",
+    "KeyWords": [
+      "\u30B9\u30BF\u30FC\u306E\u307F",
+      "Starf Berry",
+      "Baie Frista",
+      "Baccambola",
+      "Krambobeere",
+      "Baya Arabol",
+      "\uC2A4\uD0C0\uC5F4\uB9E4",
+      "\u661F\u6843\u679C",
+      "Starf Berry"
+    ]
+  },
+  {
+    "Hash": "ge",
+    "ID": 208,
+    "Name": "Enigma Berry",
+    "KeyWords": [
+      "\u30CA\u30BE\u306E\u307F",
+      "Enigma Berry",
+      "Baie Enigma",
+      "Baccaenigma",
+      "Enigmabeere",
+      "Baya Enigma",
+      "\uC758\uBB38\uC5F4\uB9E4",
+      "\u8C1C\u829D\u679C",
+      "Enigma Berry"
+    ]
+  },
+  {
+    "Hash": "gf",
+    "ID": 209,
+    "Name": "Micle Berry",
+    "KeyWords": [
+      "\u30DF\u30AF\u30EB\u306E\u307F",
+      "Micle Berry",
+      "Baie Micle",
+      "Baccaracolo",
+      "Wunfrubeere",
+      "Baya Lagro",
+      "\uBBF8\uD074\uC5F4\uB9E4",
+      "\u5947\u79D8\u679C",
+      "Micle Berry"
+    ]
+  },
+  {
+    "Hash": "gg",
+    "ID": 210,
+    "Name": "Custap Berry",
+    "KeyWords": [
+      "\u30A4\u30D0\u30F3\u306E\u307F",
+      "Custap Berry",
+      "Baie Ch\u00E9rim",
+      "Baccacrela",
+      "Eipfelbeere",
+      "Baya Chiri",
+      "\uC560\uC288\uC5F4\uB9E4",
+      "\u91CA\u9640\u679C",
+      "Custap Berry"
+    ]
+  },
+  {
+    "Hash": "gh",
+    "ID": 211,
+    "Name": "Jaboca Berry",
+    "KeyWords": [
+      "\u30B8\u30E3\u30DD\u306E\u307F",
+      "Jaboca Berry",
+      "Baie Jaboca",
+      "Baccajaba",
+      "Jabocabeere",
+      "Baya Jaboca",
+      "\uC790\uBCF4\uC5F4\uB9E4",
+      "\u5609\u73CD\u679C",
+      "Jaboca Berry"
+    ]
+  },
+  {
+    "Hash": "gi",
+    "ID": 212,
+    "Name": "Rowap Berry",
+    "KeyWords": [
+      "\u30EC\u30F3\u30D6\u306E\u307F",
+      "Rowap Berry",
+      "Baie Pommo",
+      "Baccaroam",
+      "Roselbeere",
+      "Baya Magua",
+      "\uC560\uD130\uC5F4\uB9E4",
+      "\u96FE\u83B2\u679C",
+      "Rowap Berry"
+    ]
+  },
+  {
+    "Hash": "gj",
+    "ID": 213,
+    "Name": "Bright Powder",
+    "KeyWords": [
+      "\u3072\u304B\u308A\u306E\u3053\u306A",
+      "Bright Powder",
+      "Poudre Claire",
+      "Luminpolvere",
+      "Blendpuder",
+      "Polvo Brillo",
+      "\uBC18\uC9DD\uAC00\uB8E8",
+      "\u5149\u7C89",
+      "Bright Powder"
+    ]
+  },
+  {
+    "Hash": "gk",
+    "ID": 214,
+    "Name": "White Herb",
+    "KeyWords": [
+      "\u3057\u308D\u3044\u30CF\u30FC\u30D6",
+      "White Herb",
+      "Herbe Blanche",
+      "Erbachiara",
+      "Schlohkraut",
+      "Hierba Blanca",
+      "\uD558\uC591\uD5C8\uBE0C",
+      "\u767D\u8272\u9999\u8349",
+      "White Herb"
+    ]
+  },
+  {
+    "Hash": "gl",
+    "ID": 215,
+    "Name": "Macho Brace",
+    "KeyWords": [
+      "\u304D\u3087\u3046\u305B\u3044\u30AE\u30D7\u30B9",
+      "Macho Brace",
+      "Bracelet Macho",
+      "Crescicappa",
+      "Machoband",
+      "Brazal Firme",
+      "\uAD50\uC815\uAE41\uC2A4",
+      "\u5F3A\u5236\u953B\u70BC\u5668",
+      "Macho Brace"
+    ]
+  },
+  {
+    "Hash": "gm",
+    "ID": 217,
+    "Name": "Quick Claw",
+    "KeyWords": [
+      "\u305B\u3093\u305B\u3044\u306E\u30C4\u30E1",
+      "Quick Claw",
+      "Vive Griffe",
+      "Rapidartigli",
+      "Flinkklaue",
+      "Garra R\u00E1pida",
+      "\uC120\uC81C\uACF5\uACA9\uC190\uD1B1",
+      "\u5148\u5236\u4E4B\u722A",
+      "Quick Claw"
+    ]
+  },
+  {
+    "Hash": "gn",
+    "ID": 218,
+    "Name": "Soothe Bell",
+    "KeyWords": [
+      "\u3084\u3059\u3089\u304E\u306E\u3059\u305A",
+      "Soothe Bell",
+      "Grelot Zen",
+      "Calmanella",
+      "Sanftglocke",
+      "Cascabel Alivio",
+      "\uD3C9\uC628\uC758\uBC29\uC6B8",
+      "\u5B89\u629A\u4E4B\u94C3",
+      "Soothe Bell"
+    ]
+  },
+  {
+    "Hash": "go",
+    "ID": 219,
+    "Name": "Mental Herb",
+    "KeyWords": [
+      "\u30E1\u30F3\u30BF\u30EB\u30CF\u30FC\u30D6",
+      "Mental Herb",
+      "Herbe Mental",
+      "Mentalerba",
+      "Mentalkraut",
+      "Hierba Mental",
+      "\uBA58\uD0C8\uD5C8\uBE0C",
+      "\u5FC3\u7075\u9999\u8349",
+      "Mental Herb"
+    ]
+  },
+  {
+    "Hash": "gp",
+    "ID": 220,
+    "Name": "Choice Band",
+    "KeyWords": [
+      "\u3053\u3060\u308F\u308A\u30CF\u30C1\u30DE\u30AD",
+      "Choice Band",
+      "Bandeau Choix",
+      "Bendascelta",
+      "Wahlband",
+      "Cinta Elecci\u00F3n",
+      "\uAD6C\uC560\uBA38\uB9AC\uB760",
+      "\u8BB2\u7A76\u5934\u5E26",
+      "Choice Band"
+    ]
+  },
+  {
+    "Hash": "gq",
+    "ID": 221,
+    "Name": "King\u2019s Rock",
+    "KeyWords": [
+      "\u304A\u3046\u3058\u3083\u306E\u3057\u308B\u3057",
+      "King\u2019s Rock",
+      "Roche Royale",
+      "Roccia di Re",
+      "King-Stein",
+      "Roca del Rey",
+      "\uC655\uC758\uC9D5\uD45C\uC11D",
+      "\u738B\u8005\u4E4B\u8BC1",
+      "King\u2019s Rock"
+    ]
+  },
+  {
+    "Hash": "gr",
+    "ID": 222,
+    "Name": "Silver Powder",
+    "KeyWords": [
+      "\u304E\u3093\u306E\u3053\u306A",
+      "Silver Powder",
+      "Poudre Argent\u00E9e",
+      "Argenpolvere",
+      "Silberstaub",
+      "Polvo Plata",
+      "\uC740\uBE5B\uAC00\uB8E8",
+      "\u94F6\u7C89",
+      "Silver Powder"
+    ]
+  },
+  {
+    "Hash": "gs",
+    "ID": 223,
+    "Name": "Amulet Coin",
+    "KeyWords": [
+      "\u304A\u307E\u3082\u308A\u3053\u3070\u3093",
+      "Amulet Coin",
+      "Pi\u00E8ce Rune",
+      "Monetamuleto",
+      "M\u00FCnzamulett",
+      "Moneda Amuleto",
+      "\uBD80\uC801\uAE08\uD654",
+      "\u62A4\u7B26\u91D1\u5E01",
+      "Amulet Coin"
+    ]
+  },
+  {
+    "Hash": "gt",
+    "ID": 224,
+    "Name": "Cleanse Tag",
+    "KeyWords": [
+      "\u304D\u3088\u3081\u306E\u304A\u3075\u3060",
+      "Cleanse Tag",
+      "Rune Purifiante",
+      "Velopuro",
+      "Schutzband",
+      "Amuleto",
+      "\uC21C\uACB0\uC758\uBD80\uC801",
+      "\u6D01\u51C0\u4E4B\u7B26",
+      "Cleanse Tag"
+    ]
+  },
+  {
+    "Hash": "gu",
+    "ID": 225,
+    "Name": "Soul Dew",
+    "KeyWords": [
+      "\u3053\u3053\u308D\u306E\u3057\u305A\u304F",
+      "Soul Dew",
+      "Ros\u00E9e \u00C2me",
+      "Cuorugiada",
+      "Seelentau",
+      "Roc\u00EDo Bondad",
+      "\uB9C8\uC74C\uC758\uBB3C\uBC29\uC6B8",
+      "\u5FC3\u4E4B\u6C34\u6EF4",
+      "Soul Dew"
+    ]
+  },
+  {
+    "Hash": "gv",
+    "ID": 226,
+    "Name": "Deep Sea Tooth",
+    "KeyWords": [
+      "\u3057\u3093\u304B\u3044\u306E\u30AD\u30D0",
+      "Deep Sea Tooth",
+      "Dent Oc\u00E9an",
+      "Dente Abissi",
+      "Abysszahn",
+      "Diente Marino",
+      "\uC2EC\uD574\uC758\uC774\uBE68",
+      "\u6DF1\u6D77\u4E4B\u7259",
+      "Deep Sea Tooth"
+    ]
+  },
+  {
+    "Hash": "gw",
+    "ID": 227,
+    "Name": "Deep Sea Scale",
+    "KeyWords": [
+      "\u3057\u3093\u304B\u3044\u306E\u30A6\u30ED\u30B3",
+      "Deep Sea Scale",
+      "\u00C9caille Oc\u00E9an",
+      "Squamabissi",
+      "Abyssplatte",
+      "Escama Marina",
+      "\uC2EC\uD574\uC758\uBE44\uB298",
+      "\u6DF1\u6D77\u9CDE\u7247",
+      "Deep Sea Scale"
+    ]
+  },
+  {
+    "Hash": "gx",
+    "ID": 228,
+    "Name": "Smoke Ball",
+    "KeyWords": [
+      "\u3051\u3080\u308A\u3060\u307E",
+      "Smoke Ball",
+      "Boule Fum\u00E9e",
+      "Palla Fumo",
+      "Rauchball",
+      "Bola de Humo",
+      "\uC5F0\uB9C9\uD0C4",
+      "\u70DF\u96FE\u7403",
+      "Smoke Ball"
+    ]
+  },
+  {
+    "Hash": "gy",
+    "ID": 229,
+    "Name": "Everstone",
+    "KeyWords": [
+      "\u304B\u308F\u3089\u305A\u306E\u3044\u3057",
+      "Everstone",
+      "Pierre Stase",
+      "Pietrastante",
+      "Ewigstein",
+      "Piedra Eterna",
+      "\uBCC0\uD568\uC5C6\uB294\uB3CC",
+      "\u4E0D\u53D8\u4E4B\u77F3",
+      "Everstone"
+    ]
+  },
+  {
+    "Hash": "gz",
+    "ID": 230,
+    "Name": "Focus Band",
+    "KeyWords": [
+      "\u304D\u3042\u3044\u306E\u30CF\u30C1\u30DE\u30AD",
+      "Focus Band",
+      "Bandeau",
+      "Bandana",
+      "Fokusband",
+      "Cinta Focus",
+      "\uAE30\uD569\uC758\uBA38\uB9AC\uB760",
+      "\u6C14\u52BF\u5934\u5E26",
+      "Focus Band"
+    ]
+  },
+  {
+    "Hash": "ha",
+    "ID": 231,
+    "Name": "Lucky Egg",
+    "KeyWords": [
+      "\u3057\u3042\u308F\u305B\u30BF\u30DE\u30B4",
+      "Lucky Egg",
+      "\u0152uf Chance",
+      "Fortunuovo",
+      "Gl\u00FCcks-Ei",
+      "Huevo Suerte",
+      "\uD589\uBCF5\uC758\uC54C",
+      "\u5E78\u8FD0\u86CB",
+      "Lucky Egg"
+    ]
+  },
+  {
+    "Hash": "hb",
+    "ID": 232,
+    "Name": "Scope Lens",
+    "KeyWords": [
+      "\u30D4\u30F3\u30C8\u30EC\u30F3\u30BA",
+      "Scope Lens",
+      "Lentilscope",
+      "Mirino",
+      "Scope-Linse",
+      "Periscopio",
+      "\uCD08\uC810\uB80C\uC988",
+      "\u7126\u70B9\u955C",
+      "Scope Lens"
+    ]
+  },
+  {
+    "Hash": "hc",
+    "ID": 233,
+    "Name": "Metal Coat",
+    "KeyWords": [
+      "\u30E1\u30BF\u30EB\u30B3\u30FC\u30C8",
+      "Metal Coat",
+      "Peau M\u00E9tal",
+      "Metalcoperta",
+      "Metallmantel",
+      "Revest. Met\u00E1lico",
+      "\uAE08\uC18D\uCF54\uD2B8",
+      "\u91D1\u5C5E\u819C",
+      "Metal Coat"
+    ]
+  },
+  {
+    "Hash": "hd",
+    "ID": 234,
+    "Name": "Leftovers",
+    "KeyWords": [
+      "\u305F\u3079\u306E\u3053\u3057",
+      "Leftovers",
+      "Restes",
+      "Avanzi",
+      "\u00DCberreste",
+      "Restos",
+      "\uBA39\uB2E4\uB0A8\uC740\uC74C\uC2DD",
+      "\u5403\u5269\u7684\u4E1C\u897F",
+      "Leftovers"
+    ]
+  },
+  {
+    "Hash": "he",
+    "ID": 235,
+    "Name": "Dragon Scale",
+    "KeyWords": [
+      "\u308A\u3085\u3046\u306E\u30A6\u30ED\u30B3",
+      "Dragon Scale",
+      "\u00C9caille Draco",
+      "Squama Drago",
+      "Drachenhaut",
+      "Escama Drag\u00F3n",
+      "\uC6A9\uC758\uBE44\uB298",
+      "\u9F99\u4E4B\u9CDE\u7247",
+      "Dragon Scale"
+    ]
+  },
+  {
+    "Hash": "hf",
+    "ID": 236,
+    "Name": "Light Ball",
+    "KeyWords": [
+      "\u3067\u3093\u304D\u3060\u307E",
+      "Light Ball",
+      "Balle Lumi\u00E8re",
+      "Elettropalla",
+      "Kugelblitz",
+      "Bola Luminosa",
+      "\uC804\uAE30\uAD6C\uC2AC",
+      "\u7535\u6C14\u7403",
+      "Light Ball"
+    ]
+  },
+  {
+    "Hash": "hg",
+    "ID": 237,
+    "Name": "Soft Sand",
+    "KeyWords": [
+      "\u3084\u308F\u3089\u304B\u3044\u3059\u306A",
+      "Soft Sand",
+      "Sable Doux",
+      "Sabbia Soffice",
+      "Pudersand",
+      "Arena Fina",
+      "\uBD80\uB4DC\uB7EC\uC6B4\uBAA8\uB798",
+      "\u67D4\u8F6F\u6C99\u5B50",
+      "Soft Sand"
+    ]
+  },
+  {
+    "Hash": "hh",
+    "ID": 238,
+    "Name": "Hard Stone",
+    "KeyWords": [
+      "\u304B\u305F\u3044\u3044\u3057",
+      "Hard Stone",
+      "Pierre Dure",
+      "Pietradura",
+      "Granitstein",
+      "Piedra Dura",
+      "\uB531\uB531\uD55C\uB3CC",
+      "\u786C\u77F3\u5934",
+      "Hard Stone"
+    ]
+  },
+  {
+    "Hash": "hi",
+    "ID": 239,
+    "Name": "Miracle Seed",
+    "KeyWords": [
+      "\u304D\u305B\u304D\u306E\u30BF\u30CD",
+      "Miracle Seed",
+      "Graine Miracle",
+      "Miracolseme",
+      "Wundersaat",
+      "Semilla Milagro",
+      "\uAE30\uC801\uC758\uC528",
+      "\u5947\u8FF9\u79CD\u5B50",
+      "Miracle Seed"
+    ]
+  },
+  {
+    "Hash": "hj",
+    "ID": 240,
+    "Name": "Black Glasses",
+    "KeyWords": [
+      "\u304F\u308D\u3044\u30E1\u30AC\u30CD",
+      "Black Glasses",
+      "Lunettes Noires",
+      "Occhialineri",
+      "Schattenbrille",
+      "Gafas de Sol",
+      "\uAC80\uC740\uC548\uACBD",
+      "\u9ED1\u8272\u773C\u955C",
+      "Black Glasses"
+    ]
+  },
+  {
+    "Hash": "hk",
+    "ID": 241,
+    "Name": "Black Belt",
+    "KeyWords": [
+      "\u304F\u308D\u304A\u3073",
+      "Black Belt",
+      "Ceinture Noire",
+      "Cinturanera",
+      "Schwarzgurt",
+      "Cintur\u00F3n Negro",
+      "\uAC80\uC740\uB760",
+      "\u9ED1\u5E26",
+      "Black Belt"
+    ]
+  },
+  {
+    "Hash": "hl",
+    "ID": 242,
+    "Name": "Magnet",
+    "KeyWords": [
+      "\u3058\u3057\u3083\u304F",
+      "Magnet",
+      "Aimant",
+      "Calamita",
+      "Magnet",
+      "Im\u00E1n",
+      "\uC790\uC11D",
+      "\u78C1\u94C1",
+      "Magnet"
+    ]
+  },
+  {
+    "Hash": "hm",
+    "ID": 243,
+    "Name": "Mystic Water",
+    "KeyWords": [
+      "\u3057\u3093\u3074\u306E\u3057\u305A\u304F",
+      "Mystic Water",
+      "Eau Mystique",
+      "Acqua Magica",
+      "Zauberwasser",
+      "Agua M\u00EDstica",
+      "\uC2E0\uBE44\uC758\uBB3C\uBC29\uC6B8",
+      "\u795E\u79D8\u6C34\u6EF4",
+      "Mystic Water"
+    ]
+  },
+  {
+    "Hash": "hn",
+    "ID": 244,
+    "Name": "Sharp Beak",
+    "KeyWords": [
+      "\u3059\u308B\u3069\u3044\u304F\u3061\u3070\u3057",
+      "Sharp Beak",
+      "Bec Pointu",
+      "Beccaffilato",
+      "Spitzer Schnabel",
+      "Pico Afilado",
+      "\uC608\uB9AC\uD55C\uBD80\uB9AC",
+      "\u9510\u5229\u9E1F\u5634",
+      "Sharp Beak"
+    ]
+  },
+  {
+    "Hash": "ho",
+    "ID": 245,
+    "Name": "Poison Barb",
+    "KeyWords": [
+      "\u3069\u304F\u30D0\u30EA",
+      "Poison Barb",
+      "Pic Venin",
+      "Velenaculeo",
+      "Giftstich",
+      "Flecha Venenosa",
+      "\uB3C5\uBC14\uB298",
+      "\u6BD2\u9488",
+      "Poison Barb"
+    ]
+  },
+  {
+    "Hash": "hp",
+    "ID": 246,
+    "Name": "Never-Melt Ice",
+    "KeyWords": [
+      "\u3068\u3051\u306A\u3044\u3053\u304A\u308A",
+      "Never-Melt Ice",
+      "Glace \u00C9ternelle",
+      "Gelomai",
+      "Ewiges Eis",
+      "Antiderretir",
+      "\uB179\uC9C0\uC54A\uB294\uC5BC\uC74C",
+      "\u4E0D\u878D\u51B0",
+      "Never-Melt Ice"
+    ]
+  },
+  {
+    "Hash": "hq",
+    "ID": 247,
+    "Name": "Spell Tag",
+    "KeyWords": [
+      "\u306E\u308D\u3044\u306E\u304A\u3075\u3060",
+      "Spell Tag",
+      "Rune Sort",
+      "Spettrotarga",
+      "Bannsticker",
+      "Hechizo",
+      "\uC800\uC8FC\uC758\uBD80\uC801",
+      "\u8BC5\u5492\u4E4B\u7B26",
+      "Spell Tag"
+    ]
+  },
+  {
+    "Hash": "hr",
+    "ID": 248,
+    "Name": "Twisted Spoon",
+    "KeyWords": [
+      "\u307E\u304C\u3063\u305F\u30B9\u30D7\u30FC\u30F3",
+      "Twisted Spoon",
+      "Cuill\u00E8re Tordue",
+      "Cucchiaio Torto",
+      "Krumml\u00F6ffel",
+      "Cuchara Torcida",
+      "\uD718\uC5B4\uC9C4\uC2A4\uD47C",
+      "\u5F2F\u66F2\u7684\u6C64\u5319",
+      "Twisted Spoon"
+    ]
+  },
+  {
+    "Hash": "hs",
+    "ID": 249,
+    "Name": "Charcoal",
+    "KeyWords": [
+      "\u3082\u304F\u305F\u3093",
+      "Charcoal",
+      "Charbon",
+      "Carbonella",
+      "Holzkohle",
+      "Carb\u00F3n",
+      "\uBAA9\uD0C4",
+      "\u6728\u70AD",
+      "Charcoal"
+    ]
+  },
+  {
+    "Hash": "ht",
+    "ID": 250,
+    "Name": "Dragon Fang",
+    "KeyWords": [
+      "\u308A\u3085\u3046\u306E\u30AD\u30D0",
+      "Dragon Fang",
+      "Croc Dragon",
+      "Dentedidrago",
+      "Drachenzahn",
+      "Colmillo Drag\u00F3n",
+      "\uC6A9\uC758\uC774\uBE68",
+      "\u9F99\u4E4B\u7259",
+      "Dragon Fang"
+    ]
+  },
+  {
+    "Hash": "hu",
+    "ID": 251,
+    "Name": "Silk Scarf",
+    "KeyWords": [
+      "\u30B7\u30EB\u30AF\u306E\u30B9\u30AB\u30FC\u30D5",
+      "Silk Scarf",
+      "Mouchoir Soie",
+      "Sciarpa Seta",
+      "Seidenschal",
+      "Pa\u00F1uelo de Seda",
+      "\uC2E4\uD06C\uC2A4\uCE74\uD504",
+      "\u4E1D\u7EF8\u56F4\u5DFE",
+      "Silk Scarf"
+    ]
+  },
+  {
+    "Hash": "hv",
+    "ID": 252,
+    "Name": "Upgrade",
+    "KeyWords": [
+      "\u30A2\u30C3\u30D7\u30B0\u30EC\u30FC\u30C9",
+      "Upgrade",
+      "Am\u00E9liorator",
+      "Upgrade",
+      "Up-Grade",
+      "Mejora",
+      "\uC5C5\uADF8\uB808\uC774\uB4DC",
+      "\u5347\u7EA7\u6570\u636E",
+      "Upgrade"
+    ]
+  },
+  {
+    "Hash": "hw",
+    "ID": 253,
+    "Name": "Shell Bell",
+    "KeyWords": [
+      "\u304B\u3044\u304C\u3089\u306E\u3059\u305A",
+      "Shell Bell",
+      "Grelot Coque",
+      "Conchinella",
+      "Muschelglocke",
+      "Cascabel Concha",
+      "\uC870\uAC1C\uAECD\uC9C8\uBC29\uC6B8",
+      "\u8D1D\u58F3\u4E4B\u94C3",
+      "Shell Bell"
+    ]
+  },
+  {
+    "Hash": "hx",
+    "ID": 254,
+    "Name": "Sea Incense",
+    "KeyWords": [
+      "\u3046\u3057\u304A\u306E\u304A\u3053\u3046",
+      "Sea Incense",
+      "Encens Mer",
+      "Marearoma",
+      "Seerauch",
+      "Incienso Marino",
+      "\uBC14\uB2F7\uBB3C\uD5A5\uB85C",
+      "\u6D77\u6F6E\u85B0\u9999",
+      "Sea Incense"
+    ]
+  },
+  {
+    "Hash": "hy",
+    "ID": 255,
+    "Name": "Lax Incense",
+    "KeyWords": [
+      "\u306E\u3093\u304D\u306E\u304A\u3053\u3046",
+      "Lax Incense",
+      "Encens Doux",
+      "Distraroma",
+      "Laxrauch",
+      "Incienso Suave",
+      "\uBB34\uC0AC\uD0DC\uD3C9\uD5A5\uB85C",
+      "\u60A0\u95F2\u85B0\u9999",
+      "Lax Incense"
+    ]
+  },
+  {
+    "Hash": "hz",
+    "ID": 256,
+    "Name": "Lucky Punch",
+    "KeyWords": [
+      "\u30E9\u30C3\u30AD\u30FC\u30D1\u30F3\u30C1",
+      "Lucky Punch",
+      "Poing Chance",
+      "Fortunpugno",
+      "Lucky Punch",
+      "Pu\u00F1o Suerte",
+      "\uB7ED\uD0A4\uD380\uCE58",
+      "\u5409\u5229\u62F3",
+      "Lucky Punch"
+    ]
+  },
+  {
+    "Hash": "ia",
+    "ID": 257,
+    "Name": "Metal Powder",
+    "KeyWords": [
+      "\u30E1\u30BF\u30EB\u30D1\u30A6\u30C0\u30FC",
+      "Metal Powder",
+      "Poudre M\u00E9tal",
+      "Metalpolvere",
+      "Metallstaub",
+      "Polvo Met\u00E1lico",
+      "\uAE08\uC18D\uD30C\uC6B0\uB354",
+      "\u91D1\u5C5E\u7C89",
+      "Metal Powder"
+    ]
+  },
+  {
+    "Hash": "ib",
+    "ID": 258,
+    "Name": "Thick Club",
+    "KeyWords": [
+      "\u3075\u3068\u3044\u30DB\u30CD",
+      "Thick Club",
+      "Masse Os",
+      "Ossospesso",
+      "Kampfknochen",
+      "Hueso Grueso",
+      "\uAD75\uC740\uBF08",
+      "\u7C97\u9AA8\u5934",
+      "Thick Club"
+    ]
+  },
+  {
+    "Hash": "ic",
+    "ID": 259,
+    "Name": "Leek",
+    "KeyWords": [
+      "\u306A\u304C\u306D\u304E",
+      "Leek",
+      "Poireau",
+      "Gambo",
+      "Lauchstange",
+      "Puerro",
+      "\uB300\uD30C",
+      "\u5927\u8471",
+      "Leek"
+    ]
+  },
+  {
+    "Hash": "id",
+    "ID": 260,
+    "Name": "Red Scarf",
+    "KeyWords": [
+      "\u3042\u304B\u3044\u30D0\u30F3\u30C0\u30CA",
+      "Red Scarf",
+      "Foulard Rouge",
+      "Fascia Rossa",
+      "Roter Schal",
+      "Pa\u00F1uelo Rojo",
+      "\uBE68\uAC15\uBC34\uB4DC",
+      "\u7EA2\u8272\u5934\u5DFE",
+      "Red Scarf"
+    ]
+  },
+  {
+    "Hash": "ie",
+    "ID": 261,
+    "Name": "Blue Scarf",
+    "KeyWords": [
+      "\u3042\u304A\u3044\u30D0\u30F3\u30C0\u30CA",
+      "Blue Scarf",
+      "Foulard Bleu",
+      "Fascia Blu",
+      "Blauer Schal",
+      "Pa\u00F1uelo Azul",
+      "\uD30C\uB791\uBC34\uB4DC",
+      "\u84DD\u8272\u5934\u5DFE",
+      "Blue Scarf"
+    ]
+  },
+  {
+    "Hash": "if",
+    "ID": 262,
+    "Name": "Pink Scarf",
+    "KeyWords": [
+      "\u30D4\u30F3\u30AF\u306E\u30D0\u30F3\u30C0\u30CA",
+      "Pink Scarf",
+      "Foulard Rose",
+      "Fascia Rosa",
+      "Rosa Schal",
+      "Pa\u00F1uelo Rosa",
+      "\uBD84\uD64D\uBC34\uB4DC",
+      "\u7C89\u7EA2\u5934\u5DFE",
+      "Pink Scarf"
+    ]
+  },
+  {
+    "Hash": "ig",
+    "ID": 263,
+    "Name": "Green Scarf",
+    "KeyWords": [
+      "\u307F\u3069\u308A\u306E\u30D0\u30F3\u30C0\u30CA",
+      "Green Scarf",
+      "Foulard Vert",
+      "Fascia Verde",
+      "Gr\u00FCner Schal",
+      "Pa\u00F1uelo Verde",
+      "\uCD08\uB85D\uBC34\uB4DC",
+      "\u7EFF\u8272\u5934\u5DFE",
+      "Green Scarf"
+    ]
+  },
+  {
+    "Hash": "ih",
+    "ID": 264,
+    "Name": "Yellow Scarf",
+    "KeyWords": [
+      "\u304D\u3044\u308D\u306E\u30D0\u30F3\u30C0\u30CA",
+      "Yellow Scarf",
+      "Foulard Jaune",
+      "Fascia Gialla",
+      "Gelber Schal",
+      "Pa\u00F1uelo Amarillo",
+      "\uB178\uB791\uBC34\uB4DC",
+      "\u9EC4\u8272\u5934\u5DFE",
+      "Yellow Scarf"
+    ]
+  },
+  {
+    "Hash": "ii",
+    "ID": 265,
+    "Name": "Wide Lens",
+    "KeyWords": [
+      "\u3053\u3046\u304B\u304F\u30EC\u30F3\u30BA",
+      "Wide Lens",
+      "Loupe",
+      "Grandelente",
+      "Gro\u00DFlinse",
+      "Lupa",
+      "\uAD11\uAC01\uB80C\uC988",
+      "\u5E7F\u89D2\u955C",
+      "Wide Lens"
+    ]
+  },
+  {
+    "Hash": "ij",
+    "ID": 266,
+    "Name": "Muscle Band",
+    "KeyWords": [
+      "\u3061\u304B\u3089\u306E\u30CF\u30C1\u30DE\u30AD",
+      "Muscle Band",
+      "Bandeau Muscle",
+      "Muscolbanda",
+      "Muskelband",
+      "Cinta Fuerte",
+      "\uD798\uC758\uBA38\uB9AC\uB760",
+      "\u529B\u91CF\u5934\u5E26",
+      "Muscle Band"
+    ]
+  },
+  {
+    "Hash": "ik",
+    "ID": 267,
+    "Name": "Wise Glasses",
+    "KeyWords": [
+      "\u3082\u306E\u3057\u308A\u30E1\u30AC\u30CD",
+      "Wise Glasses",
+      "Lunettes Sages",
+      "Saviocchiali",
+      "Schlaubrille",
+      "Gafas Especiales",
+      "\uBC15\uC2DD\uC548\uACBD",
+      "\u535A\u8BC6\u773C\u955C",
+      "Wise Glasses"
+    ]
+  },
+  {
+    "Hash": "il",
+    "ID": 268,
+    "Name": "Expert Belt",
+    "KeyWords": [
+      "\u305F\u3064\u3058\u3093\u306E\u304A\u3073",
+      "Expert Belt",
+      "Ceinture Pro",
+      "Abilcintura",
+      "Expertengurt",
+      "Cinta Experto",
+      "\uB2EC\uC778\uC758\uB760",
+      "\u8FBE\u4EBA\u5E26",
+      "Expert Belt"
+    ]
+  },
+  {
+    "Hash": "im",
+    "ID": 269,
+    "Name": "Light Clay",
+    "KeyWords": [
+      "\u3072\u304B\u308A\u306E\u306D\u3093\u3069",
+      "Light Clay",
+      "Lumargile",
+      "Creta Luce",
+      "Lichtlehm",
+      "Refleluz",
+      "\uBE5B\uC758\uC810\uD1A0",
+      "\u5149\u4E4B\u9ECF\u571F",
+      "Light Clay"
+    ]
+  },
+  {
+    "Hash": "in",
+    "ID": 270,
+    "Name": "Life Orb",
+    "KeyWords": [
+      "\u3044\u306E\u3061\u306E\u305F\u307E",
+      "Life Orb",
+      "Orbe Vie",
+      "Assorbisfera",
+      "Leben-Orb",
+      "Vidasfera",
+      "\uC0DD\uBA85\uC758\uAD6C\uC2AC",
+      "\u751F\u547D\u5B9D\u73E0",
+      "Life Orb"
+    ]
+  },
+  {
+    "Hash": "io",
+    "ID": 271,
+    "Name": "Power Herb",
+    "KeyWords": [
+      "\u30D1\u30EF\u30D5\u30EB\u30CF\u30FC\u30D6",
+      "Power Herb",
+      "Herbe Pouvoir",
+      "Vigorerba",
+      "Energiekraut",
+      "Hierba \u00DAnica",
+      "\uD30C\uC6CC\uD480\uD5C8\uBE0C",
+      "\u5F3A\u529B\u9999\u8349",
+      "Power Herb"
+    ]
+  },
+  {
+    "Hash": "ip",
+    "ID": 272,
+    "Name": "Toxic Orb",
+    "KeyWords": [
+      "\u3069\u304F\u3069\u304F\u3060\u307E",
+      "Toxic Orb",
+      "Orbe Toxique",
+      "Tossicsfera",
+      "Toxik-Orb",
+      "Toxisfera",
+      "\uB9F9\uB3C5\uAD6C\uC2AC",
+      "\u5267\u6BD2\u5B9D\u73E0",
+      "Toxic Orb"
+    ]
+  },
+  {
+    "Hash": "iq",
+    "ID": 273,
+    "Name": "Flame Orb",
+    "KeyWords": [
+      "\u304B\u3048\u3093\u3060\u307E",
+      "Flame Orb",
+      "Orbe Flamme",
+      "Fiammosfera",
+      "Hei\u00DF-Orb",
+      "Llamasfera",
+      "\uD654\uC5FC\uAD6C\uC2AC",
+      "\u706B\u7130\u5B9D\u73E0",
+      "Flame Orb"
+    ]
+  },
+  {
+    "Hash": "ir",
+    "ID": 274,
+    "Name": "Quick Powder",
+    "KeyWords": [
+      "\u30B9\u30D4\u30FC\u30C9\u30D1\u30A6\u30C0\u30FC",
+      "Quick Powder",
+      "Poudre Vite",
+      "Velopolvere",
+      "Flottstaub",
+      "Polvo Veloz",
+      "\uC2A4\uD53C\uB4DC\uD30C\uC6B0\uB354",
+      "\u901F\u5EA6\u7C89",
+      "Quick Powder"
+    ]
+  },
+  {
+    "Hash": "is",
+    "ID": 275,
+    "Name": "Focus Sash",
+    "KeyWords": [
+      "\u304D\u3042\u3044\u306E\u30BF\u30B9\u30AD",
+      "Focus Sash",
+      "Ceinture Force",
+      "Focalnastro",
+      "Fokusgurt",
+      "Banda Focus",
+      "\uAE30\uD569\uC758\uB760",
+      "\u6C14\u52BF\u62AB\u5E26",
+      "Focus Sash"
+    ]
+  },
+  {
+    "Hash": "it",
+    "ID": 276,
+    "Name": "Zoom Lens",
+    "KeyWords": [
+      "\u30D5\u30A9\u30FC\u30AB\u30B9\u30EC\u30F3\u30BA",
+      "Zoom Lens",
+      "Lentille Zoom",
+      "Zoomlente",
+      "Zoomlinse",
+      "Telescopio",
+      "\uD3EC\uCEE4\uC2A4\uB80C\uC988",
+      "\u5BF9\u7126\u955C",
+      "Zoom Lens"
+    ]
+  },
+  {
+    "Hash": "iu",
+    "ID": 277,
+    "Name": "Metronome",
+    "KeyWords": [
+      "\u30E1\u30C8\u30ED\u30CE\u30FC\u30E0",
+      "Metronome",
+      "M\u00E9tronome",
+      "Plessimetro",
+      "Metronom",
+      "Metr\u00F3nomo",
+      "\uBA54\uD2B8\uB85C\uB188",
+      "\u8282\u62CD\u5668",
+      "Metronome"
+    ]
+  },
+  {
+    "Hash": "iv",
+    "ID": 278,
+    "Name": "Iron Ball",
+    "KeyWords": [
+      "\u304F\u308D\u3044\u3066\u3063\u304D\u3085\u3046",
+      "Iron Ball",
+      "Balle Fer",
+      "Ferropalla",
+      "Eisenkugel",
+      "Bola F\u00E9rrea",
+      "\uAC80\uC740\uCCA0\uAD6C",
+      "\u9ED1\u8272\u94C1\u7403",
+      "Iron Ball"
+    ]
+  },
+  {
+    "Hash": "iw",
+    "ID": 279,
+    "Name": "Lagging Tail",
+    "KeyWords": [
+      "\u3053\u3046\u3053\u3046\u306E\u3057\u3063\u307D",
+      "Lagging Tail",
+      "Ralentiqueue",
+      "Rallentocoda",
+      "Schwerschweif",
+      "Cola Pl\u00FAmbea",
+      "\uB290\uB9BC\uBCF4\uAF2C\uB9AC",
+      "\u540E\u653B\u4E4B\u5C3E",
+      "Lagging Tail"
+    ]
+  },
+  {
+    "Hash": "ix",
+    "ID": 280,
+    "Name": "Destiny Knot",
+    "KeyWords": [
+      "\u3042\u304B\u3044\u3044\u3068",
+      "Destiny Knot",
+      "N\u0153ud Destin",
+      "Destincomune",
+      "Fatumknoten",
+      "Lazo Destino",
+      "\uBE68\uAC04\uC2E4",
+      "\u7EA2\u7EBF",
+      "Destiny Knot"
+    ]
+  },
+  {
+    "Hash": "iy",
+    "ID": 281,
+    "Name": "Black Sludge",
+    "KeyWords": [
+      "\u304F\u308D\u3044\u30D8\u30C9\u30ED",
+      "Black Sludge",
+      "Boue Noire",
+      "Fangopece",
+      "Giftschleim",
+      "Lodo Negro",
+      "\uAC80\uC740\uC9C4\uD759",
+      "\u9ED1\u8272\u6C61\u6CE5",
+      "Black Sludge"
+    ]
+  },
+  {
+    "Hash": "iz",
+    "ID": 282,
+    "Name": "Icy Rock",
+    "KeyWords": [
+      "\u3064\u3081\u305F\u3044\u3044\u308F",
+      "Icy Rock",
+      "Roche Glace",
+      "Rocciafredda",
+      "Eisbrocken",
+      "Roca Helada",
+      "\uCC28\uAC00\uC6B4\uBC14\uC704",
+      "\u51B0\u51B7\u5CA9\u77F3",
+      "Icy Rock"
+    ]
+  },
+  {
+    "Hash": "ja",
+    "ID": 283,
+    "Name": "Smooth Rock",
+    "KeyWords": [
+      "\u3055\u3089\u3055\u3089\u3044\u308F",
+      "Smooth Rock",
+      "Roche Lisse",
+      "Roccialiscia",
+      "Glattbrocken",
+      "Roca Suave",
+      "\uBCF4\uC1A1\uBCF4\uC1A1\uBC14\uC704",
+      "\u6C99\u6C99\u5CA9\u77F3",
+      "Smooth Rock"
+    ]
+  },
+  {
+    "Hash": "jb",
+    "ID": 284,
+    "Name": "Heat Rock",
+    "KeyWords": [
+      "\u3042\u3064\u3044\u3044\u308F",
+      "Heat Rock",
+      "Roche Chaude",
+      "Rocciacalda",
+      "Hei\u00DFbrocken",
+      "Roca Calor",
+      "\uB728\uAC70\uC6B4\uBC14\uC704",
+      "\u70BD\u70ED\u5CA9\u77F3",
+      "Heat Rock"
+    ]
+  },
+  {
+    "Hash": "jc",
+    "ID": 285,
+    "Name": "Damp Rock",
+    "KeyWords": [
+      "\u3057\u3081\u3063\u305F\u3044\u308F",
+      "Damp Rock",
+      "Roche Humide",
+      "Rocciaumida",
+      "Nassbrocken",
+      "Roca Lluvia",
+      "\uCD95\uCD95\uD55C\uBC14\uC704",
+      "\u6F6E\u6E7F\u5CA9\u77F3",
+      "Damp Rock"
+    ]
+  },
+  {
+    "Hash": "jd",
+    "ID": 286,
+    "Name": "Grip Claw",
+    "KeyWords": [
+      "\u306D\u3070\u308A\u306E\u304B\u304E\u3065\u3081",
+      "Grip Claw",
+      "Accro Griffe",
+      "Presartigli",
+      "Griffklaue",
+      "Garra Garfio",
+      "\uB048\uAE30\uAC08\uACE0\uB9AC\uC190\uD1B1",
+      "\u7D27\u7F20\u94A9\u722A",
+      "Grip Claw"
+    ]
+  },
+  {
+    "Hash": "je",
+    "ID": 287,
+    "Name": "Choice Scarf",
+    "KeyWords": [
+      "\u3053\u3060\u308F\u308A\u30B9\u30AB\u30FC\u30D5",
+      "Choice Scarf",
+      "Mouchoir Choix",
+      "Stolascelta",
+      "Wahlschal",
+      "Pa\u00F1uelo Elecci\u00F3n",
+      "\uAD6C\uC560\uC2A4\uCE74\uD504",
+      "\u8BB2\u7A76\u56F4\u5DFE",
+      "Choice Scarf"
+    ]
+  },
+  {
+    "Hash": "jf",
+    "ID": 288,
+    "Name": "Sticky Barb",
+    "KeyWords": [
+      "\u304F\u3063\u3064\u304D\u30D0\u30EA",
+      "Sticky Barb",
+      "Piquants",
+      "Vischiopunta",
+      "Klettdorn",
+      "Toxiestrella",
+      "\uB048\uC801\uB048\uC801\uBC14\uB298",
+      "\u9644\u7740\u9488",
+      "Sticky Barb"
+    ]
+  },
+  {
+    "Hash": "jg",
+    "ID": 289,
+    "Name": "Power Bracer",
+    "KeyWords": [
+      "\u30D1\u30EF\u30FC\u30EA\u30B9\u30C8",
+      "Power Bracer",
+      "Poignet Pouvoir",
+      "Vigorcerchio",
+      "Machtreif",
+      "Brazal Recio",
+      "\uD30C\uC6CC\uB9AC\uC2A4\uD2B8",
+      "\u529B\u91CF\u62A4\u8155",
+      "Power Bracer"
+    ]
+  },
+  {
+    "Hash": "jh",
+    "ID": 290,
+    "Name": "Power Belt",
+    "KeyWords": [
+      "\u30D1\u30EF\u30FC\u30D9\u30EB\u30C8",
+      "Power Belt",
+      "Ceinture Pouvoir",
+      "Vigorfascia",
+      "Machtgurt",
+      "Cinto Recio",
+      "\uD30C\uC6CC\uBCA8\uD2B8",
+      "\u529B\u91CF\u8170\u5E26",
+      "Power Belt"
+    ]
+  },
+  {
+    "Hash": "ji",
+    "ID": 291,
+    "Name": "Power Lens",
+    "KeyWords": [
+      "\u30D1\u30EF\u30FC\u30EC\u30F3\u30BA",
+      "Power Lens",
+      "Lentille Pouvoir",
+      "Vigorlente",
+      "Machtlinse",
+      "Lente Recia",
+      "\uD30C\uC6CC\uB80C\uC988",
+      "\u529B\u91CF\u955C",
+      "Power Lens"
+    ]
+  },
+  {
+    "Hash": "jj",
+    "ID": 292,
+    "Name": "Power Band",
+    "KeyWords": [
+      "\u30D1\u30EF\u30FC\u30D0\u30F3\u30C9",
+      "Power Band",
+      "Bandeau Pouvoir",
+      "Vigorbanda",
+      "Machtband",
+      "Banda Recia",
+      "\uD30C\uC6CC\uBC34\uB4DC",
+      "\u529B\u91CF\u675F\u5E26",
+      "Power Band"
+    ]
+  },
+  {
+    "Hash": "jk",
+    "ID": 293,
+    "Name": "Power Anklet",
+    "KeyWords": [
+      "\u30D1\u30EF\u30FC\u30A2\u30F3\u30AF\u30EB",
+      "Power Anklet",
+      "Cha\u00EEne Pouvoir",
+      "Vigorgliera",
+      "Machtkette",
+      "Franja Recia",
+      "\uD30C\uC6CC\uC575\uD074\uB9BF",
+      "\u529B\u91CF\u62A4\u8E1D",
+      "Power Anklet"
+    ]
+  },
+  {
+    "Hash": "jl",
+    "ID": 294,
+    "Name": "Power Weight",
+    "KeyWords": [
+      "\u30D1\u30EF\u30FC\u30A6\u30A8\u30A4\u30C8",
+      "Power Weight",
+      "Poids Pouvoir",
+      "Vigorpeso",
+      "Machtgewicht",
+      "Pesa Recia",
+      "\uD30C\uC6CC\uC6E8\uC774\uD2B8",
+      "\u529B\u91CF\u8D1F\u91CD",
+      "Power Weight"
+    ]
+  },
+  {
+    "Hash": "jm",
+    "ID": 295,
+    "Name": "Shed Shell",
+    "KeyWords": [
+      "\u304D\u308C\u3044\u306A\u306C\u3051\u304C\u3089",
+      "Shed Shell",
+      "Carapace Mue",
+      "Disfoguscio",
+      "Wechselh\u00FClle",
+      "Muda Concha",
+      "\uC544\uB984\uB2E4\uC6B4\uD5C8\uBB3C",
+      "\u7F8E\u4E3D\u7A7A\u58F3",
+      "Shed Shell"
+    ]
+  },
+  {
+    "Hash": "jn",
+    "ID": 296,
+    "Name": "Big Root",
+    "KeyWords": [
+      "\u304A\u304A\u304D\u306A\u306D\u3063\u3053",
+      "Big Root",
+      "Grosse Racine",
+      "Granradice",
+      "Gro\u00DFwurzel",
+      "Ra\u00EDz Grande",
+      "\uD070\uBFCC\uB9AC",
+      "\u5927\u6839\u830E",
+      "Big Root"
+    ]
+  },
+  {
+    "Hash": "jo",
+    "ID": 297,
+    "Name": "Choice Specs",
+    "KeyWords": [
+      "\u3053\u3060\u308F\u308A\u30E1\u30AC\u30CD",
+      "Choice Specs",
+      "Lunettes Choix",
+      "Lentiscelta",
+      "Wahlbrille",
+      "Gafas Elecci\u00F3n",
+      "\uAD6C\uC560\uC548\uACBD",
+      "\u8BB2\u7A76\u773C\u955C",
+      "Choice Specs"
+    ]
+  },
+  {
+    "Hash": "jp",
+    "ID": 298,
+    "Name": "Flame Plate",
+    "KeyWords": [
+      "\u3072\u306E\u305F\u307E\u30D7\u30EC\u30FC\u30C8",
+      "Flame Plate",
+      "Plaque Flamme",
+      "Lastrarogo",
+      "Feuertafel",
+      "Tabla Llama",
+      "\uBD88\uAD6C\uC2AC\uD50C\uB808\uC774\uD2B8",
+      "\u706B\u7403\u77F3\u677F",
+      "Flame Plate"
+    ]
+  },
+  {
+    "Hash": "jq",
+    "ID": 299,
+    "Name": "Splash Plate",
+    "KeyWords": [
+      "\u3057\u305A\u304F\u30D7\u30EC\u30FC\u30C8",
+      "Splash Plate",
+      "Plaque Hydro",
+      "Lastraidro",
+      "Wassertafel",
+      "Tabla Linfa",
+      "\uBB3C\uBC29\uC6B8\uD50C\uB808\uC774\uD2B8",
+      "\u6C34\u6EF4\u77F3\u677F",
+      "Splash Plate"
+    ]
+  },
+  {
+    "Hash": "jr",
+    "ID": 300,
+    "Name": "Zap Plate",
+    "KeyWords": [
+      "\u3044\u304B\u305A\u3061\u30D7\u30EC\u30FC\u30C8",
+      "Zap Plate",
+      "Plaque Volt",
+      "Lastrasaetta",
+      "Blitztafel",
+      "Tabla Trueno",
+      "\uC6B0\uB8B0\uD50C\uB808\uC774\uD2B8",
+      "\u96F7\u7535\u77F3\u677F",
+      "Zap Plate"
+    ]
+  },
+  {
+    "Hash": "js",
+    "ID": 301,
+    "Name": "Meadow Plate",
+    "KeyWords": [
+      "\u307F\u3069\u308A\u306E\u30D7\u30EC\u30FC\u30C8",
+      "Meadow Plate",
+      "Plaque Herbe",
+      "Lastraprato",
+      "Wiesentafel",
+      "Tabla Pradal",
+      "\uCD08\uB85D\uD50C\uB808\uC774\uD2B8",
+      "\u78A7\u7EFF\u77F3\u677F",
+      "Meadow Plate"
+    ]
+  },
+  {
+    "Hash": "jt",
+    "ID": 302,
+    "Name": "Icicle Plate",
+    "KeyWords": [
+      "\u3064\u3089\u3089\u306E\u30D7\u30EC\u30FC\u30C8",
+      "Icicle Plate",
+      "Plaque Glace",
+      "Lastragelo",
+      "Frosttafel",
+      "Tabla Helada",
+      "\uACE0\uB4DC\uB984\uD50C\uB808\uC774\uD2B8",
+      "\u51B0\u67F1\u77F3\u677F",
+      "Icicle Plate"
+    ]
+  },
+  {
+    "Hash": "ju",
+    "ID": 303,
+    "Name": "Fist Plate",
+    "KeyWords": [
+      "\u3053\u3076\u3057\u306E\u30D7\u30EC\u30FC\u30C8",
+      "Fist Plate",
+      "Plaque Poing",
+      "Lastrapugno",
+      "Fausttafel",
+      "Tabla Fuerte",
+      "\uC8FC\uBA39\uD50C\uB808\uC774\uD2B8",
+      "\u62F3\u5934\u77F3\u677F",
+      "Fist Plate"
+    ]
+  },
+  {
+    "Hash": "jv",
+    "ID": 304,
+    "Name": "Toxic Plate",
+    "KeyWords": [
+      "\u3082\u3046\u3069\u304F\u30D7\u30EC\u30FC\u30C8",
+      "Toxic Plate",
+      "Plaque Toxicit\u00E9",
+      "Lastrafiele",
+      "Gifttafel",
+      "Tabla T\u00F3xica",
+      "\uB9F9\uB3C5\uD50C\uB808\uC774\uD2B8",
+      "\u5267\u6BD2\u77F3\u677F",
+      "Toxic Plate"
+    ]
+  },
+  {
+    "Hash": "jw",
+    "ID": 305,
+    "Name": "Earth Plate",
+    "KeyWords": [
+      "\u3060\u3044\u3061\u306E\u30D7\u30EC\u30FC\u30C8",
+      "Earth Plate",
+      "Plaque Terre",
+      "Lastrageo",
+      "Erdtafel",
+      "Tabla Terrax",
+      "\uB300\uC9C0\uD50C\uB808\uC774\uD2B8",
+      "\u5927\u5730\u77F3\u677F",
+      "Earth Plate"
+    ]
+  },
+  {
+    "Hash": "jx",
+    "ID": 306,
+    "Name": "Sky Plate",
+    "KeyWords": [
+      "\u3042\u304A\u305E\u3089\u30D7\u30EC\u30FC\u30C8",
+      "Sky Plate",
+      "Plaque Ciel",
+      "Lastracielo",
+      "Wolkentafel",
+      "Tabla Cielo",
+      "\uD478\uB978\uD558\uB298\uD50C\uB808\uC774\uD2B8",
+      "\u84DD\u5929\u77F3\u677F",
+      "Sky Plate"
+    ]
+  },
+  {
+    "Hash": "jy",
+    "ID": 307,
+    "Name": "Mind Plate",
+    "KeyWords": [
+      "\u3075\u3057\u304E\u306E\u30D7\u30EC\u30FC\u30C8",
+      "Mind Plate",
+      "Plaque Esprit",
+      "Lastramente",
+      "Hirntafel",
+      "Tabla Mental",
+      "\uC774\uC0C1\uD55C\uD50C\uB808\uC774\uD2B8",
+      "\u795E\u5947\u77F3\u677F",
+      "Mind Plate"
+    ]
+  },
+  {
+    "Hash": "jz",
+    "ID": 308,
+    "Name": "Insect Plate",
+    "KeyWords": [
+      "\u305F\u307E\u3080\u3057\u30D7\u30EC\u30FC\u30C8",
+      "Insect Plate",
+      "Plaque Insecte",
+      "Lastrabaco",
+      "K\u00E4fertafel",
+      "Tabla Bicho",
+      "\uBE44\uB2E8\uBC8C\uB808\uD50C\uB808\uC774\uD2B8",
+      "\u7389\u866B\u77F3\u677F",
+      "Insect Plate"
+    ]
+  },
+  {
+    "Hash": "ka",
+    "ID": 309,
+    "Name": "Stone Plate",
+    "KeyWords": [
+      "\u304C\u3093\u305B\u304D\u30D7\u30EC\u30FC\u30C8",
+      "Stone Plate",
+      "Plaque Roc",
+      "Lastrapietra",
+      "Steintafel",
+      "Tabla P\u00E9trea",
+      "\uC554\uC11D\uD50C\uB808\uC774\uD2B8",
+      "\u5CA9\u77F3\u77F3\u677F",
+      "Stone Plate"
+    ]
+  },
+  {
+    "Hash": "kb",
+    "ID": 310,
+    "Name": "Spooky Plate",
+    "KeyWords": [
+      "\u3082\u306E\u306E\u3051\u30D7\u30EC\u30FC\u30C8",
+      "Spooky Plate",
+      "Plaque Fant\u00F4me",
+      "Lastratetra",
+      "Spuktafel",
+      "Tabla Terror",
+      "\uC6D0\uB839\uD50C\uB808\uC774\uD2B8",
+      "\u5996\u602A\u77F3\u677F",
+      "Spooky Plate"
+    ]
+  },
+  {
+    "Hash": "kc",
+    "ID": 311,
+    "Name": "Draco Plate",
+    "KeyWords": [
+      "\u308A\u3085\u3046\u306E\u30D7\u30EC\u30FC\u30C8",
+      "Draco Plate",
+      "Plaque Draco",
+      "Lastradrakon",
+      "Dracotafel",
+      "Tabla Draco",
+      "\uC6A9\uC758\uD50C\uB808\uC774\uD2B8",
+      "\u9F99\u4E4B\u77F3\u677F",
+      "Draco Plate"
+    ]
+  },
+  {
+    "Hash": "kd",
+    "ID": 312,
+    "Name": "Dread Plate",
+    "KeyWords": [
+      "\u3053\u308F\u3082\u3066\u30D7\u30EC\u30FC\u30C8",
+      "Dread Plate",
+      "Plaque Ombre",
+      "Lastratimore",
+      "Furchttafel",
+      "Tabla Oscura",
+      "\uACF5\uD3EC\uD50C\uB808\uC774\uD2B8",
+      "\u6076\u989C\u77F3\u677F",
+      "Dread Plate"
+    ]
+  },
+  {
+    "Hash": "ke",
+    "ID": 313,
+    "Name": "Iron Plate",
+    "KeyWords": [
+      "\u3053\u3046\u3066\u3064\u30D7\u30EC\u30FC\u30C8",
+      "Iron Plate",
+      "Plaque Fer",
+      "Lastraferro",
+      "Eisentafel",
+      "Tabla Acero",
+      "\uAC15\uCCA0\uD50C\uB808\uC774\uD2B8",
+      "\u94A2\u94C1\u77F3\u677F",
+      "Iron Plate"
+    ]
+  },
+  {
+    "Hash": "kf",
+    "ID": 314,
+    "Name": "Odd Incense",
+    "KeyWords": [
+      "\u3042\u3084\u3057\u3044\u304A\u3053\u3046",
+      "Odd Incense",
+      "Encens Bizarre",
+      "Bizzoaroma",
+      "Schr\u00E4grauch",
+      "Incienso Raro",
+      "\uAD34\uC0C1\uD55C\uD5A5\uB85C",
+      "\u5947\u5F02\u85B0\u9999",
+      "Odd Incense"
+    ]
+  },
+  {
+    "Hash": "kg",
+    "ID": 315,
+    "Name": "Rock Incense",
+    "KeyWords": [
+      "\u304C\u3093\u305B\u304D\u304A\u3053\u3046",
+      "Rock Incense",
+      "Encens Roc",
+      "Roccioaroma",
+      "Steinrauch",
+      "Incienso Roca",
+      "\uC554\uC11D\uD5A5\uB85C",
+      "\u5CA9\u77F3\u85B0\u9999",
+      "Rock Incense"
+    ]
+  },
+  {
+    "Hash": "kh",
+    "ID": 316,
+    "Name": "Full Incense",
+    "KeyWords": [
+      "\u307E\u3093\u3077\u304F\u304A\u3053\u3046",
+      "Full Incense",
+      "Encens Plein",
+      "Gonfioaroma",
+      "Lahmrauch",
+      "Incienso Lento",
+      "\uB9CC\uBCF5\uD5A5\uB85C",
+      "\u9971\u8179\u85B0\u9999",
+      "Full Incense"
+    ]
+  },
+  {
+    "Hash": "ki",
+    "ID": 317,
+    "Name": "Wave Incense",
+    "KeyWords": [
+      "\u3055\u3056\u306A\u307F\u306E\u304A\u3053\u3046",
+      "Wave Incense",
+      "Encens Vague",
+      "Ondaroma",
+      "Wellenrauch",
+      "Incienso Acua",
+      "\uC794\uBB3C\uACB0\uD5A5\uB85C",
+      "\u6D9F\u6F2A\u85B0\u9999",
+      "Wave Incense"
+    ]
+  },
+  {
+    "Hash": "kj",
+    "ID": 318,
+    "Name": "Rose Incense",
+    "KeyWords": [
+      "\u304A\u306F\u306A\u306E\u304A\u3053\u3046",
+      "Rose Incense",
+      "Encens Fleur",
+      "Rosaroma",
+      "Rosenrauch",
+      "Incienso Floral",
+      "\uAF43\uD5A5\uB85C",
+      "\u82B1\u6735\u85B0\u9999",
+      "Rose Incense"
+    ]
+  },
+  {
+    "Hash": "kk",
+    "ID": 319,
+    "Name": "Luck Incense",
+    "KeyWords": [
+      "\u3053\u3046\u3046\u3093\u306E\u304A\u3053\u3046",
+      "Luck Incense",
+      "Encens Veine",
+      "Fortunaroma",
+      "Gl\u00FCcksrauch",
+      "Incienso Duplo",
+      "\uD589\uC6B4\uC758\uD5A5\uB85C",
+      "\u5E78\u8FD0\u85B0\u9999",
+      "Luck Incense"
+    ]
+  },
+  {
+    "Hash": "kl",
+    "ID": 320,
+    "Name": "Pure Incense",
+    "KeyWords": [
+      "\u304D\u3088\u3081\u306E\u304A\u3053\u3046",
+      "Pure Incense",
+      "Encens Pur",
+      "Puroaroma",
+      "Scheuchrauch",
+      "Incienso Puro",
+      "\uC21C\uACB0\uC758\uD5A5\uB85C",
+      "\u6D01\u51C0\u85B0\u9999",
+      "Pure Incense"
+    ]
+  },
+  {
+    "Hash": "km",
+    "ID": 321,
+    "Name": "Protector",
+    "KeyWords": [
+      "\u30D7\u30ED\u30C6\u30AF\u30BF\u30FC",
+      "Protector",
+      "Protecteur",
+      "Copertura",
+      "Sch\u00FCtzer",
+      "Protector",
+      "\uD504\uB85C\uD14D\uD130",
+      "\u62A4\u5177",
+      "Protector"
+    ]
+  },
+  {
+    "Hash": "kn",
+    "ID": 322,
+    "Name": "Electirizer",
+    "KeyWords": [
+      "\u30A8\u30EC\u30AD\u30D6\u30FC\u30B9\u30BF\u30FC",
+      "Electirizer",
+      "\u00C9lectriseur",
+      "Elettritore",
+      "Stromisierer",
+      "Electrizador",
+      "\uC5D0\uB808\uD0A4\uBD80\uC2A4\uD130",
+      "\u7535\u529B\u589E\u5E45\u5668",
+      "Electirizer"
+    ]
+  },
+  {
+    "Hash": "ko",
+    "ID": 323,
+    "Name": "Magmarizer",
+    "KeyWords": [
+      "\u30DE\u30B0\u30DE\u30D6\u30FC\u30B9\u30BF\u30FC",
+      "Magmarizer",
+      "Magmariseur",
+      "Magmatore",
+      "Magmaisierer",
+      "Magmatizador",
+      "\uB9C8\uADF8\uB9C8\uBD80\uC2A4\uD130",
+      "\u7194\u5CA9\u589E\u5E45\u5668",
+      "Magmarizer"
+    ]
+  },
+  {
+    "Hash": "kp",
+    "ID": 324,
+    "Name": "Dubious Disc",
+    "KeyWords": [
+      "\u3042\u3084\u3057\u3044\u30D1\u30C3\u30C1",
+      "Dubious Disc",
+      "CD Douteux",
+      "Dubbiodisco",
+      "Dubiosdisc",
+      "Disco Extra\u00F1o",
+      "\uAD34\uC0C1\uD55C\uD328\uCE58",
+      "\u53EF\u7591\u8865\u4E01",
+      "Dubious Disc"
+    ]
+  },
+  {
+    "Hash": "kq",
+    "ID": 325,
+    "Name": "Reaper Cloth",
+    "KeyWords": [
+      "\u308C\u3044\u304B\u3044\u306E\u306C\u306E",
+      "Reaper Cloth",
+      "Tissu Fauche",
+      "Terrorpanno",
+      "D\u00FCsterumhang",
+      "Tela Terrible",
+      "\uC601\uACC4\uC758\uCC9C",
+      "\u7075\u754C\u4E4B\u5E03",
+      "Reaper Cloth"
+    ]
+  },
+  {
+    "Hash": "kr",
+    "ID": 326,
+    "Name": "Razor Claw",
+    "KeyWords": [
+      "\u3059\u308B\u3069\u3044\u30C4\u30E1",
+      "Razor Claw",
+      "Griffe Rasoir",
+      "Affilartigli",
+      "Scharfklaue",
+      "Garra Afilada",
+      "\uC608\uB9AC\uD55C\uC190\uD1B1",
+      "\u9510\u5229\u4E4B\u722A",
+      "Razor Claw"
+    ]
+  },
+  {
+    "Hash": "ks",
+    "ID": 327,
+    "Name": "Razor Fang",
+    "KeyWords": [
+      "\u3059\u308B\u3069\u3044\u30AD\u30D0",
+      "Razor Fang",
+      "Croc Rasoir",
+      "Affilodente",
+      "Scharfzahn",
+      "Colmillo Agudo",
+      "\uC608\uB9AC\uD55C\uC774\uBE68",
+      "\u9510\u5229\u4E4B\u7259",
+      "Razor Fang"
+    ]
+  },
+  {
+    "Hash": "kt",
+    "ID": 328,
+    "Name": "TM01",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF10\uFF11",
+      "TM01",
+      "CT01",
+      "MT01",
+      "TM01",
+      "MT01",
+      "\uAE30\uC220\uBA38\uC2E001",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF10\uFF11",
+      "TM01"
+    ]
+  },
+  {
+    "Hash": "ku",
+    "ID": 329,
+    "Name": "TM02",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF10\uFF12",
+      "TM02",
+      "CT02",
+      "MT02",
+      "TM02",
+      "MT02",
+      "\uAE30\uC220\uBA38\uC2E002",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF10\uFF12",
+      "TM02"
+    ]
+  },
+  {
+    "Hash": "kv",
+    "ID": 330,
+    "Name": "TM03",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF10\uFF13",
+      "TM03",
+      "CT03",
+      "MT03",
+      "TM03",
+      "MT03",
+      "\uAE30\uC220\uBA38\uC2E003",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF10\uFF13",
+      "TM03"
+    ]
+  },
+  {
+    "Hash": "kw",
+    "ID": 331,
+    "Name": "TM04",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF10\uFF14",
+      "TM04",
+      "CT04",
+      "MT04",
+      "TM04",
+      "MT04",
+      "\uAE30\uC220\uBA38\uC2E004",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF10\uFF14",
+      "TM04"
+    ]
+  },
+  {
+    "Hash": "kx",
+    "ID": 332,
+    "Name": "TM05",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF10\uFF15",
+      "TM05",
+      "CT05",
+      "MT05",
+      "TM05",
+      "MT05",
+      "\uAE30\uC220\uBA38\uC2E005",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF10\uFF15",
+      "TM05"
+    ]
+  },
+  {
+    "Hash": "ky",
+    "ID": 333,
+    "Name": "TM06",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF10\uFF16",
+      "TM06",
+      "CT06",
+      "MT06",
+      "TM06",
+      "MT06",
+      "\uAE30\uC220\uBA38\uC2E006",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF10\uFF16",
+      "TM06"
+    ]
+  },
+  {
+    "Hash": "kz",
+    "ID": 334,
+    "Name": "TM07",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF10\uFF17",
+      "TM07",
+      "CT07",
+      "MT07",
+      "TM07",
+      "MT07",
+      "\uAE30\uC220\uBA38\uC2E007",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF10\uFF17",
+      "TM07"
+    ]
+  },
+  {
+    "Hash": "la",
+    "ID": 335,
+    "Name": "TM08",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF10\uFF18",
+      "TM08",
+      "CT08",
+      "MT08",
+      "TM08",
+      "MT08",
+      "\uAE30\uC220\uBA38\uC2E008",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF10\uFF18",
+      "TM08"
+    ]
+  },
+  {
+    "Hash": "lb",
+    "ID": 336,
+    "Name": "TM09",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF10\uFF19",
+      "TM09",
+      "CT09",
+      "MT09",
+      "TM09",
+      "MT09",
+      "\uAE30\uC220\uBA38\uC2E009",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF10\uFF19",
+      "TM09"
+    ]
+  },
+  {
+    "Hash": "lc",
+    "ID": 337,
+    "Name": "TM10",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF11\uFF10",
+      "TM10",
+      "CT10",
+      "MT10",
+      "TM10",
+      "MT10",
+      "\uAE30\uC220\uBA38\uC2E010",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF11\uFF10",
+      "TM10"
+    ]
+  },
+  {
+    "Hash": "ld",
+    "ID": 338,
+    "Name": "TM11",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF11\uFF11",
+      "TM11",
+      "CT11",
+      "MT11",
+      "TM11",
+      "MT11",
+      "\uAE30\uC220\uBA38\uC2E011",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF11\uFF11",
+      "TM11"
+    ]
+  },
+  {
+    "Hash": "le",
+    "ID": 339,
+    "Name": "TM12",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF11\uFF12",
+      "TM12",
+      "CT12",
+      "MT12",
+      "TM12",
+      "MT12",
+      "\uAE30\uC220\uBA38\uC2E012",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF11\uFF12",
+      "TM12"
+    ]
+  },
+  {
+    "Hash": "lf",
+    "ID": 340,
+    "Name": "TM13",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF11\uFF13",
+      "TM13",
+      "CT13",
+      "MT13",
+      "TM13",
+      "MT13",
+      "\uAE30\uC220\uBA38\uC2E013",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF11\uFF13",
+      "TM13"
+    ]
+  },
+  {
+    "Hash": "lg",
+    "ID": 341,
+    "Name": "TM14",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF11\uFF14",
+      "TM14",
+      "CT14",
+      "MT14",
+      "TM14",
+      "MT14",
+      "\uAE30\uC220\uBA38\uC2E014",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF11\uFF14",
+      "TM14"
+    ]
+  },
+  {
+    "Hash": "lh",
+    "ID": 342,
+    "Name": "TM15",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF11\uFF15",
+      "TM15",
+      "CT15",
+      "MT15",
+      "TM15",
+      "MT15",
+      "\uAE30\uC220\uBA38\uC2E015",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF11\uFF15",
+      "TM15"
+    ]
+  },
+  {
+    "Hash": "li",
+    "ID": 343,
+    "Name": "TM16",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF11\uFF16",
+      "TM16",
+      "CT16",
+      "MT16",
+      "TM16",
+      "MT16",
+      "\uAE30\uC220\uBA38\uC2E016",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF11\uFF16",
+      "TM16"
+    ]
+  },
+  {
+    "Hash": "lj",
+    "ID": 344,
+    "Name": "TM17",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF11\uFF17",
+      "TM17",
+      "CT17",
+      "MT17",
+      "TM17",
+      "MT17",
+      "\uAE30\uC220\uBA38\uC2E017",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF11\uFF17",
+      "TM17"
+    ]
+  },
+  {
+    "Hash": "lk",
+    "ID": 345,
+    "Name": "TM18",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF11\uFF18",
+      "TM18",
+      "CT18",
+      "MT18",
+      "TM18",
+      "MT18",
+      "\uAE30\uC220\uBA38\uC2E018",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF11\uFF18",
+      "TM18"
+    ]
+  },
+  {
+    "Hash": "ll",
+    "ID": 346,
+    "Name": "TM19",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF11\uFF19",
+      "TM19",
+      "CT19",
+      "MT19",
+      "TM19",
+      "MT19",
+      "\uAE30\uC220\uBA38\uC2E019",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF11\uFF19",
+      "TM19"
+    ]
+  },
+  {
+    "Hash": "lm",
+    "ID": 347,
+    "Name": "TM20",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF12\uFF10",
+      "TM20",
+      "CT20",
+      "MT20",
+      "TM20",
+      "MT20",
+      "\uAE30\uC220\uBA38\uC2E020",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF12\uFF10",
+      "TM20"
+    ]
+  },
+  {
+    "Hash": "ln",
+    "ID": 348,
+    "Name": "TM21",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF12\uFF11",
+      "TM21",
+      "CT21",
+      "MT21",
+      "TM21",
+      "MT21",
+      "\uAE30\uC220\uBA38\uC2E021",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF12\uFF11",
+      "TM21"
+    ]
+  },
+  {
+    "Hash": "lo",
+    "ID": 349,
+    "Name": "TM22",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF12\uFF12",
+      "TM22",
+      "CT22",
+      "MT22",
+      "TM22",
+      "MT22",
+      "\uAE30\uC220\uBA38\uC2E022",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF12\uFF12",
+      "TM22"
+    ]
+  },
+  {
+    "Hash": "lp",
+    "ID": 350,
+    "Name": "TM23",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF12\uFF13",
+      "TM23",
+      "CT23",
+      "MT23",
+      "TM23",
+      "MT23",
+      "\uAE30\uC220\uBA38\uC2E023",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF12\uFF13",
+      "TM23"
+    ]
+  },
+  {
+    "Hash": "lq",
+    "ID": 351,
+    "Name": "TM24",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF12\uFF14",
+      "TM24",
+      "CT24",
+      "MT24",
+      "TM24",
+      "MT24",
+      "\uAE30\uC220\uBA38\uC2E024",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF12\uFF14",
+      "TM24"
+    ]
+  },
+  {
+    "Hash": "lr",
+    "ID": 352,
+    "Name": "TM25",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF12\uFF15",
+      "TM25",
+      "CT25",
+      "MT25",
+      "TM25",
+      "MT25",
+      "\uAE30\uC220\uBA38\uC2E025",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF12\uFF15",
+      "TM25"
+    ]
+  },
+  {
+    "Hash": "ls",
+    "ID": 353,
+    "Name": "TM26",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF12\uFF16",
+      "TM26",
+      "CT26",
+      "MT26",
+      "TM26",
+      "MT26",
+      "\uAE30\uC220\uBA38\uC2E026",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF12\uFF16",
+      "TM26"
+    ]
+  },
+  {
+    "Hash": "lt",
+    "ID": 354,
+    "Name": "TM27",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF12\uFF17",
+      "TM27",
+      "CT27",
+      "MT27",
+      "TM27",
+      "MT27",
+      "\uAE30\uC220\uBA38\uC2E027",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF12\uFF17",
+      "TM27"
+    ]
+  },
+  {
+    "Hash": "lu",
+    "ID": 355,
+    "Name": "TM28",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF12\uFF18",
+      "TM28",
+      "CT28",
+      "MT28",
+      "TM28",
+      "MT28",
+      "\uAE30\uC220\uBA38\uC2E028",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF12\uFF18",
+      "TM28"
+    ]
+  },
+  {
+    "Hash": "lv",
+    "ID": 356,
+    "Name": "TM29",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF12\uFF19",
+      "TM29",
+      "CT29",
+      "MT29",
+      "TM29",
+      "MT29",
+      "\uAE30\uC220\uBA38\uC2E029",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF12\uFF19",
+      "TM29"
+    ]
+  },
+  {
+    "Hash": "lw",
+    "ID": 357,
+    "Name": "TM30",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF13\uFF10",
+      "TM30",
+      "CT30",
+      "MT30",
+      "TM30",
+      "MT30",
+      "\uAE30\uC220\uBA38\uC2E030",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF13\uFF10",
+      "TM30"
+    ]
+  },
+  {
+    "Hash": "lx",
+    "ID": 358,
+    "Name": "TM31",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF13\uFF11",
+      "TM31",
+      "CT31",
+      "MT31",
+      "TM31",
+      "MT31",
+      "\uAE30\uC220\uBA38\uC2E031",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF13\uFF11",
+      "TM31"
+    ]
+  },
+  {
+    "Hash": "ly",
+    "ID": 359,
+    "Name": "TM32",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF13\uFF12",
+      "TM32",
+      "CT32",
+      "MT32",
+      "TM32",
+      "MT32",
+      "\uAE30\uC220\uBA38\uC2E032",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF13\uFF12",
+      "TM32"
+    ]
+  },
+  {
+    "Hash": "lz",
+    "ID": 360,
+    "Name": "TM33",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF13\uFF13",
+      "TM33",
+      "CT33",
+      "MT33",
+      "TM33",
+      "MT33",
+      "\uAE30\uC220\uBA38\uC2E033",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF13\uFF13",
+      "TM33"
+    ]
+  },
+  {
+    "Hash": "ma",
+    "ID": 361,
+    "Name": "TM34",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF13\uFF14",
+      "TM34",
+      "CT34",
+      "MT34",
+      "TM34",
+      "MT34",
+      "\uAE30\uC220\uBA38\uC2E034",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF13\uFF14",
+      "TM34"
+    ]
+  },
+  {
+    "Hash": "mb",
+    "ID": 362,
+    "Name": "TM35",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF13\uFF15",
+      "TM35",
+      "CT35",
+      "MT35",
+      "TM35",
+      "MT35",
+      "\uAE30\uC220\uBA38\uC2E035",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF13\uFF15",
+      "TM35"
+    ]
+  },
+  {
+    "Hash": "mc",
+    "ID": 363,
+    "Name": "TM36",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF13\uFF16",
+      "TM36",
+      "CT36",
+      "MT36",
+      "TM36",
+      "MT36",
+      "\uAE30\uC220\uBA38\uC2E036",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF13\uFF16",
+      "TM36"
+    ]
+  },
+  {
+    "Hash": "md",
+    "ID": 364,
+    "Name": "TM37",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF13\uFF17",
+      "TM37",
+      "CT37",
+      "MT37",
+      "TM37",
+      "MT37",
+      "\uAE30\uC220\uBA38\uC2E037",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF13\uFF17",
+      "TM37"
+    ]
+  },
+  {
+    "Hash": "me",
+    "ID": 365,
+    "Name": "TM38",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF13\uFF18",
+      "TM38",
+      "CT38",
+      "MT38",
+      "TM38",
+      "MT38",
+      "\uAE30\uC220\uBA38\uC2E038",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF13\uFF18",
+      "TM38"
+    ]
+  },
+  {
+    "Hash": "mf",
+    "ID": 366,
+    "Name": "TM39",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF13\uFF19",
+      "TM39",
+      "CT39",
+      "MT39",
+      "TM39",
+      "MT39",
+      "\uAE30\uC220\uBA38\uC2E039",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF13\uFF19",
+      "TM39"
+    ]
+  },
+  {
+    "Hash": "mg",
+    "ID": 367,
+    "Name": "TM40",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF14\uFF10",
+      "TM40",
+      "CT40",
+      "MT40",
+      "TM40",
+      "MT40",
+      "\uAE30\uC220\uBA38\uC2E040",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF14\uFF10",
+      "TM40"
+    ]
+  },
+  {
+    "Hash": "mh",
+    "ID": 368,
+    "Name": "TM41",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF14\uFF11",
+      "TM41",
+      "CT41",
+      "MT41",
+      "TM41",
+      "MT41",
+      "\uAE30\uC220\uBA38\uC2E041",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF14\uFF11",
+      "TM41"
+    ]
+  },
+  {
+    "Hash": "mi",
+    "ID": 369,
+    "Name": "TM42",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF14\uFF12",
+      "TM42",
+      "CT42",
+      "MT42",
+      "TM42",
+      "MT42",
+      "\uAE30\uC220\uBA38\uC2E042",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF14\uFF12",
+      "TM42"
+    ]
+  },
+  {
+    "Hash": "mj",
+    "ID": 370,
+    "Name": "TM43",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF14\uFF13",
+      "TM43",
+      "CT43",
+      "MT43",
+      "TM43",
+      "MT43",
+      "\uAE30\uC220\uBA38\uC2E043",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF14\uFF13",
+      "TM43"
+    ]
+  },
+  {
+    "Hash": "mk",
+    "ID": 371,
+    "Name": "TM44",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF14\uFF14",
+      "TM44",
+      "CT44",
+      "MT44",
+      "TM44",
+      "MT44",
+      "\uAE30\uC220\uBA38\uC2E044",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF14\uFF14",
+      "TM44"
+    ]
+  },
+  {
+    "Hash": "ml",
+    "ID": 372,
+    "Name": "TM45",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF14\uFF15",
+      "TM45",
+      "CT45",
+      "MT45",
+      "TM45",
+      "MT45",
+      "\uAE30\uC220\uBA38\uC2E045",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF14\uFF15",
+      "TM45"
+    ]
+  },
+  {
+    "Hash": "mm",
+    "ID": 373,
+    "Name": "TM46",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF14\uFF16",
+      "TM46",
+      "CT46",
+      "MT46",
+      "TM46",
+      "MT46",
+      "\uAE30\uC220\uBA38\uC2E046",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF14\uFF16",
+      "TM46"
+    ]
+  },
+  {
+    "Hash": "mn",
+    "ID": 374,
+    "Name": "TM47",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF14\uFF17",
+      "TM47",
+      "CT47",
+      "MT47",
+      "TM47",
+      "MT47",
+      "\uAE30\uC220\uBA38\uC2E047",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF14\uFF17",
+      "TM47"
+    ]
+  },
+  {
+    "Hash": "mo",
+    "ID": 375,
+    "Name": "TM48",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF14\uFF18",
+      "TM48",
+      "CT48",
+      "MT48",
+      "TM48",
+      "MT48",
+      "\uAE30\uC220\uBA38\uC2E048",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF14\uFF18",
+      "TM48"
+    ]
+  },
+  {
+    "Hash": "mp",
+    "ID": 376,
+    "Name": "TM49",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF14\uFF19",
+      "TM49",
+      "CT49",
+      "MT49",
+      "TM49",
+      "MT49",
+      "\uAE30\uC220\uBA38\uC2E049",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF14\uFF19",
+      "TM49"
+    ]
+  },
+  {
+    "Hash": "mq",
+    "ID": 377,
+    "Name": "TM50",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF15\uFF10",
+      "TM50",
+      "CT50",
+      "MT50",
+      "TM50",
+      "MT50",
+      "\uAE30\uC220\uBA38\uC2E050",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF15\uFF10",
+      "TM50"
+    ]
+  },
+  {
+    "Hash": "mr",
+    "ID": 378,
+    "Name": "TM51",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF15\uFF11",
+      "TM51",
+      "CT51",
+      "MT51",
+      "TM51",
+      "MT51",
+      "\uAE30\uC220\uBA38\uC2E051",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF15\uFF11",
+      "TM51"
+    ]
+  },
+  {
+    "Hash": "ms",
+    "ID": 379,
+    "Name": "TM52",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF15\uFF12",
+      "TM52",
+      "CT52",
+      "MT52",
+      "TM52",
+      "MT52",
+      "\uAE30\uC220\uBA38\uC2E052",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF15\uFF12",
+      "TM52"
+    ]
+  },
+  {
+    "Hash": "mt",
+    "ID": 380,
+    "Name": "TM53",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF15\uFF13",
+      "TM53",
+      "CT53",
+      "MT53",
+      "TM53",
+      "MT53",
+      "\uAE30\uC220\uBA38\uC2E053",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF15\uFF13",
+      "TM53"
+    ]
+  },
+  {
+    "Hash": "mu",
+    "ID": 381,
+    "Name": "TM54",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF15\uFF14",
+      "TM54",
+      "CT54",
+      "MT54",
+      "TM54",
+      "MT54",
+      "\uAE30\uC220\uBA38\uC2E054",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF15\uFF14",
+      "TM54"
+    ]
+  },
+  {
+    "Hash": "mv",
+    "ID": 382,
+    "Name": "TM55",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF15\uFF15",
+      "TM55",
+      "CT55",
+      "MT55",
+      "TM55",
+      "MT55",
+      "\uAE30\uC220\uBA38\uC2E055",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF15\uFF15",
+      "TM55"
+    ]
+  },
+  {
+    "Hash": "mw",
+    "ID": 383,
+    "Name": "TM56",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF15\uFF16",
+      "TM56",
+      "CT56",
+      "MT56",
+      "TM56",
+      "MT56",
+      "\uAE30\uC220\uBA38\uC2E056",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF15\uFF16",
+      "TM56"
+    ]
+  },
+  {
+    "Hash": "mx",
+    "ID": 384,
+    "Name": "TM57",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF15\uFF17",
+      "TM57",
+      "CT57",
+      "MT57",
+      "TM57",
+      "MT57",
+      "\uAE30\uC220\uBA38\uC2E057",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF15\uFF17",
+      "TM57"
+    ]
+  },
+  {
+    "Hash": "my",
+    "ID": 385,
+    "Name": "TM58",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF15\uFF18",
+      "TM58",
+      "CT58",
+      "MT58",
+      "TM58",
+      "MT58",
+      "\uAE30\uC220\uBA38\uC2E058",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF15\uFF18",
+      "TM58"
+    ]
+  },
+  {
+    "Hash": "mz",
+    "ID": 386,
+    "Name": "TM59",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF15\uFF19",
+      "TM59",
+      "CT59",
+      "MT59",
+      "TM59",
+      "MT59",
+      "\uAE30\uC220\uBA38\uC2E059",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF15\uFF19",
+      "TM59"
+    ]
+  },
+  {
+    "Hash": "na",
+    "ID": 387,
+    "Name": "TM60",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF16\uFF10",
+      "TM60",
+      "CT60",
+      "MT60",
+      "TM60",
+      "MT60",
+      "\uAE30\uC220\uBA38\uC2E060",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF16\uFF10",
+      "TM60"
+    ]
+  },
+  {
+    "Hash": "nb",
+    "ID": 388,
+    "Name": "TM61",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF16\uFF11",
+      "TM61",
+      "CT61",
+      "MT61",
+      "TM61",
+      "MT61",
+      "\uAE30\uC220\uBA38\uC2E061",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF16\uFF11",
+      "TM61"
+    ]
+  },
+  {
+    "Hash": "nc",
+    "ID": 389,
+    "Name": "TM62",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF16\uFF12",
+      "TM62",
+      "CT62",
+      "MT62",
+      "TM62",
+      "MT62",
+      "\uAE30\uC220\uBA38\uC2E062",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF16\uFF12",
+      "TM62"
+    ]
+  },
+  {
+    "Hash": "nd",
+    "ID": 390,
+    "Name": "TM63",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF16\uFF13",
+      "TM63",
+      "CT63",
+      "MT63",
+      "TM63",
+      "MT63",
+      "\uAE30\uC220\uBA38\uC2E063",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF16\uFF13",
+      "TM63"
+    ]
+  },
+  {
+    "Hash": "ne",
+    "ID": 391,
+    "Name": "TM64",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF16\uFF14",
+      "TM64",
+      "CT64",
+      "MT64",
+      "TM64",
+      "MT64",
+      "\uAE30\uC220\uBA38\uC2E064",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF16\uFF14",
+      "TM64"
+    ]
+  },
+  {
+    "Hash": "nf",
+    "ID": 392,
+    "Name": "TM65",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF16\uFF15",
+      "TM65",
+      "CT65",
+      "MT65",
+      "TM65",
+      "MT65",
+      "\uAE30\uC220\uBA38\uC2E065",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF16\uFF15",
+      "TM65"
+    ]
+  },
+  {
+    "Hash": "ng",
+    "ID": 393,
+    "Name": "TM66",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF16\uFF16",
+      "TM66",
+      "CT66",
+      "MT66",
+      "TM66",
+      "MT66",
+      "\uAE30\uC220\uBA38\uC2E066",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF16\uFF16",
+      "TM66"
+    ]
+  },
+  {
+    "Hash": "nh",
+    "ID": 394,
+    "Name": "TM67",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF16\uFF17",
+      "TM67",
+      "CT67",
+      "MT67",
+      "TM67",
+      "MT67",
+      "\uAE30\uC220\uBA38\uC2E067",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF16\uFF17",
+      "TM67"
+    ]
+  },
+  {
+    "Hash": "ni",
+    "ID": 395,
+    "Name": "TM68",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF16\uFF18",
+      "TM68",
+      "CT68",
+      "MT68",
+      "TM68",
+      "MT68",
+      "\uAE30\uC220\uBA38\uC2E068",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF16\uFF18",
+      "TM68"
+    ]
+  },
+  {
+    "Hash": "nj",
+    "ID": 396,
+    "Name": "TM69",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF16\uFF19",
+      "TM69",
+      "CT69",
+      "MT69",
+      "TM69",
+      "MT69",
+      "\uAE30\uC220\uBA38\uC2E069",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF16\uFF19",
+      "TM69"
+    ]
+  },
+  {
+    "Hash": "nk",
+    "ID": 397,
+    "Name": "TM70",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF17\uFF10",
+      "TM70",
+      "CT70",
+      "MT70",
+      "TM70",
+      "MT70",
+      "\uAE30\uC220\uBA38\uC2E070",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF17\uFF10",
+      "TM70"
+    ]
+  },
+  {
+    "Hash": "nl",
+    "ID": 398,
+    "Name": "TM71",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF17\uFF11",
+      "TM71",
+      "CT71",
+      "MT71",
+      "TM71",
+      "MT71",
+      "\uAE30\uC220\uBA38\uC2E071",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF17\uFF11",
+      "TM71"
+    ]
+  },
+  {
+    "Hash": "nm",
+    "ID": 399,
+    "Name": "TM72",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF17\uFF12",
+      "TM72",
+      "CT72",
+      "MT72",
+      "TM72",
+      "MT72",
+      "\uAE30\uC220\uBA38\uC2E072",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF17\uFF12",
+      "TM72"
+    ]
+  },
+  {
+    "Hash": "nn",
+    "ID": 400,
+    "Name": "TM73",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF17\uFF13",
+      "TM73",
+      "CT73",
+      "MT73",
+      "TM73",
+      "MT73",
+      "\uAE30\uC220\uBA38\uC2E073",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF17\uFF13",
+      "TM73"
+    ]
+  },
+  {
+    "Hash": "no",
+    "ID": 401,
+    "Name": "TM74",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF17\uFF14",
+      "TM74",
+      "CT74",
+      "MT74",
+      "TM74",
+      "MT74",
+      "\uAE30\uC220\uBA38\uC2E074",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF17\uFF14",
+      "TM74"
+    ]
+  },
+  {
+    "Hash": "np",
+    "ID": 402,
+    "Name": "TM75",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF17\uFF15",
+      "TM75",
+      "CT75",
+      "MT75",
+      "TM75",
+      "MT75",
+      "\uAE30\uC220\uBA38\uC2E075",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF17\uFF15",
+      "TM75"
+    ]
+  },
+  {
+    "Hash": "nq",
+    "ID": 403,
+    "Name": "TM76",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF17\uFF16",
+      "TM76",
+      "CT76",
+      "MT76",
+      "TM76",
+      "MT76",
+      "\uAE30\uC220\uBA38\uC2E076",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF17\uFF16",
+      "TM76"
+    ]
+  },
+  {
+    "Hash": "nr",
+    "ID": 404,
+    "Name": "TM77",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF17\uFF17",
+      "TM77",
+      "CT77",
+      "MT77",
+      "TM77",
+      "MT77",
+      "\uAE30\uC220\uBA38\uC2E077",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF17\uFF17",
+      "TM77"
+    ]
+  },
+  {
+    "Hash": "ns",
+    "ID": 405,
+    "Name": "TM78",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF17\uFF18",
+      "TM78",
+      "CT78",
+      "MT78",
+      "TM78",
+      "MT78",
+      "\uAE30\uC220\uBA38\uC2E078",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF17\uFF18",
+      "TM78"
+    ]
+  },
+  {
+    "Hash": "nt",
+    "ID": 406,
+    "Name": "TM79",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF17\uFF19",
+      "TM79",
+      "CT79",
+      "MT79",
+      "TM79",
+      "MT79",
+      "\uAE30\uC220\uBA38\uC2E079",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF17\uFF19",
+      "TM79"
+    ]
+  },
+  {
+    "Hash": "nu",
+    "ID": 407,
+    "Name": "TM80",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF18\uFF10",
+      "TM80",
+      "CT80",
+      "MT80",
+      "TM80",
+      "MT80",
+      "\uAE30\uC220\uBA38\uC2E080",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF18\uFF10",
+      "TM80"
+    ]
+  },
+  {
+    "Hash": "nv",
+    "ID": 408,
+    "Name": "TM81",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF18\uFF11",
+      "TM81",
+      "CT81",
+      "MT81",
+      "TM81",
+      "MT81",
+      "\uAE30\uC220\uBA38\uC2E081",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF18\uFF11",
+      "TM81"
+    ]
+  },
+  {
+    "Hash": "nw",
+    "ID": 409,
+    "Name": "TM82",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF18\uFF12",
+      "TM82",
+      "CT82",
+      "MT82",
+      "TM82",
+      "MT82",
+      "\uAE30\uC220\uBA38\uC2E082",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF18\uFF12",
+      "TM82"
+    ]
+  },
+  {
+    "Hash": "nx",
+    "ID": 410,
+    "Name": "TM83",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF18\uFF13",
+      "TM83",
+      "CT83",
+      "MT83",
+      "TM83",
+      "MT83",
+      "\uAE30\uC220\uBA38\uC2E083",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF18\uFF13",
+      "TM83"
+    ]
+  },
+  {
+    "Hash": "ny",
+    "ID": 411,
+    "Name": "TM84",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF18\uFF14",
+      "TM84",
+      "CT84",
+      "MT84",
+      "TM84",
+      "MT84",
+      "\uAE30\uC220\uBA38\uC2E084",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF18\uFF14",
+      "TM84"
+    ]
+  },
+  {
+    "Hash": "nz",
+    "ID": 412,
+    "Name": "TM85",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF18\uFF15",
+      "TM85",
+      "CT85",
+      "MT85",
+      "TM85",
+      "MT85",
+      "\uAE30\uC220\uBA38\uC2E085",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF18\uFF15",
+      "TM85"
+    ]
+  },
+  {
+    "Hash": "oa",
+    "ID": 413,
+    "Name": "TM86",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF18\uFF16",
+      "TM86",
+      "CT86",
+      "MT86",
+      "TM86",
+      "MT86",
+      "\uAE30\uC220\uBA38\uC2E086",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF18\uFF16",
+      "TM86"
+    ]
+  },
+  {
+    "Hash": "ob",
+    "ID": 414,
+    "Name": "TM87",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF18\uFF17",
+      "TM87",
+      "CT87",
+      "MT87",
+      "TM87",
+      "MT87",
+      "\uAE30\uC220\uBA38\uC2E087",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF18\uFF17",
+      "TM87"
+    ]
+  },
+  {
+    "Hash": "oc",
+    "ID": 415,
+    "Name": "TM88",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF18\uFF18",
+      "TM88",
+      "CT88",
+      "MT88",
+      "TM88",
+      "MT88",
+      "\uAE30\uC220\uBA38\uC2E088",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF18\uFF18",
+      "TM88"
+    ]
+  },
+  {
+    "Hash": "od",
+    "ID": 416,
+    "Name": "TM89",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF18\uFF19",
+      "TM89",
+      "CT89",
+      "MT89",
+      "TM89",
+      "MT89",
+      "\uAE30\uC220\uBA38\uC2E089",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF18\uFF19",
+      "TM89"
+    ]
+  },
+  {
+    "Hash": "oe",
+    "ID": 417,
+    "Name": "TM90",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF19\uFF10",
+      "TM90",
+      "CT90",
+      "MT90",
+      "TM90",
+      "MT90",
+      "\uAE30\uC220\uBA38\uC2E090",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF19\uFF10",
+      "TM90"
+    ]
+  },
+  {
+    "Hash": "of",
+    "ID": 418,
+    "Name": "TM91",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF19\uFF11",
+      "TM91",
+      "CT91",
+      "MT91",
+      "TM91",
+      "MT91",
+      "\uAE30\uC220\uBA38\uC2E091",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF19\uFF11",
+      "TM91"
+    ]
+  },
+  {
+    "Hash": "og",
+    "ID": 419,
+    "Name": "TM92",
+    "KeyWords": [
+      "\u308F\u3056\u30DE\u30B7\u30F3\uFF19\uFF12",
+      "TM92",
+      "CT92",
+      "MT92",
+      "TM92",
+      "MT92",
+      "\uAE30\uC220\uBA38\uC2E092",
+      "\u62DB\u5F0F\u5B66\u4E60\u5668\uFF19\uFF12",
+      "TM92"
+    ]
+  },
+  {
+    "Hash": "oh",
+    "ID": 420,
+    "Name": "HM01",
+    "KeyWords": [
+      "\u3072\u3067\u3093\u30DE\u30B7\u30F3\uFF10\uFF11",
+      "HM01",
+      "CS01",
+      "MN01",
+      "VM01",
+      "MO01",
+      "\uBE44\uC804\uBA38\uC2E001",
+      "\u79D8\u4F20\u5B66\u4E60\u5668\uFF10\uFF11",
+      "HM01"
+    ]
+  },
+  {
+    "Hash": "oi",
+    "ID": 421,
+    "Name": "HM02",
+    "KeyWords": [
+      "\u3072\u3067\u3093\u30DE\u30B7\u30F3\uFF10\uFF12",
+      "HM02",
+      "CS02",
+      "MN02",
+      "VM02",
+      "MO02",
+      "\uBE44\uC804\uBA38\uC2E002",
+      "\u79D8\u4F20\u5B66\u4E60\u5668\uFF10\uFF12",
+      "HM02"
+    ]
+  },
+  {
+    "Hash": "oj",
+    "ID": 422,
+    "Name": "HM03",
+    "KeyWords": [
+      "\u3072\u3067\u3093\u30DE\u30B7\u30F3\uFF10\uFF13",
+      "HM03",
+      "CS03",
+      "MN03",
+      "VM03",
+      "MO03",
+      "\uBE44\uC804\uBA38\uC2E003",
+      "\u79D8\u4F20\u5B66\u4E60\u5668\uFF10\uFF13",
+      "HM03"
+    ]
+  },
+  {
+    "Hash": "ok",
+    "ID": 423,
+    "Name": "HM04",
+    "KeyWords": [
+      "\u3072\u3067\u3093\u30DE\u30B7\u30F3\uFF10\uFF14",
+      "HM04",
+      "CS04",
+      "MN04",
+      "VM04",
+      "MO04",
+      "\uBE44\uC804\uBA38\uC2E004",
+      "\u79D8\u4F20\u5B66\u4E60\u5668\uFF10\uFF14",
+      "HM04"
+    ]
+  },
+  {
+    "Hash": "ol",
+    "ID": 424,
+    "Name": "HM05",
+    "KeyWords": [
+      "\u3072\u3067\u3093\u30DE\u30B7\u30F3\uFF10\uFF15",
+      "HM05",
+      "CS05",
+      "MN05",
+      "VM05",
+      "MO05",
+      "\uBE44\uC804\uBA38\uC2E005",
+      "\u79D8\u4F20\u5B66\u4E60\u5668\uFF10\uFF15",
+      "HM05"
+    ]
+  },
+  {
+    "Hash": "om",
+    "ID": 425,
+    "Name": "HM06",
+    "KeyWords": [
+      "\u3072\u3067\u3093\u30DE\u30B7\u30F3\uFF10\uFF16",
+      "HM06",
+      "CS06",
+      "MN06",
+      "VM06",
+      "MO06",
+      "\uBE44\uC804\uBA38\uC2E006",
+      "\u79D8\u4F20\u5B66\u4E60\u5668\uFF10\uFF16",
+      "HM06"
+    ]
+  },
+  {
+    "Hash": "on",
+    "ID": 426,
+    "Name": "HM07 (G4)",
+    "KeyWords": [
+      "\u3072\u3067\u3093\u30DE\u30B7\u30F3\uFF107 (G4)",
+      "HM07 (G4)",
+      "CS07 (G4)",
+      "MN07 (G4)",
+      "VM07 (G4)",
+      "MO07 (G4)",
+      "\uBE44\uC804\uBA38\uC2E007 (G4)",
+      "\u79D8\u4F20\u5B66\u4E60\u5668\uFF107 (G4)",
+      "HM07 (G4)"
+    ]
+  },
+  {
+    "Hash": "oo",
+    "ID": 427,
+    "Name": "HM08 (G4)",
+    "KeyWords": [
+      "\u3072\u3067\u3093\u30DE\u30B7\u30F3\uFF108 (G4)",
+      "HM08 (G4)",
+      "CS08 (G4)",
+      "MN08 (G4)",
+      "VM08 (G4)",
+      "MO08 (G4)",
+      "\uBE44\uC804\uBA38\uC2E008 (G4)",
+      "\u79D8\u4F20\u5B66\u4E60\u5668\uFF108 (G4)",
+      "HM08 (G4)"
+    ]
+  },
+  {
+    "Hash": "op",
+    "ID": 492,
+    "Name": "Fast Ball",
+    "KeyWords": [
+      "\u30B9\u30D4\u30FC\u30C9\u30DC\u30FC\u30EB",
+      "Fast Ball",
+      "Speed Ball",
+      "Rapid Ball",
+      "Turboball",
+      "Rapid Ball",
+      "\uC2A4\uD53C\uB4DC\uBCFC",
+      "\u901F\u5EA6\u7403",
+      "Fast Ball"
+    ]
+  },
+  {
+    "Hash": "oq",
+    "ID": 493,
+    "Name": "Level Ball",
+    "KeyWords": [
+      "\u30EC\u30D9\u30EB\u30DC\u30FC\u30EB",
+      "Level Ball",
+      "Niveau Ball",
+      "Level Ball",
+      "Levelball",
+      "Nivel Ball",
+      "\uB808\uBCA8\uBCFC",
+      "\u7B49\u7EA7\u7403",
+      "Level Ball"
+    ]
+  },
+  {
+    "Hash": "or",
+    "ID": 494,
+    "Name": "Lure Ball",
+    "KeyWords": [
+      "\u30EB\u30A2\u30FC\u30DC\u30FC\u30EB",
+      "Lure Ball",
+      "App\u00E2t Ball",
+      "Esca Ball",
+      "K\u00F6derball",
+      "Cebo Ball",
+      "\uB8E8\uC5B4\uBCFC",
+      "\u8BF1\u9975\u7403",
+      "Lure Ball"
+    ]
+  },
+  {
+    "Hash": "os",
+    "ID": 495,
+    "Name": "Heavy Ball",
+    "KeyWords": [
+      "\u30D8\u30D3\u30FC\u30DC\u30FC\u30EB",
+      "Heavy Ball",
+      "Masse Ball",
+      "Peso Ball",
+      "Schwerball",
+      "Peso Ball",
+      "\uD5E4\uBE44\uBCFC",
+      "\u6C89\u91CD\u7403",
+      "Heavy Ball"
+    ]
+  },
+  {
+    "Hash": "ot",
+    "ID": 496,
+    "Name": "Love Ball",
+    "KeyWords": [
+      "\u30E9\u30D6\u30E9\u30D6\u30DC\u30FC\u30EB",
+      "Love Ball",
+      "Love Ball",
+      "Love Ball",
+      "Sympaball",
+      "Amor Ball",
+      "\uB7EC\uBE0C\uB7EC\uBE0C\uBCFC",
+      "\u751C\u871C\u7403",
+      "Love Ball"
+    ]
+  },
+  {
+    "Hash": "ou",
+    "ID": 497,
+    "Name": "Friend Ball",
+    "KeyWords": [
+      "\u30D5\u30EC\u30F3\u30C9\u30DC\u30FC\u30EB",
+      "Friend Ball",
+      "Copain Ball",
+      "Friend Ball",
+      "Freundesball",
+      "Amigo Ball",
+      "\uD504\uB80C\uB4DC\uBCFC",
+      "\u53CB\u53CB\u7403",
+      "Friend Ball"
+    ]
+  },
+  {
+    "Hash": "ov",
+    "ID": 498,
+    "Name": "Moon Ball",
+    "KeyWords": [
+      "\u30E0\u30FC\u30F3\u30DC\u30FC\u30EB",
+      "Moon Ball",
+      "Lune Ball",
+      "Luna Ball",
+      "Mondball",
+      "Luna Ball",
+      "\uBB38\uBCFC",
+      "\u6708\u4EAE\u7403",
+      "Moon Ball"
+    ]
+  },
+  {
+    "Hash": "ow",
+    "ID": 499,
+    "Name": "Sport Ball",
+    "KeyWords": [
+      "\u30B3\u30F3\u30DA\u30DC\u30FC\u30EB",
+      "Sport Ball",
+      "Comp\u00E9t\u2019Ball",
+      "Gara Ball",
+      "Turnierball",
+      "Competi Ball",
+      "\uCF64\uD398\uBCFC",
+      "\u7ADE\u8D5B\u7403",
+      "Sport Ball"
+    ]
+  },
+  {
+    "Hash": "ox",
+    "ID": 644,
+    "Name": "Pixie Plate",
+    "KeyWords": [
+      "\u305B\u3044\u308C\u3044\u30D7\u30EC\u30FC\u30C8",
+      "Pixie Plate",
+      "Plaque Pixie",
+      "Lastraspiritello",
+      "Feentafel",
+      "Tabla Duende",
+      "\uC815\uB839\uD50C\uB808\uC774\uD2B8",
+      "\u5996\u7CBE\u77F3\u677F",
+      "Pixie Plate"
+    ]
+  },
+  {
+    "Hash": "oy",
+    "ID": 645,
+    "Name": "Ability Capsule",
+    "KeyWords": [
+      "\u3068\u304F\u305B\u3044\u30AB\u30D7\u30BB\u30EB",
+      "Ability Capsule",
+      "Pilule Talent",
+      "Capsula abilit\u00E0",
+      "F\u00E4higk.-Kapsel",
+      "C\u00E1ps. Habilidad",
+      "\uD2B9\uC131\uCEA1\uC290",
+      "\u7279\u6027\u80F6\u56CA",
+      "Ability Capsule"
+    ]
+  },
+  {
+    "Hash": "oz",
+    "ID": 686,
+    "Name": "Roseli Berry",
+    "KeyWords": [
+      "\u30ED\u30BC\u30EB\u306E\u307F",
+      "Roseli Berry",
+      "Baie Selro",
+      "Baccarcad\u00E8",
+      "Hibisbeere",
+      "Baya Hibis",
+      "\uB85C\uC140\uC5F4\uB9E4",
+      "\u6D1B\u73AB\u679C",
+      "Roseli Berry"
+    ]
+  },
+  {
+    "Hash": "pa",
+    "ID": 795,
+    "Name": "Bottle Cap",
+    "KeyWords": [
+      "\u304E\u3093\u306E\u304A\u3046\u304B\u3093",
+      "Bottle Cap",
+      "Capsule d\u2019Argent",
+      "Tappo d\u2019argento",
+      "Silberkronkorken",
+      "Chapa Plateada",
+      "\uC740\uC655\uAD00",
+      "\u94F6\u8272\u738B\u51A0",
+      "Bottle Cap"
+    ]
+  },
+  {
+    "Hash": "pb",
+    "ID": 796,
+    "Name": "Gold Bottle Cap",
+    "KeyWords": [
+      "\u304D\u3093\u306E\u304A\u3046\u304B\u3093",
+      "Gold Bottle Cap",
+      "Capsule d\u2019Or",
+      "Tappo d\u2019oro",
+      "Goldkronkorken",
+      "Chapa Dorada",
+      "\uAE08\uC655\uAD00",
+      "\u91D1\u8272\u738B\u51A0",
+      "Gold Bottle Cap"
+    ]
+  },
+  {
+    "Hash": "pc",
+    "ID": 1231,
+    "Name": "Lonely Mint",
+    "KeyWords": [
+      "\u3055\u307F\u3057\u304C\u308A\u30DF\u30F3\u30C8",
+      "Lonely Mint",
+      "Aromate Solo",
+      "Menta Schiva",
+      "Solo-Minze",
+      "Menta Hura\u00F1a",
+      "\uC678\uB85C\uC6C0\uBBFC\uD2B8",
+      "\u6015\u5BC2\u5BDE\u8584\u8377",
+      "Lonely Mint"
+    ]
+  },
+  {
+    "Hash": "pd",
+    "ID": 1232,
+    "Name": "Adamant Mint",
+    "KeyWords": [
+      "\u3044\u3058\u3063\u3071\u308A\u30DF\u30F3\u30C8",
+      "Adamant Mint",
+      "Aromate Rigide",
+      "Menta Decisa",
+      "Hart-Minze",
+      "Menta Firme",
+      "\uACE0\uC9D1\uBBFC\uD2B8",
+      "\u56FA\u6267\u8584\u8377",
+      "Adamant Mint"
+    ]
+  },
+  {
+    "Hash": "pe",
+    "ID": 1233,
+    "Name": "Naughty Mint",
+    "KeyWords": [
+      "\u3084\u3093\u3061\u3083\u30DF\u30F3\u30C8",
+      "Naughty Mint",
+      "Aromate Mauvais",
+      "Menta Birbona",
+      "Frech-Minze",
+      "Menta P\u00EDcara",
+      "\uAC1C\uAD6C\uC7C1\uC774\uBBFC\uD2B8",
+      "\u987D\u76AE\u8584\u8377",
+      "Naughty Mint"
+    ]
+  },
+  {
+    "Hash": "pf",
+    "ID": 1234,
+    "Name": "Brave Mint",
+    "KeyWords": [
+      "\u3086\u3046\u304B\u3093\u30DF\u30F3\u30C8",
+      "Brave Mint",
+      "Aromate Brave",
+      "Menta Audace",
+      "Mutig-Minze",
+      "Menta Audaz",
+      "\uC6A9\uAC10\uBBFC\uD2B8",
+      "\u52C7\u6562\u8584\u8377",
+      "Brave Mint"
+    ]
+  },
+  {
+    "Hash": "pg",
+    "ID": 1235,
+    "Name": "Bold Mint",
+    "KeyWords": [
+      "\u305A\u3076\u3068\u3044\u30DF\u30F3\u30C8",
+      "Bold Mint",
+      "Aromate Assur\u00E9",
+      "Menta Sicura",
+      "K\u00FChn-Minze",
+      "Menta Osada",
+      "\uB300\uB2F4\uBBFC\uD2B8",
+      "\u5927\u80C6\u8584\u8377",
+      "Bold Mint"
+    ]
+  },
+  {
+    "Hash": "ph",
+    "ID": 1236,
+    "Name": "Impish Mint",
+    "KeyWords": [
+      "\u308F\u3093\u3071\u304F\u30DF\u30F3\u30C8",
+      "Impish Mint",
+      "Aromate Malin",
+      "Menta Scaltra",
+      "Pfiffig-Minze",
+      "Menta Agitada",
+      "\uC7A5\uB09C\uAFB8\uB7EC\uAE30\uBBFC\uD2B8",
+      "\u6DD8\u6C14\u8584\u8377",
+      "Impish Mint"
+    ]
+  },
+  {
+    "Hash": "pi",
+    "ID": 1237,
+    "Name": "Lax Mint",
+    "KeyWords": [
+      "\u306E\u3046\u3066\u3093\u304D\u30DF\u30F3\u30C8",
+      "Lax Mint",
+      "Aromate L\u00E2che",
+      "Menta Fiacca",
+      "Lasch-Minze",
+      "Menta Floja",
+      "\uCD10\uB791\uBBFC\uD2B8",
+      "\u4E50\u5929\u8584\u8377",
+      "Lax Mint"
+    ]
+  },
+  {
+    "Hash": "pj",
+    "ID": 1238,
+    "Name": "Relaxed Mint",
+    "KeyWords": [
+      "\u306E\u3093\u304D\u30DF\u30F3\u30C8",
+      "Relaxed Mint",
+      "Aromate Relax",
+      "Menta Placida",
+      "Locker-Minze",
+      "Menta Pl\u00E1cida",
+      "\uBB34\uC0AC\uD0DC\uD3C9\uBBFC\uD2B8",
+      "\u60A0\u95F2\u8584\u8377",
+      "Relaxed Mint"
+    ]
+  },
+  {
+    "Hash": "pk",
+    "ID": 1239,
+    "Name": "Modest Mint",
+    "KeyWords": [
+      "\u3072\u304B\u3048\u3081\u30DF\u30F3\u30C8",
+      "Modest Mint",
+      "Aromate Modeste",
+      "Menta Modesta",
+      "M\u00E4\u00DFig-Minze",
+      "Menta Modesta",
+      "\uC870\uC2EC\uBBFC\uD2B8",
+      "\u5185\u655B\u8584\u8377",
+      "Modest Mint"
+    ]
+  },
+  {
+    "Hash": "pl",
+    "ID": 1240,
+    "Name": "Mild Mint",
+    "KeyWords": [
+      "\u304A\u3063\u3068\u308A\u30DF\u30F3\u30C8",
+      "Mild Mint",
+      "Aromate Doux",
+      "Menta Mite",
+      "Mild-Minze",
+      "Menta Afable",
+      "\uC758\uC813\uBBFC\uD2B8",
+      "\u6162\u541E\u541E\u8584\u8377",
+      "Mild Mint"
+    ]
+  },
+  {
+    "Hash": "pm",
+    "ID": 1241,
+    "Name": "Rash Mint",
+    "KeyWords": [
+      "\u3046\u3063\u304B\u308A\u3084\u30DF\u30F3\u30C8",
+      "Rash Mint",
+      "Aromate Foufou",
+      "Menta Ardente",
+      "Hitzig-Minze",
+      "Menta Alocada",
+      "\uB35C\uB801\uBBFC\uD2B8",
+      "\u9A6C\u864E\u8584\u8377",
+      "Rash Mint"
+    ]
+  },
+  {
+    "Hash": "pn",
+    "ID": 1242,
+    "Name": "Quiet Mint",
+    "KeyWords": [
+      "\u308C\u3044\u305B\u3044\u30DF\u30F3\u30C8",
+      "Quiet Mint",
+      "Aromate Discret",
+      "Menta Quieta",
+      "Ruhig-Minze",
+      "Menta Mansa",
+      "\uB0C9\uC815\uBBFC\uD2B8",
+      "\u51B7\u9759\u8584\u8377",
+      "Quiet Mint"
+    ]
+  },
+  {
+    "Hash": "po",
+    "ID": 1243,
+    "Name": "Calm Mint",
+    "KeyWords": [
+      "\u304A\u3060\u3084\u304B\u30DF\u30F3\u30C8",
+      "Calm Mint",
+      "Aromate Calme",
+      "Menta Calma",
+      "Still-Minze",
+      "Menta Serena",
+      "\uCC28\uBD84\uBBFC\uD2B8",
+      "\u6E29\u548C\u8584\u8377",
+      "Calm Mint"
+    ]
+  },
+  {
+    "Hash": "pp",
+    "ID": 1244,
+    "Name": "Gentle Mint",
+    "KeyWords": [
+      "\u304A\u3068\u306A\u3057\u3044\u30DF\u30F3\u30C8",
+      "Gentle Mint",
+      "Aromate Gentil",
+      "Menta Gentile",
+      "Zart-Minze",
+      "Menta Amable",
+      "\uC58C\uC804\uBBFC\uD2B8",
+      "\u6E29\u987A\u8584\u8377",
+      "Gentle Mint"
+    ]
+  },
+  {
+    "Hash": "pq",
+    "ID": 1245,
+    "Name": "Careful Mint",
+    "KeyWords": [
+      "\u3057\u3093\u3061\u3087\u3046\u30DF\u30F3\u30C8",
+      "Careful Mint",
+      "Aromate Prudent",
+      "Menta Cauta",
+      "Sacht-Minze",
+      "Menta Cauta",
+      "\uC2E0\uC911\uBBFC\uD2B8",
+      "\u614E\u91CD\u8584\u8377",
+      "Careful Mint"
+    ]
+  },
+  {
+    "Hash": "pr",
+    "ID": 1246,
+    "Name": "Sassy Mint",
+    "KeyWords": [
+      "\u306A\u307E\u3044\u304D\u30DF\u30F3\u30C8",
+      "Sassy Mint",
+      "Aromate Malpoli",
+      "Menta Vivace",
+      "Forsch-Minze",
+      "Menta Grosera",
+      "\uAC74\uBC29\uBBFC\uD2B8",
+      "\u81EA\u5927\u8584\u8377",
+      "Sassy Mint"
+    ]
+  },
+  {
+    "Hash": "ps",
+    "ID": 1247,
+    "Name": "Timid Mint",
+    "KeyWords": [
+      "\u304A\u304F\u3073\u3087\u3046\u30DF\u30F3\u30C8",
+      "Timid Mint",
+      "Aromate Timide",
+      "Menta Timida",
+      "Scheu-Minze",
+      "Menta Miedosa",
+      "\uAC81\uC7C1\uC774\uBBFC\uD2B8",
+      "\u80C6\u5C0F\u8584\u8377",
+      "Timid Mint"
+    ]
+  },
+  {
+    "Hash": "pt",
+    "ID": 1248,
+    "Name": "Hasty Mint",
+    "KeyWords": [
+      "\u305B\u3063\u304B\u3061\u30DF\u30F3\u30C8",
+      "Hasty Mint",
+      "Aromate Press\u00E9",
+      "Menta Lesta",
+      "Hastig-Minze",
+      "Menta Activa",
+      "\uC131\uAE09\uBBFC\uD2B8",
+      "\u6025\u8E81\u8584\u8377",
+      "Hasty Mint"
+    ]
+  },
+  {
+    "Hash": "pu",
+    "ID": 1249,
+    "Name": "Jolly Mint",
+    "KeyWords": [
+      "\u3088\u3046\u304D\u30DF\u30F3\u30C8",
+      "Jolly Mint",
+      "Aromate Jovial",
+      "Menta Allegra",
+      "Froh-Minze",
+      "Menta Alegre",
+      "\uBA85\uB791\uBBFC\uD2B8",
+      "\u723D\u6717\u8584\u8377",
+      "Jolly Mint"
+    ]
+  },
+  {
+    "Hash": "pv",
+    "ID": 1250,
+    "Name": "Naive Mint",
+    "KeyWords": [
+      "\u3080\u3058\u3083\u304D\u30DF\u30F3\u30C8",
+      "Naive Mint",
+      "Aromate Na\u00EFf",
+      "Menta Ingenua",
+      "Naiv-Minze",
+      "Menta Ingenua",
+      "\uCC9C\uC9C4\uB09C\uB9CC\uBBFC\uD2B8",
+      "\u5929\u771F\u8584\u8377",
+      "Naive Mint"
+    ]
+  },
+  {
+    "Hash": "pw",
+    "ID": 1251,
+    "Name": "Serious Mint",
+    "KeyWords": [
+      "\u307E\u3058\u3081\u30DF\u30F3\u30C8",
+      "Serious Mint",
+      "Aromate S\u00E9rieux",
+      "Menta Seria",
+      "Ernst-Minze",
+      "Menta Seria",
+      "\uC131\uC2E4\uBBFC\uD2B8",
+      "\u8BA4\u771F\u8584\u8377",
+      "Serious Mint"
+    ]
+  },
+  {
+    "Hash": "px",
+    "ID": 1606,
+    "Name": "Ability Patch",
+    "KeyWords": [
+      "\u3068\u304F\u305B\u3044\u30D1\u30C3\u30C1",
+      "Ability Patch",
+      "Patch Talent",
+      "Cerotto abilit\u00E0",
+      "F\u00E4higk.-Pflaster",
+      "Parche Habilidad",
+      "\uD2B9\uC131\uD328\uCE58",
+      "\u7279\u6027\u818F\u836F",
+      "Ability Patch"
+    ]
+  }
+]
