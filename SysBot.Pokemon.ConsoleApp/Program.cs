@@ -93,7 +93,7 @@ namespace SysBot.Pokemon.ConsoleApp
 
         private static IPokeBotRunner GetRunner(ProgramConfig prog) => prog.Mode switch
         {
-            ProgramMode.PLA => new PokeBotRunnerImpl<PB8>(prog.Hub, new BotFactoryPLA()),
+            ProgramMode.PLA => new PokeBotRunnerImpl<PK85>(prog.Hub, new BotFactoryPLA()),
             _ => throw new IndexOutOfRangeException("Unsupported mode."),
         };
 

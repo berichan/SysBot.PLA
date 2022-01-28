@@ -57,7 +57,7 @@ namespace SysBot.Pokemon
                 pkm.RefreshChecksum();
             }
 
-            pkm.ResetPartyStats();
+            //pkm.ResetPartyStats();
             await SwitchConnection.PointerPoke(pkm.EncryptedPartyData, BoxStartPokemonPointer, token).ConfigureAwait(false);
         }
 

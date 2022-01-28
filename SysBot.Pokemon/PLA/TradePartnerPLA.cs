@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Text;
 using PKHeX.Core;
 
 namespace SysBot.Pokemon
@@ -19,7 +20,7 @@ namespace SysBot.Pokemon
             TID = $"{IDHash % 1_000_000:000000}";
             SID = $"{IDHash / 1_000_000:0000}";
 
-            TrainerName = ReadStringFromRAMObject(trainerNameObject);
+            TrainerName = Encoding.Unicode.GetString(trainerNameObject).Trim();
         }
 
         public const int MaxByteLengthStringObject = 0x14 + 0x1A;

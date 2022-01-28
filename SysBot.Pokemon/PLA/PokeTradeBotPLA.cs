@@ -253,8 +253,8 @@ namespace SysBot.Pokemon
             // Still going through dialog and box opening.
             await Task.Delay(2_000, token).ConfigureAwait(false);
 
-            if (!await IsConnectionPresent(token).ConfigureAwait(false))
-                return PokeTradeResult.TrainerTooSlow;
+            //if (!await IsConnectionPresent(token).ConfigureAwait(false))
+            //    return PokeTradeResult.TrainerTooSlow;
 
             var tradePartner = await GetTradePartnerInfo(token).ConfigureAwait(false);
             //var tradePartnerNID = await GetTradePartnerNID(token).ConfigureAwait(false);
@@ -298,11 +298,11 @@ namespace SysBot.Pokemon
                     for (int i = 0; i < 5; i++)
                         await Click(A, 0_500, token).ConfigureAwait(false);
                 }
-                else if (poke.Type is PokeTradeType.Clone or PokeTradeType.Seed or PokeTradeType.Random)
+                /*else if (poke.Type is PokeTradeType.Clone or PokeTradeType.Seed or PokeTradeType.Random)
                 {
                     for (int i = 0; i < 2; ++i)
                         await Click(B, 0_200, token).ConfigureAwait(false);
-                }
+                }*/
 
                 var offered = await ReadUntilPresentPointer(TradePartnerShowingPointer, 25_000, 1_000, BoxFormatSlotSize, token).ConfigureAwait(false);
                 Log("Pointer is present with a pokemon.");
@@ -400,7 +400,7 @@ namespace SysBot.Pokemon
 
             await Click(A, 3_000, token).ConfigureAwait(false);
             var tradeCounter = 0;
-            while (await IsConnectionPresent(token).ConfigureAwait(false))
+            while (await IsInBox(token).ConfigureAwait(false))
             {
                 await Click(A, 1_000, token).ConfigureAwait(false);
                 tradeCounter++;
@@ -412,7 +412,7 @@ namespace SysBot.Pokemon
                 }
 
                 // We've somehow failed out of the Union Room -- can happen with connection error.
-                if (!await IsConnectionPresent(token).ConfigureAwait(false))
+                if (!await IsInBox(token).ConfigureAwait(false))
                     return PokeTradeResult.TrainerTooSlow;
                 if (tradeCounter >= Hub.Config.Trade.TradeAnimationMaxDelaySeconds)
                     break;
@@ -426,14 +426,14 @@ namespace SysBot.Pokemon
         {
             Log($"Starting new trade, begin talk with trade post owner.");
 
-            await Click(A, 1_000, token).ConfigureAwait(false);
-            await Click(A, 0_300, token).ConfigureAwait(false);
-            await Click(A, 0_800, token).ConfigureAwait(false);
+            await Click(A, 1_200, token).ConfigureAwait(false);
+            await Click(A, 0_500, token).ConfigureAwait(false);
+            await Click(A, 1_800, token).ConfigureAwait(false);
 
             // Trading screen, connect to internet
             await Click(DRIGHT, 0_800, token).ConfigureAwait(false);
 
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 4; i++)
                 await Click(A, 0_300, token).ConfigureAwait(false);
 
             int tries = 20;
@@ -442,7 +442,9 @@ namespace SysBot.Pokemon
                 if (tries-- < 0)
                     return false;
 
-                await Task.Delay(1_000, token).ConfigureAwait(false);
+                await Task.Delay(1_200, token).ConfigureAwait(false);
+                if (!await IsKeyboardOpen(token))   
+                    await Click(A, 0_300, token).ConfigureAwait(false);
             }
 
             await Task.Delay(0_800, token).ConfigureAwait(false);
@@ -456,7 +458,8 @@ namespace SysBot.Pokemon
             await Click(PLUS, 0_600, token).ConfigureAwait(false);
             await Click(PLUS, 1_000, token).ConfigureAwait(false); // in case eaten
 
-            return await IsConnectionPresent(token).ConfigureAwait(false);
+            //return await IsConnectionPresent(token).ConfigureAwait(false);
+            return true;
         }
 
         protected virtual async Task<bool> IsUserBeingShifty(PokeTradeDetail<PK85> detail, CancellationToken token)
@@ -497,7 +500,7 @@ namespace SysBot.Pokemon
                     return false;
             }
 
-            int tries = 30;
+            /*int tries = 30;
             while (await IsConnectionPresent(token).ConfigureAwait(false))
             {
                 if (tries-- < 0)
@@ -506,16 +509,24 @@ namespace SysBot.Pokemon
                 await Click(B, 0_400, token).ConfigureAwait(false);
                 await Click(B, 0_400, token).ConfigureAwait(false);
                 await Click(A, 0_400, token).ConfigureAwait(false);
-            }
+            }*/
 
-            tries = 10;
+            int tries = 30;
             while (!await CanPlayerMove(token).ConfigureAwait(false))
             {
                 if (tries-- < 0)
                     return false;
 
-                await Click(B, 0_400, token).ConfigureAwait(false);
-                await Click(B, 0_400, token).ConfigureAwait(false);
+                await Click(B, 1_000, token).ConfigureAwait(false);
+                if (await IsKeyboardOpen(token).ConfigureAwait(false))
+                {
+                    await Click(B, 0_400, token).ConfigureAwait(false);
+                    await Click(B, 0_400, token).ConfigureAwait(false);
+                }
+                if (!await CanPlayerMove(token).ConfigureAwait(false))
+                    await Click(B, 2_000, token).ConfigureAwait(false);
+                if (!await CanPlayerMove(token).ConfigureAwait(false))
+                    await Click(A, 0_400, token).ConfigureAwait(false);
             }
 
             return true;
@@ -565,7 +576,7 @@ namespace SysBot.Pokemon
         {
             var offset = await SwitchConnection.PointerAll(TradePartnerIDPointer, token).ConfigureAwait(false);
             var id = await SwitchConnection.ReadBytesAbsoluteAsync(offset, 4, token).ConfigureAwait(false);
-            var name = await SwitchConnection.ReadBytesAbsoluteAsync(offset + 0x08, TradePartnerPLA.MaxByteLengthStringObject, token).ConfigureAwait(false);
+            var name = await SwitchConnection.ReadBytesAbsoluteAsync(offset + 0x10, 0x14, token).ConfigureAwait(false);
             return new TradePartnerPLA(id, name);
         }
 
@@ -746,6 +757,20 @@ namespace SysBot.Pokemon
                 Hub.BotSync.Barrier.RemoveParticipant();
                 Log($"Left the Barrier. Count: {Hub.BotSync.Barrier.ParticipantCount}");
             }
+        }
+    }
+
+    public class PartnerDataHolder
+    {
+        public readonly ulong TrainerOnlineID;
+        public readonly string TrainerName;
+        public readonly string TrainerTID;
+
+        public PartnerDataHolder(ulong trainerNid, string trainerName, string trainerTid)
+        {
+            TrainerOnlineID = trainerNid;
+            TrainerName = trainerName;
+            TrainerTID = trainerTid;
         }
     }
 }
