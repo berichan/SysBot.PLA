@@ -13,14 +13,22 @@ namespace SysBot.Pokemon
         public string SID { get; }
         public string TrainerName { get; }
 
-        public TradePartnerPLA(byte[] TIDSID, byte[] trainerNameObject)
+        public byte Game { get; }
+        public byte Language { get; }
+        public byte Gender { get; }
+
+        public TradePartnerPLA(byte[] TIDSID, byte[] idbytes, byte[] trainerNameObject)
         {
             Debug.Assert(TIDSID.Length == 4);
             IDHash = BitConverter.ToUInt32(TIDSID, 0);
             TID = $"{IDHash % 1_000_000:000000}";
             SID = $"{IDHash / 1_000_000:0000}";
 
-            TrainerName = Encoding.Unicode.GetString(trainerNameObject).Trim();
+            Game = idbytes[0];
+            Gender = idbytes[1];
+            Language = idbytes[3];
+
+            TrainerName = Encoding.Unicode.GetString(trainerNameObject).TrimEnd('\0');
         }
 
         public const int MaxByteLengthStringObject = 0x14 + 0x1A;

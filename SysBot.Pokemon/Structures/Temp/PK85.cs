@@ -167,8 +167,8 @@ namespace PKHeX.Core
 
         public override string Nickname
         {
-            get => GetString(0x58, 24);
-            set => SetString(value, 12).CopyTo(Data, 0x58);
+            get => GetString(0x60, 24);
+            set => SetString(value, 12).CopyTo(Data, 0x60);
         }
 
         // 2 bytes for \0, automatically handled above

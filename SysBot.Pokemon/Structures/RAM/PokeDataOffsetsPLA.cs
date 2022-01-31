@@ -15,6 +15,7 @@ namespace SysBot.Pokemon
 
         public static IReadOnlyList<long> TradePartnerShowingPointer = new long[] { 0x427F888, 0x188, 0x78, 0xB0, 0x58, 0x00 };
         public static IReadOnlyList<long> TradePartnerIDPointer = new long[] { 0x42ADCE0, 0xC8, 0x78 };
+        public static IReadOnlyList<long> TradePartnerNIDPointer = new long[] { 0x42665A0, 0x80 };
 
         public static IReadOnlyList<long> BoxOpenPointer = new long[] { 0x42ADC30, 0x08, 0xC48, 0x498 };
 

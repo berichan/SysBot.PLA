@@ -218,6 +218,8 @@ namespace SysBot.Pokemon
             return canMoveState == 0;
         }
 
+        public async Task<ulong> GetTradePartnerNID(CancellationToken token) => BitConverter.ToUInt64(await SwitchConnection.PointerPeek(sizeof(ulong), TradePartnerNIDPointer, token).ConfigureAwait(false), 0);
+
         public async Task<bool> IsKeyboardOpen(CancellationToken token)
         {
             var commandBytes = Encoding.ASCII.GetBytes("isProgramRunning 0x0100000000001008\r\n");

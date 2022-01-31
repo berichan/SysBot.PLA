@@ -257,20 +257,19 @@ namespace SysBot.Pokemon
             //    return PokeTradeResult.TrainerTooSlow;
 
             var tradePartner = await GetTradePartnerInfo(token).ConfigureAwait(false);
-            //var tradePartnerNID = await GetTradePartnerNID(token).ConfigureAwait(false);
-            var tradePartnerNID = 0ul;
+            var tradePartnerNID = await GetTradePartnerNID(token).ConfigureAwait(false);
 
-            /*bool IsSafe = poke.Trainer.ID == 0 || tradePartner.IDHash == 0 ? true : NewAntiAbuse.Instance.LogUser(tradePartner.IDHash, tradePartnerNID, poke.Trainer.ID.ToString(), poke.Trainer.TrainerName, Hub.Config.Trade.MultiAbuseEchoMention);
+            bool IsSafe = poke.Trainer.ID == 0 || tradePartner.IDHash == 0 ? true : NewAntiAbuse.Instance.LogUser(tradePartner.IDHash, tradePartnerNID, poke.Trainer.ID.ToString(), poke.Trainer.TrainerName, Hub.Config.Trade.MultiAbuseEchoMention);
             if (!IsSafe)
             {
                 Log($"Found known abuser: {tradePartner.TrainerName}-{tradePartner.SID}-{tradePartner.TID} ({poke.Trainer.TrainerName}) (NID: {tradePartnerNID})");
                 poke.SendNotification(this, $"Your savedata is associated with a known abuser. Consider not being an abuser, and you will no longer see this message.");
                 await Task.Delay(1_000, token).ConfigureAwait(false);
                 return PokeTradeResult.TrainerTooSlow;
-            }*/
+            }
 
-            Log($"Found trading partner: {tradePartner.TrainerName}-{tradePartner.SID}-{tradePartner.TID} ({poke.Trainer.TrainerName})");
-            //Log($"Found trading partner: {tradePartner.TrainerName}-{tradePartner.SID}-{tradePartner.TID} ({poke.Trainer.TrainerName}) (NID: {tradePartnerNID})");
+            //Log($"Found trading partner: {tradePartner.TrainerName}-{tradePartner.SID}-{tradePartner.TID} ({poke.Trainer.TrainerName})");
+            Log($"Found trading partner: {tradePartner.TrainerName}-{tradePartner.SID}-{tradePartner.TID} ({poke.Trainer.TrainerName}) (NID: {tradePartnerNID})");
             poke.SendNotification(this, $"Found Trading Partner: {tradePartner.TrainerName} SID: {tradePartner.SID:0000} TID: {tradePartner.TID:000000}. Waiting for a Pokémon...");
 
             if (poke.Type == PokeTradeType.Dump)
@@ -289,7 +288,22 @@ namespace SysBot.Pokemon
                 }
 
                 var toSend = send;
-                if (toSend.Species != 0)
+
+                if (poke.Type == PokeTradeType.Random)
+                {
+                    var cln = (PK85)poke.FirstData.Clone();
+                    cln.OT_Gender = tradePartner.Gender;
+                    cln.TrainerID7 = int.Parse(tradePartner.TID);
+                    cln.TrainerSID7 = int.Parse(tradePartner.SID);
+                    cln.Language = tradePartner.Language;
+                    cln.OT_Name = tradePartner.TrainerName;
+                    cln.ClearNickname();
+
+                    cln.SetShiny();
+                    cln.RefreshChecksum();
+                    await SetBoxPokemon(cln, token, sav).ConfigureAwait(false);
+                }
+                else if (toSend.Species != 0)
                     await SetBoxPokemon(toSend, token, sav).ConfigureAwait(false);
 
                 // Confirm Box 1 Slot 1
@@ -576,8 +590,9 @@ namespace SysBot.Pokemon
         {
             var offset = await SwitchConnection.PointerAll(TradePartnerIDPointer, token).ConfigureAwait(false);
             var id = await SwitchConnection.ReadBytesAbsoluteAsync(offset, 4, token).ConfigureAwait(false);
-            var name = await SwitchConnection.ReadBytesAbsoluteAsync(offset + 0x10, 0x14, token).ConfigureAwait(false);
-            return new TradePartnerPLA(id, name);
+            var idbytes = await SwitchConnection.ReadBytesAbsoluteAsync(offset + 0x04, 4, token).ConfigureAwait(false);
+            var name = await SwitchConnection.ReadBytesAbsoluteAsync(offset + 0x10, 0x18, token).ConfigureAwait(false);
+            return new TradePartnerPLA(id, idbytes, name);
         }
 
         protected virtual async Task<(PK85 toSend, PokeTradeResult check)> GetEntityToSend(SAV85PLA sav, PokeTradeDetail<PK85> poke, PK85 offered, byte[] oldEC, PK85 toSend, PartnerDataHolder partnerID, SpecialTradeType? stt, CancellationToken token)
