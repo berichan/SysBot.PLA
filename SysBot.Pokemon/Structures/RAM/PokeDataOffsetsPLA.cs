@@ -21,6 +21,6 @@ namespace SysBot.Pokemon
 
         public static IReadOnlyList<long> PlayerCanMovePointer = new long[] { 0x42953A0, 0x18, 0x50, 0x78, 0x1E8 };
 
-        public const int BoxFormatSlotSize = PK85.SIZE_PARTYPLA;
+        public const int BoxFormatSlotSize = PA8.SIZE_PARTYPLA;
     }
 }

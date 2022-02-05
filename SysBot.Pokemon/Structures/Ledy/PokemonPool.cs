@@ -61,7 +61,7 @@ namespace SysBot.Pokemon
                 var data = File.ReadAllBytes(file);
 
                 //var pkm = PKMConverter.GetPKMfromBytes(data);
-                var pkm = (PKM)new PK85(data);
+                var pkm = (PKM)new PA8(data);
                 if (pkm is null)
                     continue;
                 if (pkm is not T)

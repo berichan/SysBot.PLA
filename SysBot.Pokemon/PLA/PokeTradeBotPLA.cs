@@ -13,7 +13,7 @@ namespace SysBot.Pokemon
 {
     public class PokeTradeBotPLA : PokeRoutineExecutorPLA, ICountBot
     {
-        private readonly PokeTradeHub<PK85> Hub;
+        private readonly PokeTradeHub<PA8> Hub;
         private readonly TradeSettings TradeSettings;
 
         public ICountSettings Counts => TradeSettings;
@@ -35,7 +35,7 @@ namespace SysBot.Pokemon
         public int FailedBarrier { get; private set; }
 
 
-        public PokeTradeBotPLA(PokeTradeHub<PK85> hub, PokeBotState cfg) : base(cfg)
+        public PokeTradeBotPLA(PokeTradeHub<PA8> hub, PokeBotState cfg) : base(cfg)
         {
             Hub = hub;
             TradeSettings = hub.Config.Trade;
@@ -73,7 +73,7 @@ namespace SysBot.Pokemon
             await CleanExit(TradeSettings, CancellationToken.None).ConfigureAwait(false);
         }
 
-        private async Task InnerLoop(SAV85PLA sav, CancellationToken token)
+        private async Task InnerLoop(SAV8LA sav, CancellationToken token)
         {
             while (!token.IsCancellationRequested)
             {
@@ -110,7 +110,7 @@ namespace SysBot.Pokemon
             }
         }
 
-        private async Task DoTrades(SAV85PLA sav, CancellationToken token)
+        private async Task DoTrades(SAV8LA sav, CancellationToken token)
         {
             var type = Config.CurrentRoutineType;
             int waitCounter = 0;
@@ -154,7 +154,7 @@ namespace SysBot.Pokemon
                 await Task.Delay(1_000, token).ConfigureAwait(false);
         }
 
-        protected virtual (PokeTradeDetail<PK85>? detail, uint priority) GetTradeData(PokeRoutineType type)
+        protected virtual (PokeTradeDetail<PA8>? detail, uint priority) GetTradeData(PokeRoutineType type)
         {
             if (Hub.Queues.TryDequeue(out var detail, out var priority))
                 return (detail, priority);
@@ -163,7 +163,7 @@ namespace SysBot.Pokemon
             return (null, PokeTradePriorities.TierFree);
         }
 
-        private async Task PerformTrade(SAV85PLA sav, PokeTradeDetail<PK85> detail, PokeRoutineType type, uint priority, CancellationToken token)
+        private async Task PerformTrade(SAV8LA sav, PokeTradeDetail<PA8> detail, PokeRoutineType type, uint priority, CancellationToken token)
         {
             PokeTradeResult result;
             try
@@ -188,7 +188,7 @@ namespace SysBot.Pokemon
             HandleAbortedTrade(detail, type, priority, result);
         }
 
-        private void HandleAbortedTrade(PokeTradeDetail<PK85> detail, PokeRoutineType type, uint priority, PokeTradeResult result)
+        private void HandleAbortedTrade(PokeTradeDetail<PA8> detail, PokeRoutineType type, uint priority, PokeTradeResult result)
         {
             detail.IsProcessing = false;
             if (result.ShouldAttemptRetry() && detail.Type != PokeTradeType.Random && !detail.IsRetry)
@@ -204,12 +204,12 @@ namespace SysBot.Pokemon
             }
         }
 
-        private void SetText(SAV85PLA sav, string text)
+        private void SetText(SAV8LA sav, string text)
         {
             System.IO.File.WriteAllText($"code{sav.OT}-{sav.DisplayTID}.txt", text);
         }
 
-        private async Task<PokeTradeResult> PerformLinkCodeTrade(SAV85PLA sav, PokeTradeDetail<PK85> poke, CancellationToken token)
+        private async Task<PokeTradeResult> PerformLinkCodeTrade(SAV8LA sav, PokeTradeDetail<PA8> poke, CancellationToken token)
         {
             UpdateBarrier(poke.IsSynchronized);
             poke.TradeInitialize(this);
@@ -291,7 +291,7 @@ namespace SysBot.Pokemon
 
                 if (poke.Type == PokeTradeType.Random)
                 {
-                    var cln = (PK85)poke.FirstData.Clone();
+                    var cln = (PA8)poke.FirstData.Clone();
                     cln.OT_Gender = tradePartner.Gender;
                     cln.TrainerID7 = int.Parse(tradePartner.TID);
                     cln.TrainerSID7 = int.Parse(tradePartner.SID);
@@ -400,7 +400,7 @@ namespace SysBot.Pokemon
             return PokeTradeResult.Success;
         }
 
-        private async Task<PokeTradeResult> ConfirmAndStartTrading(PokeTradeDetail<PK85> detail, CancellationToken token)
+        private async Task<PokeTradeResult> ConfirmAndStartTrading(PokeTradeDetail<PA8> detail, CancellationToken token)
         {
             var oldPKData = await SwitchConnection.PointerPeek(BoxFormatSlotSize, BoxStartPokemonPointer, token).ConfigureAwait(false);
 
@@ -436,7 +436,7 @@ namespace SysBot.Pokemon
             return PokeTradeResult.TrainerTooSlow;
         }
 
-        private async Task<bool> BeginTradeViaCode(PokeTradeDetail<PK85> poke, int tradeCode, CancellationToken token)
+        private async Task<bool> BeginTradeViaCode(PokeTradeDetail<PA8> poke, int tradeCode, CancellationToken token)
         {
             Log($"Starting new trade, begin talk with trade post owner.");
 
@@ -476,7 +476,7 @@ namespace SysBot.Pokemon
             return true;
         }
 
-        protected virtual async Task<bool> IsUserBeingShifty(PokeTradeDetail<PK85> detail, CancellationToken token)
+        protected virtual async Task<bool> IsUserBeingShifty(PokeTradeDetail<PA8> detail, CancellationToken token)
         {
             await Task.CompletedTask.ConfigureAwait(false);
             return false;
@@ -546,12 +546,12 @@ namespace SysBot.Pokemon
             return true;
         }
 
-        private async Task<PokeTradeResult> ProcessDumpTradeAsync(PokeTradeDetail<PK85> detail, CancellationToken token)
+        private async Task<PokeTradeResult> ProcessDumpTradeAsync(PokeTradeDetail<PA8> detail, CancellationToken token)
         {
             int ctr = 0;
             var time = TimeSpan.FromSeconds(Hub.Config.Trade.MaxDumpTradeTime);
             var start = DateTime.Now;
-            var pkprev = new PK85();
+            var pkprev = new PA8();
             while (ctr < Hub.Config.Trade.MaxDumpsPerTrade && DateTime.Now - start < time)
             {
                 var pk = await ReadUntilPresentPointer(TradePartnerShowingPointer, 3_000, 1_000, BoxFormatSlotSize, token).ConfigureAwait(false);
@@ -582,7 +582,7 @@ namespace SysBot.Pokemon
 
             TradeSettings.AddCompletedDumps();
             detail.Notifier.SendNotification(this, detail, $"Dumped {ctr} Pokémon.");
-            detail.Notifier.TradeFinished(this, detail, new PK85()); // blank
+            detail.Notifier.TradeFinished(this, detail, new PA8()); // blank
             return PokeTradeResult.Success;
         }
 
@@ -595,7 +595,7 @@ namespace SysBot.Pokemon
             return new TradePartnerPLA(id, idbytes, name);
         }
 
-        protected virtual async Task<(PK85 toSend, PokeTradeResult check)> GetEntityToSend(SAV85PLA sav, PokeTradeDetail<PK85> poke, PK85 offered, byte[] oldEC, PK85 toSend, PartnerDataHolder partnerID, SpecialTradeType? stt, CancellationToken token)
+        protected virtual async Task<(PA8 toSend, PokeTradeResult check)> GetEntityToSend(SAV8LA sav, PokeTradeDetail<PA8> poke, PA8 offered, byte[] oldEC, PA8 toSend, PartnerDataHolder partnerID, SpecialTradeType? stt, CancellationToken token)
         {
             return poke.Type switch
             {
@@ -607,7 +607,7 @@ namespace SysBot.Pokemon
             };
         }
 
-        private async Task<(PK85 toSend, PokeTradeResult check)> HandleClone(SAV85PLA sav, PokeTradeDetail<PK85> poke, PK85 offered, byte[] oldEC, CancellationToken token)
+        private async Task<(PA8 toSend, PokeTradeResult check)> HandleClone(SAV8LA sav, PokeTradeDetail<PA8> poke, PA8 offered, byte[] oldEC, CancellationToken token)
         {
             if (Hub.Config.Discord.ReturnPKMs)
                 poke.SendNotification(this, offered, "Here's what you showed me!");
@@ -628,7 +628,7 @@ namespace SysBot.Pokemon
             }
 
             // Inject the shown Pokémon.
-            var clone = (PK85)offered.Clone();
+            var clone = (PA8)offered.Clone();
             if (Hub.Config.Legality.ResetHOMETracker)
                 clone.Tracker = 0;
 
@@ -668,7 +668,7 @@ namespace SysBot.Pokemon
             return (clone, PokeTradeResult.Success);
         }
 
-        private async Task<(PK85 toSend, PokeTradeResult check)> HandleRandomLedy(SAV85PLA sav, PokeTradeDetail<PK85> poke, PK85 offered, PK85 toSend, PartnerDataHolder partner, CancellationToken token)
+        private async Task<(PA8 toSend, PokeTradeResult check)> HandleRandomLedy(SAV8LA sav, PokeTradeDetail<PA8> poke, PA8 offered, PA8 toSend, PartnerDataHolder partner, CancellationToken token)
         {
             // Allow the trade partner to do a Ledy swap.
             var config = Hub.Config.Distribution;
@@ -704,7 +704,7 @@ namespace SysBot.Pokemon
             return (toSend, PokeTradeResult.Success);
         }
 
-        private async Task<(PK85 toSend, PokeTradeResult check)> JustInject(SAV85PLA sav, PK85 offered, CancellationToken token)
+        private async Task<(PA8 toSend, PokeTradeResult check)> JustInject(SAV8LA sav, PA8 offered, CancellationToken token)
         {
             await Click(A, 0_800, token).ConfigureAwait(false);
             await SetBoxPokemon(offered, token, sav).ConfigureAwait(false);
@@ -715,7 +715,7 @@ namespace SysBot.Pokemon
             return (offered, PokeTradeResult.Success);
         }
 
-        private async Task<PokeTradeResult> EndQuickTradeAsync(PokeTradeDetail<PK85> detail, PK85 pk, CancellationToken token)
+        private async Task<PokeTradeResult> EndQuickTradeAsync(PokeTradeDetail<PA8> detail, PA8 pk, CancellationToken token)
         {
             await RestartGameIfCantIdle(token).ConfigureAwait(false);
 

@@ -46,7 +46,7 @@ namespace SysBot.Pokemon.WinForms
 
         private static IPokeBotRunner GetRunner(ProgramConfig cfg) => cfg.Mode switch
         {
-            ProgramMode.PLA => new PokeBotRunnerImpl<PK85>(cfg.Hub, new BotFactoryPLA()),
+            ProgramMode.PLA => new PokeBotRunnerImpl<PA8>(cfg.Hub, new BotFactoryPLA()),
             _ => throw new IndexOutOfRangeException("Unsupported mode."),
         };
 

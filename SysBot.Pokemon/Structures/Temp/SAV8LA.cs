@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PKHeX.Core
 {
-    public class SAV85PLA : SaveFile
+    public class SAV8LA : SaveFile
     {
         public override string Extension => string.Empty;
 
@@ -35,9 +35,9 @@ namespace PKHeX.Core
 
         public override int BoxCount => 32;
 
-        public override Type PKMType => typeof(PK85);
+        public override Type PKMType => typeof(PA8);
 
-        public override PKM BlankPKM => new PK85();
+        public override PKM BlankPKM => new PA8();
 
         public override int MaxEV => throw new NotImplementedException();
 
@@ -45,9 +45,9 @@ namespace PKHeX.Core
 
         protected override string ShortSummary => String.Empty;
 
-        protected override int SIZE_STORED => PK85.SIZE_STOREDPLA;
+        protected override int SIZE_STORED => PA8.SIZE_STOREDPLA;
 
-        protected override int SIZE_PARTY => PK85.SIZE_PARTYPLA;
+        protected override int SIZE_PARTY => PA8.SIZE_PARTYPLA;
 
         public override string GetBoxName(int box)
         {
@@ -93,7 +93,7 @@ namespace PKHeX.Core
 
         protected override PKM GetPKM(byte[] data)
         {
-            return new PK85(data);
+            return new PA8(data);
         }
 
         protected override void SetChecksums()

@@ -4,15 +4,15 @@ using PKHeX.Core;
 
 namespace PKHeX.Core
 {
-    public class PK85 : PKM,
+    public class PA8 : PKM,
         IHyperTrain, IScaledSize, IGigantamax, IFavorite, IHandlerLanguage, IFormArgument, IHomeTrack, IBattleVersion, ITrainerMemories
     {
         public const int SIZE_PARTYPLA = SIZE_STOREDPLA;
         public const int SIZE_STOREDPLA = 0x168;
 
         public sealed override int Format => 85;
-        public PK85() : base(SIZE_PARTYPLA) { }
-        public PK85(byte[] data) : base(DecryptParty(data)) { }
+        public PA8() : base(SIZE_PARTYPLA) { }
+        public PA8(byte[] data) : base(DecryptParty(data)) { }
 
         private static byte[] DecryptParty(byte[] data)
         {
@@ -271,7 +271,7 @@ namespace PKHeX.Core
 
         public override PKM Clone()
         {
-            return new PK85((byte[])Data.Clone());
+            return new PA8((byte[])Data.Clone());
         }
 
         // Why did you mis-align this field, GameFreak?

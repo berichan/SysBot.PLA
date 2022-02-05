@@ -11,7 +11,7 @@ using static SysBot.Pokemon.PokeDataOffsetsPLA;
 
 namespace SysBot.Pokemon
 {
-    public abstract class PokeRoutineExecutorPLA : PokeRoutineExecutor<PK85>
+    public abstract class PokeRoutineExecutorPLA : PokeRoutineExecutor<PA8>
     {
         protected const int HidWaitTime = 50;
 
@@ -20,19 +20,19 @@ namespace SysBot.Pokemon
 
         }
 
-        public override async Task<PK85> ReadPokemon(ulong offset, CancellationToken token) => await ReadPokemon(offset, BoxFormatSlotSize, token).ConfigureAwait(false);
+        public override async Task<PA8> ReadPokemon(ulong offset, CancellationToken token) => await ReadPokemon(offset, BoxFormatSlotSize, token).ConfigureAwait(false);
 
-        public override async Task<PK85> ReadPokemon(ulong offset, int size, CancellationToken token)
+        public override async Task<PA8> ReadPokemon(ulong offset, int size, CancellationToken token)
         {
             var data = await SwitchConnection.ReadBytesAbsoluteAsync(offset, size, token).ConfigureAwait(false);
-            return new PK85(data);
+            return new PA8(data);
         }
 
-        public override async Task<PK85> ReadPokemonPointer(IEnumerable<long> jumps, int size, CancellationToken token)
+        public override async Task<PA8> ReadPokemonPointer(IEnumerable<long> jumps, int size, CancellationToken token)
         {
             var (valid, offset) = await ValidatePointerAll(jumps, token).ConfigureAwait(false);
             if (!valid)
-                return new PK85();
+                return new PA8();
             return await ReadPokemon(offset, token).ConfigureAwait(false);
         }
 
@@ -42,12 +42,12 @@ namespace SysBot.Pokemon
             return !result.SequenceEqual(original);
         }
 
-        public override async Task<PK85> ReadBoxPokemon(int box, int slot, CancellationToken token)
+        public override async Task<PA8> ReadBoxPokemon(int box, int slot, CancellationToken token)
         {
             return await ReadPokemonPointer(BoxStartPokemonPointer, BoxFormatSlotSize, token).ConfigureAwait(false);
         }
 
-        public async Task SetBoxPokemon(PK85 pkm, CancellationToken token, ITrainerInfo? sav = null)
+        public async Task SetBoxPokemon(PA8 pkm, CancellationToken token, ITrainerInfo? sav = null)
         {
             if (sav != null)
             {
@@ -61,7 +61,7 @@ namespace SysBot.Pokemon
             await SwitchConnection.PointerPoke(pkm.EncryptedPartyData, BoxStartPokemonPointer, token).ConfigureAwait(false);
         }
 
-        public async Task<SAV85PLA> IdentifyTrainer(CancellationToken token)
+        public async Task<SAV8LA> IdentifyTrainer(CancellationToken token)
         {
             // generate a fake savefile
             var sav = await GetFakeTrainerSAV(token).ConfigureAwait(false);
@@ -71,9 +71,9 @@ namespace SysBot.Pokemon
             return sav;
         }
 
-        public async Task<SAV85PLA> GetFakeTrainerSAV(CancellationToken token)
+        public async Task<SAV8LA> GetFakeTrainerSAV(CancellationToken token)
         {
-            return new SAV85PLA();
+            return new SAV8LA();
         }
 
         public async Task InitializeHardware(IBotStateSettings settings, CancellationToken token)

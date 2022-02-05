@@ -3,9 +3,9 @@ using PKHeX.Core;
 
 namespace SysBot.Pokemon
 {
-    public sealed class BotFactoryPLA : BotFactory<PK85>
+    public sealed class BotFactoryPLA : BotFactory<PA8>
     {
-        public override PokeRoutineExecutorBase CreateBot(PokeTradeHub<PK85> Hub, PokeBotState cfg) => cfg.NextRoutineType switch
+        public override PokeRoutineExecutorBase CreateBot(PokeTradeHub<PA8> Hub, PokeBotState cfg) => cfg.NextRoutineType switch
         {
             PokeRoutineType.PLAFlexTrade or PokeRoutineType.Idle
             or PokeRoutineType.PLAClone
