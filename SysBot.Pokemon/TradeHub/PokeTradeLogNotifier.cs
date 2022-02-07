@@ -7,6 +7,8 @@ namespace SysBot.Pokemon
 {
     public class PokeTradeLogNotifier<T> : IPokeTradeNotifier<T> where T : PKM, new()
     {
+        public string IdentifierLocator => "BotTrade";
+
         public void TradeInitialize(PokeRoutineExecutor<T> routine, PokeTradeDetail<T> info)
         {
             LogUtil.LogInfo($"Starting trade loop for {info.Trainer.TrainerName}, sending {info.TradeData.CollateSpecies()}", routine.Connection.Label);

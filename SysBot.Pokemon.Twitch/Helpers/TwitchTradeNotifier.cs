@@ -8,6 +8,7 @@ namespace SysBot.Pokemon.Twitch
 {
     public class TwitchTradeNotifier<T> : IPokeTradeNotifier<T> where T : PKM, new()
     {
+        public string IdentifierLocator => "Twitch";
         private T Data { get; }
         private PokeTradeTrainerInfo Info { get; }
         private int Code { get; }

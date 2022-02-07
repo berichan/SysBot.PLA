@@ -12,6 +12,7 @@ namespace SysBot.Pokemon.Web
 {
     public class WebTradeNotifier<T> : IPokeTradeNotifier<T> where T : PKM, new()
     {
+        public string IdentifierLocator => "Web";
         private T Data { get; }
         private PokeTradeTrainerInfo Info { get; }
         private int Code { get; }

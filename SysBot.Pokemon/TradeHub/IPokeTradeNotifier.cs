@@ -5,6 +5,8 @@ namespace SysBot.Pokemon
 {
     public interface IPokeTradeNotifier<T> where T : PKM, new()
     {
+        /// <summary> The destination or type of this notifier </summary>
+        public string IdentifierLocator { get; }
         /// <summary> Notifies when a trade bot is initializing at the start. </summary>
         void TradeInitialize(PokeRoutineExecutor<T> routine, PokeTradeDetail<T> info);
         /// <summary> Notifies when a trade bot is searching for the partner. </summary>

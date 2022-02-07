@@ -8,6 +8,7 @@ namespace SysBot.Pokemon.Discord
 {
     public class DiscordTradeNotifier<T> : IPokeTradeNotifier<T> where T : PKM, new()
     {
+        public string IdentifierLocator => "Discord";
         private T Data { get; }
         private PokeTradeTrainerInfo Info { get; }
         private int Code { get; }
