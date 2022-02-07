@@ -58,7 +58,7 @@ namespace SysBot.Pokemon
             }
 
             //pkm.ResetPartyStats();
-            await SwitchConnection.PointerPoke(pkm.EncryptedPartyData, BoxStartPokemonPointer, token).ConfigureAwait(false);
+            await SwitchConnection.PointerPoke(pkm.EncryptedBoxData, BoxStartPokemonPointer, token).ConfigureAwait(false);
         }
 
         public async Task<SAV8LA> IdentifyTrainer(CancellationToken token)
