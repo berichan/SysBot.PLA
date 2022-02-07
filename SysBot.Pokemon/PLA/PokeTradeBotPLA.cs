@@ -235,7 +235,6 @@ namespace SysBot.Pokemon
                 return PokeTradeResult.RecoverOpenBox;
             }
 
-            Hub.Config.Stream.EndEnterCode(this);
             poke.TradeSearching(this);
 
             // Wait to hit the bot or quit if no trade partner found
@@ -254,6 +253,8 @@ namespace SysBot.Pokemon
 
             // Still going through dialog and box opening.
             await Task.Delay(2_000, token).ConfigureAwait(false);
+
+            Hub.Config.Stream.EndEnterCode(this);
 
             var traderOffset = await SwitchConnection.PointerAll(TradePartnerIDPointer, token).ConfigureAwait(false);
             var tradePartner = await FetchIDFromOffset(traderOffset, token).ConfigureAwait(false);
