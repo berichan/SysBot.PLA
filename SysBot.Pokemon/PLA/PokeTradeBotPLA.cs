@@ -260,16 +260,14 @@ namespace SysBot.Pokemon
             var tradePartner = await FetchIDFromOffset(traderOffset, token).ConfigureAwait(false);
             var tradePartnerNID = await GetTradePartnerNID(token).ConfigureAwait(false);
 
-            /*
-            bool IsSafe = poke.Trainer.ID == 0 || tradePartner.IDHash == 0 ? true : NewAntiAbuse.Instance.LogUser(tradePartner.IDHash, tradePartnerNID, poke.Trainer.ID.ToString(), poke.Trainer.TrainerName, Hub.Config.Trade.MultiAbuseEchoMention);
+            bool IsSafe = poke.Trainer.ID == 0 || tradePartner.IDHash == 0 || NewAntiAbuse.Instance.LogUser(tradePartner.IDHash, tradePartnerNID, poke.Trainer.ID.ToString(), poke.Trainer.TrainerName, Hub.Config.Trade.MultiAbuseEchoMention, poke.Notifier.IdentifierLocator);
             if (!IsSafe)
             {
-                Log($"Found known abuser: {tradePartner.TrainerName}-{tradePartner.SID}-{tradePartner.TID} ({poke.Trainer.TrainerName}) (NID: {tradePartnerNID})");
+                Log($"Found known abuser: {tradePartner.TrainerName}-{tradePartner.SID}-{tradePartner.TID} ({poke.Trainer.TrainerName}) (NID: {tradePartnerNID}) origin: {poke.Notifier.IdentifierLocator}");
                 poke.SendNotification(this, $"Your savedata is associated with a known abuser. Consider not being an abuser, and you will no longer see this message.");
                 await Task.Delay(1_000, token).ConfigureAwait(false);
                 return PokeTradeResult.TrainerTooSlow;
             }
-            */
 
             Log($"Found trading partner: {tradePartner.TrainerName}-{tradePartner.SID}-{tradePartner.TID} ({poke.Trainer.TrainerName}) (NID: {tradePartnerNID})");
             poke.SendNotification(this, $"Found Trading Partner: {tradePartner.TrainerName} SID: {tradePartner.SID:0000} TID: {tradePartner.TID:000000}. Waiting for a Pokémon...");

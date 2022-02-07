@@ -128,7 +128,7 @@ namespace SysBot.Pokemon
 
         public bool IsGlobalBanned(T hashid, ulong nid, string id) => GlobalBanList.Where(x => x.HashIdentifier != null && (x.HashIdentifier.Equals(hashid) || x.NIDIdentifier.Equals(nid) || x.Identity.Equals(id))).Any();
 
-        public bool LogUser(T hashid, ulong nid, string id, string plaintext, string toPing)
+        public bool LogUser(T hashid, ulong nid, string id, string plaintext, string toPing, string origin)
         {
             bool safe = true;
             if (!string.IsNullOrWhiteSpace(id))
@@ -137,7 +137,7 @@ namespace SysBot.Pokemon
                 if (exists == null)
                 {
                     UserInfoList.Add(new HashNIDIdentifier<T>(hashid, nid, id, plaintext));
-                    LogUtil.LogInfo($"Adding new user: {plaintext} ({id})", nameof(AbuseDetection<T>));
+                    LogUtil.LogInfo($"Adding new user: {plaintext} ({id}) (origin: {origin})", nameof(AbuseDetection<T>));
                     SaveAllUserInfo();
                 }
 
@@ -145,7 +145,7 @@ namespace SysBot.Pokemon
                 bool allNidsAreZero = altExists != default && altExists.NIDIdentifier == 0 && nid == 0;
                 if (altExists != default && altExists.Identity != id && !allNidsAreZero)
                 {
-                    LogUtil.LogInfo($"{toPing} Found someone using multiple accounts {plaintext} ({id}) exists with at least one previous identity: {altExists.Identity} ({altExists.PlaintextName})", nameof(AbuseDetection<T>));
+                    LogUtil.LogInfo($"{toPing} Found someone using multiple accounts {plaintext} ({id}) (origin: {origin}) exists with at least one previous identity: {altExists.Identity} ({altExists.PlaintextName})", nameof(AbuseDetection<T>));
                     safe = false;
                 }
             }
@@ -153,7 +153,7 @@ namespace SysBot.Pokemon
             try { UpdateGlobalBanList(); } catch (Exception e) { LogUtil.LogInfo($"Unable to load banlist: {e.Message}", nameof(AbuseDetection<T>)); }
 
             var banned = GlobalBanList.FirstOrDefault(x => x.HashIdentifier != null && (x.HashIdentifier.Equals(hashid) || x.NIDIdentifier.Equals(nid) || x.Identity.Equals(id)));
-            return banned == null && safe;
+            return banned == null;
         }
 
         public bool Remove(string identity)
