@@ -28,6 +28,9 @@ namespace SysBot.Pokemon
         [Category(Operation), Description("Message sent when the Barrier is released.")]
         public string MessageStart { get; set; } = string.Empty;
 
+        [Category(Operation), Description("Message sent in addition to the request failing message")]
+        public string AdditionalRequestFailedMessage { get; set; } = string.Empty;
+
         // Messaging
 
         [Category(Operation), Description("Throttle the bot from sending messages if X messages have been sent in the past Y seconds.")]

@@ -65,7 +65,13 @@ namespace SysBot.Pokemon
             return tmp;
         }
 
-        public static SpecialTradeType CheckItemRequest<T>(ref T pk, PokeRoutineExecutor<T> caller, PokeTradeDetail<T> detail, TradePartnerPLA trainerTrading, SaveFile sav) where T : PKM, new()
+        static void SetRecordFlagsIfApplicable(PKM pk)
+        {
+            if (pk is PK8 pkm8)
+                pkm8.SetRecordFlags(true);
+        }
+
+        public static SpecialTradeType CheckItemRequest<T>(ref T pk, PokeRoutineExecutor<T> caller, PokeTradeDetail<T> detail, TrainerIDBlock trainerTrading, SaveFile sav) where T : PKM, new()
         {
             var sst = SpecialTradeType.None;
             int startingHeldItem = pk.HeldItem;
@@ -104,7 +110,7 @@ namespace SysBot.Pokemon
                         break;
                 }
 
-                pk.SetRecordFlags();
+                SetRecordFlagsIfApplicable(pk);
                 pk.HeldItem = heldItemNew; //free master
 
                 LegalizeIfNotLegal(ref pk, caller, detail, trainerName);
@@ -146,7 +152,7 @@ namespace SysBot.Pokemon
                 if (!pk.IsEgg)
                 {
                     pk.HeldItem = heldItemNew; //free master
-                    pk.SetRecordFlags();
+                    SetRecordFlagsIfApplicable(pk);
                 }
                 else
                 {
@@ -177,7 +183,7 @@ namespace SysBot.Pokemon
                 if (pk is IHyperTrain iht)
                     iht.HyperTrainClear();
 
-                pk.SetRecordFlags();
+                SetRecordFlagsIfApplicable(pk);
                 pk.HeldItem = heldItemNew; //free master
 
                 LegalizeIfNotLegal(ref pk, caller, detail, trainerName);
@@ -218,7 +224,7 @@ namespace SysBot.Pokemon
 
                 LegalizeIfNotLegal(ref pk, caller, detail, trainerName);
 
-                pk.SetRecordFlags();
+                SetRecordFlagsIfApplicable(pk);
                 pk.HeldItem = heldItemNew; //free master
                 sst = SpecialTradeType.SanitizeReq;
             }
@@ -238,7 +244,7 @@ namespace SysBot.Pokemon
                     return sst;
                 }
 
-                pk.SetRecordFlags();
+                SetRecordFlagsIfApplicable(pk);
                 pk.HeldItem = heldItemNew; //free master
 
                 LegalizeIfNotLegal(ref pk, caller, detail, trainerName);

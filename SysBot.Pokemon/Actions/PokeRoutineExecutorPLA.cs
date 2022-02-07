@@ -73,7 +73,25 @@ namespace SysBot.Pokemon
 
         public async Task<SAV8LA> GetFakeTrainerSAV(CancellationToken token)
         {
-            return new SAV8LA();
+            var sav = new SAV8LA();
+            var saveIDOffset = await SwitchConnection.PointerAll(TrainerIDPointer, token).ConfigureAwait(false);
+            var myID = await FetchIDFromOffset(saveIDOffset, token).ConfigureAwait(false);
+
+            sav.TrainerID7 = myID.TID7;
+            sav.TrainerSID7 = myID.SID7;
+            sav.OT = myID.TrainerName;
+            sav.Language = myID.Language;
+            sav.Gender = myID.Gender;
+
+            return sav;
+        }
+
+        public async Task<TrainerIDBlock> FetchIDFromOffset(ulong offset, CancellationToken token)
+        {
+            var id = await SwitchConnection.ReadBytesAbsoluteAsync(offset, 4, token).ConfigureAwait(false);
+            var idbytes = await SwitchConnection.ReadBytesAbsoluteAsync(offset + 0x04, 4, token).ConfigureAwait(false);
+            var name = await SwitchConnection.ReadBytesAbsoluteAsync(offset + 0x10, 0x18, token).ConfigureAwait(false);
+            return new TrainerIDBlock(id, idbytes, name);
         }
 
         public async Task InitializeHardware(IBotStateSettings settings, CancellationToken token)
@@ -196,15 +214,6 @@ namespace SysBot.Pokemon
             var bytes = await SwitchConnection.ReadBytesAbsoluteAsync(offs, 4, token).ConfigureAwait(false);
             var boxOpenState = BitConverter.ToUInt32(bytes, 0);
             return boxOpenState == 1;
-        }
-
-        //public async Task<ulong> GetTradePartnerNID(CancellationToken token) => BitConverter.ToUInt64(await SwitchConnection.PointerPeek(sizeof(ulong), Offsets.LinkTradePartnerNIDPointer, token).ConfigureAwait(false), 0);
-
-        public async Task<bool> IsConnectionPresent(CancellationToken token)
-        {
-            var bytes = await SwitchConnection.ReadBytesAbsoluteAsync(IsConnectionState, 4, token).ConfigureAwait(false);
-            var connectState = BitConverter.ToUInt32(bytes, 0);
-            return connectState != 0;
         }
 
         public async Task<bool> CanPlayerMove(CancellationToken token)

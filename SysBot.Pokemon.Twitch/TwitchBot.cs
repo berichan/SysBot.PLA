@@ -14,7 +14,7 @@ namespace SysBot.Pokemon.Twitch
 {
     public class TwitchBot<T> where T : PKM, new()
     {
-        private static PokeTradeHub<T> Hub = default!;
+        internal static PokeTradeHub<T> Hub = default!;
         internal static TradeQueueInfo<T> Info => Hub.Queues.Info;
 
         internal static readonly List<TwitchQueue<T>> QueuePool = new();
@@ -100,7 +100,7 @@ namespace SysBot.Pokemon.Twitch
             });
         }
 
-        private bool AddToTradeQueue(T pk, int code, OnWhisperReceivedArgs e, RequestSignificance sig, PokeRoutineType type, out string msg)
+        private bool AddToTradeQueue(T pk, int code, OnWhisperReceivedArgs e, RequestSignificance sig, PokeRoutineType type, bool useTheirID, out string msg)
         {
             // var user = e.WhisperMessage.UserId;
             var userID = ulong.Parse(e.WhisperMessage.UserId);
@@ -109,7 +109,7 @@ namespace SysBot.Pokemon.Twitch
             var trainer = new PokeTradeTrainerInfo(name, ulong.Parse(e.WhisperMessage.UserId));
             var notifier = new TwitchTradeNotifier<T>(pk, trainer, code, e.WhisperMessage.Username, client, Channel, Hub.Config.Twitch);
             var tt = type == PokeRoutineType.PLASpecialRequest ? PokeTradeType.Seed : PokeTradeType.Specific;
-            var detail = new PokeTradeDetail<T>(pk, trainer, notifier, tt, code, sig == RequestSignificance.Favored);
+            var detail = new PokeTradeDetail<T>(pk, trainer, notifier, tt, code, sig == RequestSignificance.Favored, useTheirID);
             var trade = new TradeEntry<T>(detail, userID, type, name);
 
             var added = Info.AddToTradeQueue(trade, userID, sig == RequestSignificance.Owner);
@@ -207,9 +207,12 @@ namespace SysBot.Pokemon.Twitch
             switch (c)
             {
                 // User Usable Commands
-                case "trade":
-                    var _ = TwitchCommandsHelper<T>.AddToWaitingList(args, m.DisplayName, m.Username, ulong.Parse(m.UserId), subscriber(), out string msg);
-                    return msg;
+                //case "trade":
+                //    _ = TwitchCommandsHelper<T>.AddToWaitingList(args, m.DisplayName, m.Username, ulong.Parse(m.UserId), subscriber(), false, out string msg);
+                //    return msg;
+                case "request":
+                    _ = TwitchCommandsHelper<T>.AddToWaitingList(args, m.DisplayName, m.Username, ulong.Parse(m.UserId), subscriber(), true, out string msgreq);
+                    return msgreq;
                 case "ts":
                     return $"@{m.Username}: {Info.GetPositionString(ulong.Parse(m.UserId))}";
                 case "tc":
@@ -265,15 +268,23 @@ namespace SysBot.Pokemon.Twitch
             var msg = e.WhisperMessage.Message;
             try
             {
+                msg = msg.Replace(" ", string.Empty);
+                if (!int.TryParse(msg, out _)) 
+                {
+                    client.SendMessage(Channel, $"WRONG! @{user.UserName} - You did not whisper a valid 8-digit trade code. Your trade request has been removed, please start over.");
+                    return;
+                }
+
                 int code = Util.ToInt32(msg);
                 var sig = GetUserSignificance(user);
-                var _ = AddToTradeQueue(user.Pokemon, code, e, sig, PokeRoutineType.PLALinkTrade, out string message);
+                AddToTradeQueue(user.Pokemon, code, e, sig, PokeRoutineType.PLALinkTrade, user.UseTradeID, out string message);
                 client.SendMessage(Channel, message);
             }
 #pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception ex)
 #pragma warning restore CA1031 // Do not catch general exception types
             {
+                LogUtil.LogSafe(ex, nameof(TwitchBot<T>));
                 LogUtil.LogError($"{ex.Message}", nameof(TwitchBot<T>));
             }
         }

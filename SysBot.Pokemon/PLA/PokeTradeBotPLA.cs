@@ -216,6 +216,8 @@ namespace SysBot.Pokemon
             await RestartGameIfCantIdle(token).ConfigureAwait(false);
             Hub.Config.Stream.EndEnterCode(this);
 
+            await UnbanIfBanned(token).ConfigureAwait(false);
+
             if (poke.FirstData.Species != 0)
                 await SetBoxPokemon(poke.FirstData, token, sav).ConfigureAwait(false);
 
@@ -253,12 +255,11 @@ namespace SysBot.Pokemon
             // Still going through dialog and box opening.
             await Task.Delay(2_000, token).ConfigureAwait(false);
 
-            //if (!await IsConnectionPresent(token).ConfigureAwait(false))
-            //    return PokeTradeResult.TrainerTooSlow;
-
-            var tradePartner = await GetTradePartnerInfo(token).ConfigureAwait(false);
+            var traderOffset = await SwitchConnection.PointerAll(TradePartnerIDPointer, token).ConfigureAwait(false);
+            var tradePartner = await FetchIDFromOffset(traderOffset, token).ConfigureAwait(false);
             var tradePartnerNID = await GetTradePartnerNID(token).ConfigureAwait(false);
 
+            /*
             bool IsSafe = poke.Trainer.ID == 0 || tradePartner.IDHash == 0 ? true : NewAntiAbuse.Instance.LogUser(tradePartner.IDHash, tradePartnerNID, poke.Trainer.ID.ToString(), poke.Trainer.TrainerName, Hub.Config.Trade.MultiAbuseEchoMention);
             if (!IsSafe)
             {
@@ -267,8 +268,8 @@ namespace SysBot.Pokemon
                 await Task.Delay(1_000, token).ConfigureAwait(false);
                 return PokeTradeResult.TrainerTooSlow;
             }
+            */
 
-            //Log($"Found trading partner: {tradePartner.TrainerName}-{tradePartner.SID}-{tradePartner.TID} ({poke.Trainer.TrainerName})");
             Log($"Found trading partner: {tradePartner.TrainerName}-{tradePartner.SID}-{tradePartner.TID} ({poke.Trainer.TrainerName}) (NID: {tradePartnerNID})");
             poke.SendNotification(this, $"Found Trading Partner: {tradePartner.TrainerName} SID: {tradePartner.SID:0000} TID: {tradePartner.TID:000000}. Waiting for a Pokémon...");
 
@@ -291,17 +292,22 @@ namespace SysBot.Pokemon
 
                 if (poke.Type == PokeTradeType.Random)
                 {
-                    var cln = (PA8)poke.FirstData.Clone();
+                    var cln = (PA8)toSend.Clone();
                     cln.OT_Gender = tradePartner.Gender;
-                    cln.TrainerID7 = int.Parse(tradePartner.TID);
-                    cln.TrainerSID7 = int.Parse(tradePartner.SID);
+                    cln.TrainerID7 = tradePartner.TID7;
+                    cln.TrainerSID7 = tradePartner.SID7;
                     cln.Language = tradePartner.Language;
                     cln.OT_Name = tradePartner.TrainerName;
                     cln.ClearNickname();
 
-                    cln.SetShiny();
+                    if (toSend.IsShiny)
+                        cln.SetShiny();
+
                     cln.RefreshChecksum();
-                    await SetBoxPokemon(cln, token, sav).ConfigureAwait(false);
+
+                    var tradela = new LegalityAnalysis(cln);
+                    if (tradela.Valid)
+                        await SetBoxPokemon(cln, token, sav).ConfigureAwait(false);
                 }
                 else if (toSend.Species != 0)
                     await SetBoxPokemon(toSend, token, sav).ConfigureAwait(false);
@@ -312,11 +318,6 @@ namespace SysBot.Pokemon
                     for (int i = 0; i < 5; i++)
                         await Click(A, 0_500, token).ConfigureAwait(false);
                 }
-                /*else if (poke.Type is PokeTradeType.Clone or PokeTradeType.Seed or PokeTradeType.Random)
-                {
-                    for (int i = 0; i < 2; ++i)
-                        await Click(B, 0_200, token).ConfigureAwait(false);
-                }*/
 
                 var offered = await ReadUntilPresentPointer(TradePartnerShowingPointer, 25_000, 1_000, BoxFormatSlotSize, token).ConfigureAwait(false);
                 Log("Pointer is present with a pokemon.");
@@ -472,7 +473,6 @@ namespace SysBot.Pokemon
             await Click(PLUS, 0_600, token).ConfigureAwait(false);
             await Click(PLUS, 1_000, token).ConfigureAwait(false); // in case eaten
 
-            //return await IsConnectionPresent(token).ConfigureAwait(false);
             return true;
         }
 
@@ -513,17 +513,6 @@ namespace SysBot.Pokemon
                 if (!await IsInGame(token).ConfigureAwait(false))
                     return false;
             }
-
-            /*int tries = 30;
-            while (await IsConnectionPresent(token).ConfigureAwait(false))
-            {
-                if (tries-- < 0)
-                    return false;
-
-                await Click(B, 0_400, token).ConfigureAwait(false);
-                await Click(B, 0_400, token).ConfigureAwait(false);
-                await Click(A, 0_400, token).ConfigureAwait(false);
-            }*/
 
             int tries = 30;
             while (!await CanPlayerMove(token).ConfigureAwait(false))
@@ -584,15 +573,6 @@ namespace SysBot.Pokemon
             detail.Notifier.SendNotification(this, detail, $"Dumped {ctr} Pokémon.");
             detail.Notifier.TradeFinished(this, detail, new PA8()); // blank
             return PokeTradeResult.Success;
-        }
-
-        private async Task<TradePartnerPLA> GetTradePartnerInfo(CancellationToken token)
-        {
-            var offset = await SwitchConnection.PointerAll(TradePartnerIDPointer, token).ConfigureAwait(false);
-            var id = await SwitchConnection.ReadBytesAbsoluteAsync(offset, 4, token).ConfigureAwait(false);
-            var idbytes = await SwitchConnection.ReadBytesAbsoluteAsync(offset + 0x04, 4, token).ConfigureAwait(false);
-            var name = await SwitchConnection.ReadBytesAbsoluteAsync(offset + 0x10, 0x18, token).ConfigureAwait(false);
-            return new TradePartnerPLA(id, idbytes, name);
         }
 
         protected virtual async Task<(PA8 toSend, PokeTradeResult check)> GetEntityToSend(SAV8LA sav, PokeTradeDetail<PA8> poke, PA8 offered, byte[] oldEC, PA8 toSend, PartnerDataHolder partnerID, SpecialTradeType? stt, CancellationToken token)
@@ -725,6 +705,18 @@ namespace SysBot.Pokemon
                 DumpPokemon(DumpSetting.DumpFolder, "quick", pk);
 
             return PokeTradeResult.Success;
+        }
+
+        private async Task UnbanIfBanned(CancellationToken token)
+        {
+            var banBytes = await SwitchConnection.PointerPeek(8, TradeSoftBanPointer, token).ConfigureAwait(false);
+            var banState = BitConverter.ToUInt64(banBytes, 0);
+            if (banState != 0)
+            {
+                // We're banned!
+                Log("Softban detected! Unbanning now.");
+                await SwitchConnection.PointerPoke(BitConverter.GetBytes(0ul), TradeSoftBanPointer, token).ConfigureAwait(false);
+            }
         }
 
         private void WaitAtBarrierIfApplicable(CancellationToken token)

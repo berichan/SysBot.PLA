@@ -46,12 +46,15 @@ namespace SysBot.Pokemon
         /// <summary> Indicates if the trade data is currently being traded. </summary>
         public bool IsProcessing;
 
-        public PokeTradeDetail(TPoke pkm, PokeTradeTrainerInfo info, IPokeTradeNotifier<TPoke> notifier, PokeTradeType type, int code, bool favored = false)
-            :this(new TPoke[1] { pkm }, info, notifier, type, code, favored)
+        /// <summary> Indicated whether we should attempt to switch out the requests OTData </summary>
+        public bool UseInTradeTrainerData;
+
+        public PokeTradeDetail(TPoke pkm, PokeTradeTrainerInfo info, IPokeTradeNotifier<TPoke> notifier, PokeTradeType type, int code, bool favored = false, bool inTradeID = false)
+            :this(new TPoke[1] { pkm }, info, notifier, type, code, favored, inTradeID)
         {
         }
 
-        public PokeTradeDetail(TPoke[] pkm, PokeTradeTrainerInfo info, IPokeTradeNotifier<TPoke> notifier, PokeTradeType type, int code, bool favored = false)
+        public PokeTradeDetail(TPoke[] pkm, PokeTradeTrainerInfo info, IPokeTradeNotifier<TPoke> notifier, PokeTradeType type, int code, bool favored = false, bool inTradeID = false)
         {
             if (pkm == null || pkm.Length < 1)
                 throw new Exception("Sending data is empty.");
@@ -63,6 +66,7 @@ namespace SysBot.Pokemon
             Type = type;
             Time = DateTime.Now;
             IsFavored = favored;
+            UseInTradeTrainerData = inTradeID;
         }
 
         public void TradeInitialize(PokeRoutineExecutor<TPoke> routine) => Notifier.TradeInitialize(routine, this);

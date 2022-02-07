@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using PKHeX.Core;
+using System;
 
 namespace SysBot.Pokemon
 {
@@ -22,7 +23,7 @@ namespace SysBot.Pokemon
             var choice = this[Counter];
             Counter = (Counter + 1) % Count;
             if (Counter == 0 && Randomized)
-                Util.Shuffle(this);
+                Util.Shuffle(ToArray().AsSpan());
             return choice;
         }
 
@@ -60,8 +61,7 @@ namespace SysBot.Pokemon
             {
                 var data = File.ReadAllBytes(file);
 
-                //var pkm = PKMConverter.GetPKMfromBytes(data);
-                var pkm = (PKM)new PA8(data);
+                var pkm = PKMConverter.GetPKMfromBytes(data);
                 if (pkm is null)
                     continue;
                 if (pkm is not T)
@@ -81,7 +81,7 @@ namespace SysBot.Pokemon
                     continue;
                 }
 
-                /*var la = new LegalityAnalysis(dest);
+                var la = new LegalityAnalysis(dest);
                 if (!la.Valid)
                 {
                     var reason = la.Report();
@@ -93,7 +93,7 @@ namespace SysBot.Pokemon
                 {
                     LogUtil.LogInfo("Provided file was loaded but can't be Surprise Traded: " + dest.FileName, nameof(PokemonPool<T>));
                     surpriseBlocked++;
-                }*/
+                }
                 
                 if (Settings.Legality.ResetHOMETracker && pkm is IHomeTrack h)
                     h.Tracker = 0;

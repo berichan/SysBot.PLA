@@ -47,6 +47,10 @@ namespace SysBot.Pokemon.Discord
         [RequireQueueRole(nameof(DiscordManager.RolesTrade))]
         public async Task TradeAsync([Summary("Trade Code")] int code, [Summary("Showdown Set")][Remainder] string content)
         {
+            var msg1 = $"{Context.User.Mention} - I cannot currently parse showdown sets, use a pa8 file made from pkhex instead!";
+            await ReplyAsync(msg1).ConfigureAwait(false);
+            return;
+
             content = ReusableActions.StripCodeBlock(content);
             var set = new ShowdownSet(content);
             var template = AutoLegalityWrapper.GetTemplate(set);

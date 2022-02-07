@@ -71,7 +71,8 @@ namespace SysBot.Pokemon
                     return false;
             }
 
-            int[] pkIVList = PKX.ReorderSpeedLast(pk.IVs);
+            var pkIVList = pk.IVs.AsSpan();
+            PKX.ReorderSpeedLast(pkIVList);
 
             for (int i = 0; i < 6; i++)
             {
