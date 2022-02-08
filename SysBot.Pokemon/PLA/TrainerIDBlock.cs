@@ -20,6 +20,8 @@ namespace SysBot.Pokemon
         public byte Language { get; }
         public byte Gender { get; }
 
+        public ulong NSAID { get; set; }
+
         public TrainerIDBlock(byte[] TIDSID, byte[] idbytes, byte[] trainerNameObject)
         {
             Debug.Assert(TIDSID.Length == 4);
