@@ -21,6 +21,6 @@ namespace SysBot.Pokemon
         public static IReadOnlyList<long> BoxOpenPointer = new long[] { 0x42ADC30, 0x08, 0xC48, 0x498 };
         public static IReadOnlyList<long> PlayerCanMovePointer = new long[] { 0x42953A0, 0x18, 0x50, 0x78, 0x1E8 };
 
-        public const int BoxFormatSlotSize = 0x178;
+        public const int BoxFormatSlotSize = 0x168;
     }
 }
