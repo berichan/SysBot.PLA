@@ -207,9 +207,9 @@ namespace SysBot.Pokemon.Twitch
             switch (c)
             {
                 // User Usable Commands
-                //case "trade":
-                //    _ = TwitchCommandsHelper<T>.AddToWaitingList(args, m.DisplayName, m.Username, ulong.Parse(m.UserId), subscriber(), false, out string msg);
-                //    return msg;
+                case "trade":
+                    _ = TwitchCommandsHelper<T>.AddToWaitingList(args, m.DisplayName, m.Username, ulong.Parse(m.UserId), subscriber(), false, out string msg);
+                    return msg;
                 case "request":
                     _ = TwitchCommandsHelper<T>.AddToWaitingList(args, m.DisplayName, m.Username, ulong.Parse(m.UserId), subscriber(), true, out string msgreq);
                     return msgreq;

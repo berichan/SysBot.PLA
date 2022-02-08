@@ -23,7 +23,7 @@
     <PackageReference Include="LibUsbDotNet" Version="2.2.29" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="NLog" Version="4.7.12" />
-    <PackageReference Include="PKHeX.Core" Version="22.2.4" />
+    <PackageReference Include="PKHeX.Core" Version="22.2.5" />
     <PackageReference Include="System.Resources.Extensions" Version="5.0.0" />
   </ItemGroup>
 

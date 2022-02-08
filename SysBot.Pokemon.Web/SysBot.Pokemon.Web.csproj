@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="5.0.4" />
-    <PackageReference Include="PKHeX.Core" Version="22.2.4" />
+    <PackageReference Include="PKHeX.Core" Version="22.2.5" />
   </ItemGroup>
 
   <ItemGroup>
