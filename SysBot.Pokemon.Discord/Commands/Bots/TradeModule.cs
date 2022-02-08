@@ -76,7 +76,7 @@ namespace SysBot.Pokemon.Discord
                 pk.ResetPartyStats();
 
                 var sig = Context.User.GetFavor();
-                await AddTradeToQueueAsync(code, Context.User.Username, new T[] { pk }, sig, Context.User).ConfigureAwait(false);
+                await AddTradeToQueueAsync(code, Context.User.Username, new T[] { pk }, sig, Context.User, false).ConfigureAwait(false);
             }
 #pragma warning disable CA1031 // Do not catch general exception types
             catch (Exception e)
@@ -105,6 +105,34 @@ namespace SysBot.Pokemon.Discord
         {
             var code = Info.GetRandomTradeCode();
             await TradeAsyncAttach(code).ConfigureAwait(false);
+        }
+
+        [Command("request")]
+        [Alias("req")]
+        [Summary("Makes the bot trade you a preset request, giving it your OT in the process.")]
+        [RequireQueueRole(nameof(DiscordManager.RolesTrade))]
+        public async Task RequestAsync([Summary("Trade Code")] int code, [Summary("Request name")][Remainder] string content)
+        {
+            content = ReusableActions.StripCodeBlock(content);
+            var pkm = RequestUtil<T>.GetPokemonViaNamedRequest(SysCord<T>.Runner.Hub.Config.Folder.DistributeFolder, content);
+            if (pkm == null)
+            {
+                await ReplyAsync($"{Context.User.Mention} - {content} is not a valid request. Your trade has not been accepted.");
+                return;
+            }
+
+            var sig = Context.User.GetFavor();
+            await AddTradeToQueueAsync(code, Context.User.Username, new T[] { pkm }, sig, Context.User, true).ConfigureAwait(false);
+        }
+
+        [Command("request")]
+        [Alias("req")]
+        [Summary("Makes the bot trade you a preset request, giving it your OT in the process.")]
+        [RequireQueueRole(nameof(DiscordManager.RolesTrade))]
+        public async Task RequestAsync([Summary("Request name")][Remainder] string content)
+        {
+            var code = Info.GetRandomTradeCode();
+            await RequestAsync(code, content).ConfigureAwait(false);
         }
 
         private RemoteControlAccess GetReference(ulong id, string comment) => new()
@@ -175,7 +203,7 @@ namespace SysBot.Pokemon.Discord
                 attchList.Add(pk);
             }
 
-            await AddTradeToQueueAsync(code, usr.Username, attchList.ToArray(), sig, usr).ConfigureAwait(false);
+            await AddTradeToQueueAsync(code, usr.Username, attchList.ToArray(), sig, usr, false).ConfigureAwait(false);
         }
 
         private static T? GetRequest(Download<PKM> dl)
@@ -190,7 +218,7 @@ namespace SysBot.Pokemon.Discord
             };
         }
 
-        private async Task AddTradeToQueueAsync(int code, string trainerName, T[] pks, RequestSignificance sig, SocketUser usr)
+        private async Task AddTradeToQueueAsync(int code, string trainerName, T[] pks, RequestSignificance sig, SocketUser usr, bool InTradeID)
         {
             foreach (var pk in pks)
             {
@@ -208,7 +236,7 @@ namespace SysBot.Pokemon.Discord
                 }
             }
 
-            await QueueHelper<T>.AddToQueueAsync(Context, code, trainerName, sig, pks, PokeRoutineType.PLALinkTrade, PokeTradeType.Specific, usr).ConfigureAwait(false);
+            await QueueHelper<T>.AddToQueueAsync(Context, code, trainerName, sig, pks, PokeRoutineType.PLALinkTrade, PokeTradeType.Specific, usr, InTradeID).ConfigureAwait(false);
         }
     }
 }

@@ -53,17 +53,7 @@ namespace SysBot.Pokemon.Twitch
                     pkm = sav.GetLegal(template, out result);
                 }
                 else
-                {
-                    var files = EnumerateSpecificFiles(TwitchBot<T>.Hub.Config.Folder.DistributeFolder, setstring).ToArray();
-
-                    if (files.Length > 0)
-                        pkm = PKMConverter.GetPKMfromBytes(File.ReadAllBytes(files[0]));
-                    else
-                        LogUtil.LogError($"Not found: {setstring}.", nameof(TwitchCommandsHelper<T>));
-                    //var path = Path.Combine(TwitchBot<T>.Hub.Config.Folder.DistributeFolder, setstring);
-                    //if (File.Exists(path))
-                    //    pkm = PKMConverter.GetPKMfromBytes(File.ReadAllBytes(path));
-                }
+                    pkm = RequestUtil<T>.GetPokemonViaNamedRequest(TwitchBot<T>.Hub.Config.Folder.DistributeFolder, setstring);
 
                 if (pkm == null)
                 {
@@ -101,18 +91,6 @@ namespace SysBot.Pokemon.Twitch
                 msg = $"Skipping trade, @{username}: An unexpected problem occurred.";
             }
             return false;
-        }
-
-        static IEnumerable<string> EnumerateSpecificFiles(string directory, string initialTextForFileName)
-        {
-            foreach (string file in Directory.EnumerateFiles(directory))
-            {
-                var pt = Path.GetFileNameWithoutExtension(file);
-                if (pt.StartsWith(initialTextForFileName, StringComparison.OrdinalIgnoreCase))
-                {
-                    yield return file;
-                }
-            }
         }
 
         public static string ClearTrade(string user)

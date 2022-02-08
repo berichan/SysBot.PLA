@@ -12,7 +12,7 @@ namespace SysBot.Pokemon.Discord
     {
         private const uint MaxTradeCode = 9999_9999;
 
-        public static async Task AddToQueueAsync(SocketCommandContext context, int code, string trainer, RequestSignificance sig, T[] trade, PokeRoutineType routine, PokeTradeType type, SocketUser trader)
+        public static async Task AddToQueueAsync(SocketCommandContext context, int code, string trainer, RequestSignificance sig, T[] trade, PokeRoutineType routine, PokeTradeType type, SocketUser trader, bool InTradeID = false)
         {
             if ((uint)code > MaxTradeCode)
             {
@@ -35,7 +35,7 @@ namespace SysBot.Pokemon.Discord
             }
 
             // Try adding
-            var result = AddToTradeQueue(context, trade, code, trainer, sig, routine, type, trader, out var msg);
+            var result = AddToTradeQueue(context, trade, code, trainer, sig, routine, type, trader, InTradeID, out var msg);
 
             // Notify in channel
             await context.Channel.SendMessageAsync(msg).ConfigureAwait(false);
@@ -56,15 +56,15 @@ namespace SysBot.Pokemon.Discord
             }
         }
 
-        public static async Task AddToQueueAsync(SocketCommandContext context, int code, string trainer, RequestSignificance sig, T trade, PokeRoutineType routine, PokeTradeType type, SocketUser trader)
-            => await AddToQueueAsync(context, code, trainer, sig, new T[] { trade }, routine, type, trader).ConfigureAwait(false);
+        public static async Task AddToQueueAsync(SocketCommandContext context, int code, string trainer, RequestSignificance sig, T trade, PokeRoutineType routine, PokeTradeType type, SocketUser trader, bool InTradeID = false)
+            => await AddToQueueAsync(context, code, trainer, sig, new T[] { trade }, routine, type, trader, InTradeID).ConfigureAwait(false);
 
-        public static async Task AddToQueueAsync(SocketCommandContext context, int code, string trainer, RequestSignificance sig, T trade, PokeRoutineType routine, PokeTradeType type)
+        public static async Task AddToQueueAsync(SocketCommandContext context, int code, string trainer, RequestSignificance sig, T trade, PokeRoutineType routine, PokeTradeType type, bool InTradeID = false)
         {
-            await AddToQueueAsync(context, code, trainer, sig, trade, routine, type, context.User).ConfigureAwait(false);
+            await AddToQueueAsync(context, code, trainer, sig, trade, routine, type, context.User, InTradeID).ConfigureAwait(false);
         }
 
-        private static bool AddToTradeQueue(SocketCommandContext context, T[] pk, int code, string trainerName, RequestSignificance sig, PokeRoutineType type, PokeTradeType t, SocketUser trader, out string msg)
+        private static bool AddToTradeQueue(SocketCommandContext context, T[] pk, int code, string trainerName, RequestSignificance sig, PokeRoutineType type, PokeTradeType t, SocketUser trader, bool inTradeID, out string msg)
         {
             var user = trader;
             var userID = user.Id;
@@ -73,7 +73,7 @@ namespace SysBot.Pokemon.Discord
 
             var trainer = new PokeTradeTrainerInfo(trainerName, userID);
             var notifier = new DiscordTradeNotifier<T>(firstPk, trainer, code, user, context.Channel);
-            var detail = new PokeTradeDetail<T>(pk, trainer, notifier, t, code, sig == RequestSignificance.Favored);
+            var detail = new PokeTradeDetail<T>(pk, trainer, notifier, t, code, sig == RequestSignificance.Favored, inTradeID);
             var trade = new TradeEntry<T>(detail, userID, type, name);
 
             var hub = SysCord<T>.Runner.Hub;
