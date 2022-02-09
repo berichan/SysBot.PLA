@@ -272,6 +272,14 @@ namespace SysBot.Pokemon
             }
 
             Log($"Found trading partner: {tradePartner.TrainerName}-{tradePartner.SID}-{tradePartner.TID} ({poke.Trainer.TrainerName}) (NID: {tradePartnerNID})");
+
+            if (Hub.Config.Trade.NIDBlacklist.Contains(tradePartnerNID))
+            {
+                Log($"Found blacklisted NID: {tradePartner.TrainerName}-{tradePartner.SID}-{tradePartner.TID} ({poke.Trainer.TrainerName}) (NID: {tradePartnerNID}) origin: {poke.Notifier.IdentifierLocator}");
+                poke.SendNotification(this, $"You are currently blacklisted.");
+                return PokeTradeResult.IllegalTrade;
+            }
+
             poke.SendNotification(this, $"Found Trading Partner: {tradePartner.TrainerName} SID: {tradePartner.SID:0000} TID: {tradePartner.TID:000000}. Waiting for a Pokémon...");
 
             if (poke.Type == PokeTradeType.Dump)

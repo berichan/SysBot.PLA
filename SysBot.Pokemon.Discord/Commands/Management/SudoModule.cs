@@ -83,6 +83,40 @@ namespace SysBot.Pokemon.Discord
             await ReplyAsync(Format.Code(msg)).ConfigureAwait(false);
         }
 
+        [Command("blacklistNID")]
+        [Summary("Blacklists one or more NIDs")]
+        [RequireSudo]
+        // ReSharper disable once UnusedParameter.Global
+        public async Task BlackListUserNIDs([Summary("NIDs")][Remainder] string content)
+        {
+            var IDs = GetIDs(content);
+            var objects = IDs.Select(GetReference);
+            SysCordSettings.HubConfig.Trade.NIDBlacklist.AddIfNew(objects);
+            await ReplyAsync("Done.").ConfigureAwait(false);
+        }
+
+        [Command("unblacklistNID")]
+        [Summary("Unblacklists one or more NIDs")]
+        [RequireSudo]
+        // ReSharper disable once UnusedParameter.Global
+        public async Task UnblackListUserNIDs([Summary("NIDs")][Remainder] string content)
+        {
+            var IDs = GetIDs(content);
+            SysCordSettings.HubConfig.Trade.NIDBlacklist.RemoveAll(z => IDs.Any(o => o == z.ID));
+            await ReplyAsync("Done.").ConfigureAwait(false);
+        }
+
+        [Command("blacklistNIDSummary")]
+        [Alias("printNIDBlacklist", "blacklistNIDPrint", "showNIDs")]
+        [Summary("Prints the list of blacklisted NIDs.")]
+        [RequireSudo]
+        public async Task PrintNIDBlacklist()
+        {
+            var lines = SysCordSettings.HubConfig.Trade.NIDBlacklist.Summarize();
+            var msg = string.Join("\n", lines);
+            await ReplyAsync(Format.Code(msg)).ConfigureAwait(false);
+        }
+
         [Command("removeAlt")]
         [Alias("removeLog", "rmAlt")]
         [Summary("Removes an identity (name-id) from the local user-to-trader AntiAbuse database")]

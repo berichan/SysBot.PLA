@@ -45,6 +45,9 @@ namespace SysBot.Pokemon
         [Category(TradeConfig), Description("Maximum amount of trades allowed using PB8 files, between 1 and 3.")]
         public int MaximumAttachmentsAllowed { get => maxAttachments; set => maxAttachments = Math.Min(value, 3); }
 
+        [Category(TradeConfig), Description("NIDs to disconnect from when detected.")]
+        public RemoteControlAccessList NIDBlacklist { get; set; } = new() { AllowIfEmpty = false };
+
         /// <summary>
         /// Gets a random trade code based on the range settings.
         /// </summary>
