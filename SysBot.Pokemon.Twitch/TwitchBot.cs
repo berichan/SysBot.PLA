@@ -77,6 +77,8 @@ namespace SysBot.Pokemon.Twitch
 
             EchoUtil.Forwarders.Add(msg => client.SendMessage(Channel, msg));
 
+            RequestUtil<T>.Prefix = settings.CommandPrefix.ToString();
+
             // Turn on if verified
             // Hub.Queues.Forwarders.Add((bot, detail) => client.SendMessage(Channel, $"{bot.Connection.Name} is now trading (ID {detail.ID}) {detail.Trainer.TrainerName}"));
         }
