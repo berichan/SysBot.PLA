@@ -135,6 +135,7 @@ namespace SysBot.Pokemon
 
                 await PerformTrade(sav, detail, type, priority, token).ConfigureAwait(false);
                 await RestartGameIfCantIdle(token).ConfigureAwait(false);
+                await AttemptClearTradePartnerPointer(token).ConfigureAwait(false);
             }
         }
 
@@ -349,8 +350,6 @@ namespace SysBot.Pokemon
                 var tradeResult = await ConfirmAndStartTrading(poke, token).ConfigureAwait(false);
                 if (tradeResult != PokeTradeResult.Success)
                     return tradeResult;
-                else
-                    await AttemptClearTradePartnerPointer(token).ConfigureAwait(false);
 
                 if (token.IsCancellationRequested)
                     return PokeTradeResult.RoutineCancel;
@@ -388,7 +387,7 @@ namespace SysBot.Pokemon
             var oldPKData = await SwitchConnection.PointerPeek(BoxFormatSlotSize, BoxStartPokemonPointer, token).ConfigureAwait(false);
 
             await Click(A, 3_000, token).ConfigureAwait(false);
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 14; i++)
             {
                 if (await IsUserBeingShifty(detail, token).ConfigureAwait(false))
                     return PokeTradeResult.SuspiciousActivity;
@@ -605,17 +604,18 @@ namespace SysBot.Pokemon
                 await Task.Delay(0_500, token).ConfigureAwait(false);
                 (valid, offset) = await ValidatePointerAll(TradePartnerShowingPointer, token).ConfigureAwait(false);
             }
-            var partnerFound = await ReadUntilChanged(offset, oldEC, 15_000, 0_200, false, true, token).ConfigureAwait(false);
 
-            if (!partnerFound)
+            var pkmChanged = await ReadUntilChanged(offset, oldEC, 15_000, 0_200, false, true, token).ConfigureAwait(false);
+
+            if (!pkmChanged)
             {
                 poke.SendNotification(this, "**HEY CHANGE IT NOW OR I AM LEAVING!!!**");
                 // They get one more chance.
-                partnerFound = await ReadUntilChanged(offset, oldEC, 15_000, 0_200, false, true, token).ConfigureAwait(false);
+                pkmChanged = await ReadUntilChanged(offset, oldEC, 15_000, 0_200, false, true, token).ConfigureAwait(false);
             }
 
             var pk2 = await ReadUntilPresent(offset, 3_000, 1_000, BoxFormatSlotSize, token).ConfigureAwait(false);
-            if (!partnerFound || pk2 == null || SearchUtil.HashByDetails(pk2) == SearchUtil.HashByDetails(offered))
+            if (!pkmChanged || pk2 == null || SearchUtil.HashByDetails(pk2) == SearchUtil.HashByDetails(offered))
             {
                 Log("Trade partner did not change their Pokémon.");
                 return (offered, PokeTradeResult.TrainerTooSlow);
