@@ -274,13 +274,6 @@ namespace SysBot.Pokemon.Twitch
             var msg = e.WhisperMessage.Message;
             try
             {
-                msg = msg.Replace(" ", string.Empty);
-                if (!int.TryParse(msg, out _)) 
-                {
-                    client.SendMessage(Channel, $"WRONG! @{user.UserName} - You did not whisper a valid 8-digit trade code. Your trade request has been removed, please start over.");
-                    return;
-                }
-
                 int code = Util.ToInt32(msg);
                 var sig = GetUserSignificance(user);
                 AddToTradeQueue(user.Pokemon, code, e, sig, PokeRoutineType.PLALinkTrade, user.UseTradeID, out string message);
