@@ -30,10 +30,10 @@ namespace SysBot.Pokemon
         public QueueOpening QueueToggleMode { get; set; } = QueueOpening.Threshold;
 
         [Category(FeatureToggle), Description("Will send users a reminder before their trade if the queue is at this size or above at entry.")]
-        public int ReminderQueueSize { get; set; } = 30;
+        public int ReminderQueueThresholdSize { get; set; } = 20;
 
-        [Category(FeatureToggle), Description("When to send the reminder as a % of the threshold queue size.")]
-        public float ReminderQueueTime { get; set; } = 0.1f;
+        [Category(FeatureToggle), Description("The position at when to send the reminder.")]
+        public int ReminderQueuePosition { get; set; } = 5;
 
         // Queue Toggle
 

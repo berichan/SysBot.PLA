@@ -135,7 +135,7 @@ namespace SysBot.Pokemon.Discord
         [RequireSudo]
         public async Task EditReminderThresholdAsync(int value)
         {
-            SysCordSettings.HubConfig.Queues.ReminderQueueSize = value;
+            SysCordSettings.HubConfig.Queues.ReminderQueueThresholdSize = value;
             await ReplyAsync("Done.").ConfigureAwait(false);
         }
 

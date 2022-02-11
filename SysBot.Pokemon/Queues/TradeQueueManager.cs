@@ -72,11 +72,10 @@ namespace SysBot.Pokemon
 
         public void SendReminders(PokeTradeQueue<T> queue)
         {
-            int queueThreshold = (int)((float)Hub.Config.Queues.ReminderQueueSize * Hub.Config.Queues.ReminderQueueTime);
             foreach (var v in queue.Queue)
             {
                 var posInfo = Info.CheckPosition(v.Value.Trainer.ID);
-                if (v.Value.Notifier.QueueSizeEntry >= Hub.Config.Queues.ReminderQueueSize && posInfo.Position <= queueThreshold)
+                if (v.Value.Notifier.QueueSizeEntry >= Hub.Config.Queues.ReminderQueueThresholdSize && posInfo.Position <= Hub.Config.Queues.ReminderQueuePosition)
                     v.Value.Notifier.SendReminder(posInfo.Position, string.Empty);
             }
         }
