@@ -109,7 +109,7 @@ namespace SysBot.Pokemon.Twitch
             var name = e.WhisperMessage.DisplayName;
 
             var trainer = new PokeTradeTrainerInfo(name, ulong.Parse(e.WhisperMessage.UserId));
-            var notifier = new TwitchTradeNotifier<T>(pk, trainer, code, e.WhisperMessage.Username, client, Channel, Hub.Config.Twitch);
+            var notifier = new TwitchTradeNotifier<T>(pk, trainer, code, e.WhisperMessage.Username, client, Channel, Hub.Config.Twitch, Info.Count + 1);
             var tt = type == PokeRoutineType.PLASpecialRequest ? PokeTradeType.Seed : PokeTradeType.Specific;
             var detail = new PokeTradeDetail<T>(pk, trainer, notifier, tt, code, sig == RequestSignificance.Favored, useTheirID);
             var trade = new TradeEntry<T>(detail, userID, type, name);
@@ -216,8 +216,12 @@ namespace SysBot.Pokemon.Twitch
                     _ = TwitchCommandsHelper<T>.AddToWaitingList(args, m.DisplayName, m.Username, ulong.Parse(m.UserId), subscriber(), true, out string msgreq);
                     return msgreq;
                 case "ts":
+                case "queue":
+                case "position":
                     return $"@{m.Username}: {Info.GetPositionString(ulong.Parse(m.UserId))}";
                 case "tc":
+                case "cancel":
+                case "remove":
                     return $"@{m.Username}: {TwitchCommandsHelper<T>.ClearTrade(ulong.Parse(m.UserId))}";
 
                 case "code" when whisper:

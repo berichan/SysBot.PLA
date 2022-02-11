@@ -50,6 +50,15 @@ namespace SysBot.Pokemon
             LogUtil.LogInfo(message, routine.Connection.Label);
         }
 
+        public void SendReminder(int position, string message)
+        {
+            
+        }
+
         public Action<PokeRoutineExecutor<T>>? OnFinish { get; set; }
+
+        public int QueueSizeEntry => 1;
+
+        public bool ReminderSent => true;
     }
 }

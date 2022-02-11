@@ -7,6 +7,12 @@ namespace SysBot.Pokemon
     {
         /// <summary> The destination or type of this notifier </summary>
         public string IdentifierLocator { get; }
+
+        /// <summary> Size of the queue at entry </summary>
+        public int QueueSizeEntry { get; }
+        /// <summary> Has a reminder been sent? </summary>
+        public bool ReminderSent { get; }
+
         /// <summary> Notifies when a trade bot is initializing at the start. </summary>
         void TradeInitialize(PokeRoutineExecutor<T> routine, PokeTradeDetail<T> info);
         /// <summary> Notifies when a trade bot is searching for the partner. </summary>
@@ -22,6 +28,9 @@ namespace SysBot.Pokemon
         void SendNotification(PokeRoutineExecutor<T> routine, PokeTradeDetail<T> info, PokeTradeSummary message);
         /// <summary> Sends a notification when called with parameters. </summary>
         void SendNotification(PokeRoutineExecutor<T> routine, PokeTradeDetail<T> info, T result, string message);
+
+        /// <summary> Sends a reminder </summary>
+        void SendReminder(int position, string message);
 
         /// <summary> Notifies when a trade bot is initializing at the start. </summary>
         Action<PokeRoutineExecutor<T>>? OnFinish { set; }

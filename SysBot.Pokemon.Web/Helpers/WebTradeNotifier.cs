@@ -19,6 +19,9 @@ namespace SysBot.Pokemon.Web
         private IWebNotify<T> WebNotify { get; }
         private T Result { get; set; }
         private string OtherTrainer { get; set; } = string.Empty;
+        public int QueueSizeEntry => -1;
+
+        public bool ReminderSent => true;
 
         public WebTradeNotifier(T data, PokeTradeTrainerInfo info, int code, IWebNotify<T> notifier)
         {
@@ -92,5 +95,10 @@ namespace SysBot.Pokemon.Web
 
         private void NotifyServerOfTradeInfo(SeedSearchResult r)
             => WebNotify.NotifyServerOfSeedInfo(r, Result);
+
+        public void SendReminder(int position, string message)
+        {
+            
+        }
     }
 }

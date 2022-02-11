@@ -15,6 +15,9 @@ namespace SysBot.Pokemon.Discord
         private SocketUser Trader { get; }
 		private ISocketMessageChannel CommandSentChannel { get; }
         public Action<PokeRoutineExecutor<T>>? OnFinish { private get; set; }
+        public int QueueSizeEntry { get; }
+        public bool ReminderSent { get; set; } = false;
+
         public readonly PokeTradeHub<T> Hub = SysCord<T>.Runner.Hub;
 
         public DiscordTradeNotifier(T data, PokeTradeTrainerInfo info, int code, SocketUser trader, ISocketMessageChannel commandSentChannel)
@@ -24,6 +27,8 @@ namespace SysBot.Pokemon.Discord
             Code = code;
             Trader = trader;
             CommandSentChannel = commandSentChannel;
+
+            QueueSizeEntry = Hub.Queues.GetQueue().Count;
         }
 
         public void TradeInitialize(PokeRoutineExecutor<T> routine, PokeTradeDetail<T> info)
@@ -95,6 +100,14 @@ namespace SysBot.Pokemon.Discord
             });
             var msg = $"Here are the details for `{r.Seed:X16}`:";
             Trader.SendMessageAsync(msg, embed: embed.Build()).ConfigureAwait(false);
+        }
+
+        public void SendReminder(int position, string message)
+        {
+            if (ReminderSent)
+                return;
+            ReminderSent = true;
+            Trader.SendMessageAsync($"[Reminder] {Trader.Mention} You are currently position {position} in the queue. Your trade will start soon!");
         }
     }
 }

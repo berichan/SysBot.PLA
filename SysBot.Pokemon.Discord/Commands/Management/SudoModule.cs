@@ -129,6 +129,16 @@ namespace SysBot.Pokemon.Discord
                 await ReplyAsync($"{identity} is not a valid identity.").ConfigureAwait(false);
         }
 
+        [Command("setReminderAt")]
+        [Alias("remind", "sRem")]
+        [Summary("Sets the current reminder queue threshold to something else.")]
+        [RequireSudo]
+        public async Task EditReminderThresholdAsync(int value)
+        {
+            SysCordSettings.HubConfig.Queues.ReminderQueueSize = value;
+            await ReplyAsync("Done.").ConfigureAwait(false);
+        }
+
         private RemoteControlAccess GetReference(IUser channel) => new()
         {
             ID = channel.Id,

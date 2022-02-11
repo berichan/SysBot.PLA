@@ -50,7 +50,9 @@ namespace SysBot.Pokemon
         private bool TryDequeueInternal(out PokeTradeDetail<T> detail, out uint priority)
         {
             var queue = GetQueue();
-            return queue.TryDequeue(out detail, out priority);
+            var toRet = queue.TryDequeue(out detail, out priority);
+            SendReminders(queue);
+            return toRet;
         }
 
         public void Enqueue(PokeRoutineType type, PokeTradeDetail<T> detail, uint priority)
@@ -66,6 +68,17 @@ namespace SysBot.Pokemon
         {
             foreach (var f in Forwarders)
                 f.Invoke(b, detail);
+        }
+
+        public void SendReminders(PokeTradeQueue<T> queue)
+        {
+            int queueThreshold = (int)((float)Hub.Config.Queues.ReminderQueueSize * Hub.Config.Queues.ReminderQueueTime);
+            foreach (var v in queue.Queue)
+            {
+                var posInfo = Info.CheckPosition(v.Value.Trainer.ID);
+                if (v.Value.Notifier.QueueSizeEntry >= Hub.Config.Queues.ReminderQueueSize && posInfo.Position <= queueThreshold)
+                    v.Value.Notifier.SendReminder(posInfo.Position, string.Empty);
+            }
         }
     }
 }

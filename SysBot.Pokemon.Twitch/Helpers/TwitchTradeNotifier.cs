@@ -15,9 +15,11 @@ namespace SysBot.Pokemon.Twitch
         private string Username { get; }
         private TwitchClient Client { get; }
         private string Channel { get; }
+        public int QueueSizeEntry { get; }
+        public bool ReminderSent { get; set; } = false;
         private TwitchSettings Settings { get; }
 
-        public TwitchTradeNotifier(T data, PokeTradeTrainerInfo info, int code, string username, TwitchClient client, string channel, TwitchSettings settings)
+        public TwitchTradeNotifier(T data, PokeTradeTrainerInfo info, int code, string username, TwitchClient client, string channel, TwitchSettings settings, int qEntrySize)
         {
             Data = data;
             Info = info;
@@ -26,6 +28,7 @@ namespace SysBot.Pokemon.Twitch
             Client = client;
             Channel = channel;
             Settings = settings;
+            QueueSizeEntry = qEntrySize;
 
             LogUtil.LogText($"Created trade details for {Username} - {Code}");
         }
@@ -107,6 +110,16 @@ namespace SysBot.Pokemon.Twitch
                     Client.SendWhisper(Username, message);
                     break;
             }
+        }
+
+        public void SendReminder(int position, string message)
+        {
+            if (ReminderSent)
+                return;
+            ReminderSent = true;
+            string msg = $"[Reminder] @{Username} You are currently position {position} in the queue. Your trade will start soon!";
+            LogUtil.LogText(msg);
+            SendMessage(msg, Settings.TradeStartDestination);
         }
     }
 }

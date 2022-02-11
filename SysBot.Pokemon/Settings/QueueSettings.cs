@@ -29,6 +29,12 @@ namespace SysBot.Pokemon
         [Category(FeatureToggle), Description("Determines when the queue is turned on and off.")]
         public QueueOpening QueueToggleMode { get; set; } = QueueOpening.Threshold;
 
+        [Category(FeatureToggle), Description("Will send users a reminder before their trade if the queue is at this size or above at entry.")]
+        public int ReminderQueueSize { get; set; } = 30;
+
+        [Category(FeatureToggle), Description("When to send the reminder as a % of the threshold queue size.")]
+        public float ReminderQueueTime { get; set; } = 0.1f;
+
         // Queue Toggle
 
         [Category(QueueToggle), Description("Threshold Mode: Count of users that will cause the queue to open.")]
@@ -75,7 +81,7 @@ namespace SysBot.Pokemon
         public int YieldMultWaitDump { get; set; } = 1;
 
         [Category(TimeBias), Description("Multiplies the amount of users in queue to give an estimate of how much time it will take until the user is processed.")]
-        public float EstimatedDelayFactor { get; set; } = 1.9f;
+        public float EstimatedDelayFactor { get; set; } = 1.5f;
 
         private int GetCountBias(PokeTradeType type) => type switch
         {

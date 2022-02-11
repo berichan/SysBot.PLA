@@ -69,7 +69,7 @@ namespace SysBot.Pokemon
             lock (sync)
             {
                 RequestTracker.AddEntryCount(newItem);
-                if (span.TotalMinutes > 1)
+                if (span.TotalMinutes > 5)
                 {
                     ClearCount++;
                     LastClearedTime = DateTime.Now;

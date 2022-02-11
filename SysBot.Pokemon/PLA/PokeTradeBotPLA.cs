@@ -3,6 +3,7 @@ using PKHeX.Core.Searching;
 using SysBot.Base;
 using System;
 using System.Net.Sockets;
+using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using static SysBot.Base.SwitchButton;
@@ -50,6 +51,9 @@ namespace SysBot.Pokemon
 
                 Log("Identifying trainer data of the host console.");
                 var sav = await IdentifyTrainer(token).ConfigureAwait(false);
+
+                var version = await GetVersionAsync(SwitchConnection, token).ConfigureAwait(false);
+                Log($"botbase version identified as version {version}.");
 
                 await RestartGameIfCantIdle(token).ConfigureAwait(false);
 
@@ -757,6 +761,14 @@ namespace SysBot.Pokemon
                 Hub.BotSync.Barrier.RemoveParticipant();
                 Log($"Left the Barrier. Count: {Hub.BotSync.Barrier.ParticipantCount}");
             }
+        }
+
+        public static async Task<string> GetVersionAsync(ISwitchConnectionAsync connection, CancellationToken token)
+        {
+            var gvbytes = Encoding.ASCII.GetBytes("getVersion\r\n");
+            byte[] socketReturn = await connection.ReadRaw(gvbytes, 9, token).ConfigureAwait(false);
+            string version = Encoding.UTF8.GetString(socketReturn).TrimEnd('\0').TrimEnd('\n');
+            return version;
         }
 
         private async Task<bool> SetBoxPkmWithSwappedIDDetailsPLA(PA8 toSend, SAV8LA sav, TrainerIDBlock tradePartner, CancellationToken token)
