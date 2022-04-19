@@ -13,11 +13,11 @@
         PLASpecialRequest = 10001,
         PLALinkTrade = 10002,
         PLAClone = 10003,
-        BDSPDump = 10004
+        PLADump = 10004
     }
 
     public static class PokeRoutineTypeExtensions
     {
-        public static bool IsTradeBot(this PokeRoutineType type) => type is >=PokeRoutineType.PLAFlexTrade and <=PokeRoutineType.BDSPDump;
+        public static bool IsTradeBot(this PokeRoutineType type) => type is >=PokeRoutineType.PLAFlexTrade and <=PokeRoutineType.PLADump;
     }
 }

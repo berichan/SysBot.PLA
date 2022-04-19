@@ -17,7 +17,7 @@ namespace SysBot.Pokemon.Discord
         public async Task DumpAsync(int code)
         {
             var sig = Context.User.GetFavor();
-            await QueueHelper<T>.AddToQueueAsync(Context, code, Context.User.Username, sig, new T(), PokeRoutineType.BDSPDump, PokeTradeType.Dump).ConfigureAwait(false);
+            await QueueHelper<T>.AddToQueueAsync(Context, code, Context.User.Username, sig, new T(), PokeRoutineType.PLADump, PokeTradeType.Dump).ConfigureAwait(false);
         }
 
         [Command("dump")]
@@ -28,7 +28,7 @@ namespace SysBot.Pokemon.Discord
         {
             int tradeCode = Util.ToInt32(code);
             var sig = Context.User.GetFavor();
-            await QueueHelper<T>.AddToQueueAsync(Context, tradeCode == 0 ? Info.GetRandomTradeCode() : tradeCode, Context.User.Username, sig, new T(), PokeRoutineType.BDSPDump, PokeTradeType.Dump).ConfigureAwait(false);
+            await QueueHelper<T>.AddToQueueAsync(Context, tradeCode == 0 ? Info.GetRandomTradeCode() : tradeCode, Context.User.Username, sig, new T(), PokeRoutineType.PLADump, PokeTradeType.Dump).ConfigureAwait(false);
         }
 
         [Command("dump")]
