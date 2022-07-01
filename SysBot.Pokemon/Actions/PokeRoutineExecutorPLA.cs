@@ -13,7 +13,7 @@ namespace SysBot.Pokemon
 {
     public abstract class PokeRoutineExecutorPLA : PokeRoutineExecutor<PA8>
     {
-        protected const int HidWaitTime = 50;
+        protected const int HidWaitTime = 65;
 
         protected PokeRoutineExecutorPLA(PokeBotState cfg) : base(cfg)
         {
@@ -129,7 +129,7 @@ namespace SysBot.Pokemon
             keysToPress[codeChars.Length] = HidKeyboardKey.Return;
 
             await Connection.SendAsync(SwitchCommand.TypeMultipleKeys(keysToPress), token).ConfigureAwait(false);
-            await Task.Delay((HidWaitTime * 8) + 0_100, token).ConfigureAwait(false);
+            await Task.Delay((HidWaitTime * 8) + 0_200, token).ConfigureAwait(false);
             // Confirm Code outside of this method (allow synchronization)
         }
 
