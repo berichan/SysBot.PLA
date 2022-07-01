@@ -41,7 +41,9 @@ namespace SysBot.Pokemon
                     }
                 }
 
-                var pkm = PKMConverter.GetPKMfromBytes(File.ReadAllBytes(fileNameGet));
+                var fileData = File.ReadAllBytes(fileNameGet);
+                var prefer = EntityFileExtension.GetContextFromExtension(fileNameGet, EntityContext.None);
+                var pkm = EntityFormat.GetFromBytes(fileData, prefer);
                 pkm?.ResetPartyStats();
                 HandleTracking(Path.GetFileNameWithoutExtension(fileNameGet));
                 return (T?)pkm;

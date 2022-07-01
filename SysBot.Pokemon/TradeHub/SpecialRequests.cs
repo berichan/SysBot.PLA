@@ -357,7 +357,7 @@ namespace SysBot.Pokemon
                 
                 if (!pkloaded.SWSH)
                 {
-                    pkloaded = PKMConverter.ConvertToType(pkloaded, typeof(T), out _);
+                    pkloaded = EntityConverter.ConvertToType(pkloaded, typeof(T), out _);
                     if (pkloaded != null)
                     {
                         pkloaded.CurrentHandler = 1;

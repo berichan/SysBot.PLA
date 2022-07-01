@@ -61,11 +61,12 @@ namespace SysBot.Pokemon
             {
                 var data = File.ReadAllBytes(file);
 
-                var pkm = PKMConverter.GetPKMfromBytes(data);
+                var prefer = EntityFileExtension.GetContextFromExtension(file, EntityContext.None);
+                var pkm = EntityFormat.GetFromBytes(data, prefer);
                 if (pkm is null)
                     continue;
                 if (pkm is not T)
-                    pkm = PKMConverter.ConvertToType(pkm, typeof(T), out _);
+                    pkm = EntityConverter.ConvertToType(pkm, typeof(T), out _);
                 if (pkm is not T dest)
                     continue;
 

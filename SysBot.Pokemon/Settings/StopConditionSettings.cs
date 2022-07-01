@@ -39,48 +39,7 @@ namespace SysBot.Pokemon
         [Category(StopConditions), Description("If not empty, the provided string will be prepended to the result found log message to Echo alerts for whomever you specify. For Discord, use <@userIDnumber> to mention.")]
         public string MatchFoundEchoMention { get; set; } = string.Empty;
 
-        public static bool EncounterFound<T>(T pk, int[] targetminIVs, int[] targetmaxIVs, StopConditionSettings settings) where T : PKM
-        {
-            // Match Nature and Species if they were specified.
-            if (settings.StopOnSpecies != Species.None && settings.StopOnSpecies != (Species)pk.Species)
-                return false;
-
-            if (settings.TargetNature != Nature.Random && settings.TargetNature != (Nature)pk.Nature)
-                return false;
-
-            if (settings.MarkOnly && pk is IRibbonIndex m && !HasMark(m))
-                return false;
-
-            if (settings.ShinyTarget != TargetShinyType.DisableOption)
-            {
-                bool shinymatch = settings.ShinyTarget switch
-                {
-                    TargetShinyType.AnyShiny => pk.IsShiny,
-                    TargetShinyType.NonShiny => !pk.IsShiny,
-                    TargetShinyType.StarOnly => pk.IsShiny && pk.ShinyXor != 0,
-                    TargetShinyType.SquareOnly => pk.ShinyXor == 0,
-                    TargetShinyType.DisableOption => true,
-                    _ => throw new ArgumentException(nameof(TargetShinyType)),
-                };
-
-                // If we only needed to match one of the criteria and it shinymatch'd, return true.
-                // If we needed to match both criteria and it didn't shinymatch, return false.
-                if (!settings.MatchShinyAndIV && shinymatch)
-                    return true;
-                if (settings.MatchShinyAndIV && !shinymatch)
-                    return false;
-            }
-
-            var pkIVList = pk.IVs.AsSpan();
-            PKX.ReorderSpeedLast(pkIVList);
-
-            for (int i = 0; i < 6; i++)
-            {
-                if (targetminIVs[i] > pkIVList[i] || targetmaxIVs[i] < pkIVList[i])
-                    return false;
-            }
-            return true;
-        }
+        
 
         public static void InitializeTargetIVs(PokeTradeHub<PK8> hub, out int[] min, out int[] max)
         {
