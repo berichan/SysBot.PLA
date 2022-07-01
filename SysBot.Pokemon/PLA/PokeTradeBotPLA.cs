@@ -455,7 +455,7 @@ namespace SysBot.Pokemon
                     await Click(A, 0_300, token).ConfigureAwait(false);
             }
 
-            await Task.Delay(0_800, token).ConfigureAwait(false);
+            await Task.Delay(1_200, token).ConfigureAwait(false);
 
             Log($"Entering Link Trade code: {tradeCode:0000 0000}...");
             poke.SendNotification(this, $"Entering Link Trade Code: {tradeCode:0000 0000}...");
@@ -771,12 +771,13 @@ namespace SysBot.Pokemon
             return version;
         }
 
+        Random rand = new Random();
         private async Task<bool> SetBoxPkmWithSwappedIDDetailsPLA(PA8 toSend, SAV8LA sav, TrainerIDBlock tradePartner, CancellationToken token)
         {
             var cln = (PA8)toSend.Clone();
             cln.OT_Gender = tradePartner.Gender;
             cln.TrainerID7 = tradePartner.TID7;
-            cln.TrainerSID7 = tradePartner.SID7;
+            cln.TrainerSID7 = cln.Version == (int)GameVersion.PLA ? tradePartner.SID7 : rand.Next(0, 4000);
             cln.Language = tradePartner.Language;
             cln.OT_Name = tradePartner.TrainerName;
             cln.ClearNickname();
